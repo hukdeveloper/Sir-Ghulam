@@ -8,6 +8,8 @@ const options = ["Good", "Bad", "Neutral", "Excellent", "Perfect"];
 
 export default function Home() {
   const [questions, setQuestions] = useState([]);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [answers, setAnswers] = useState(Array(4).fill(null));
   const [isFormValid, setIsFormValid] = useState(false);
   const router = useRouter();
@@ -37,7 +39,16 @@ export default function Home() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const name = e.target[0].value;
+    const email = e.target[1].value;
+
+    if (!name || !email) {
+      alert("Please Enter Name & Email....");
+      return;
+    }
     const data = {
+      userName: name,
+      userEmail: email,
       response: answers.map((answer, index) => ({
         questionId: questions[index]._id,
         answer,
@@ -45,9 +56,7 @@ export default function Home() {
     };
     axios
       .post("/api/answers", data)
-      .then((response) => {
-        console.log(response);
-
+      .then(() => {
         router.push("/thanks");
       })
       .catch((error) => {
@@ -57,8 +66,18 @@ export default function Home() {
 
   return (
     <main className={styles.container}>
+      <h1>Survey Collection Form</h1>
       <form onSubmit={handleSubmit}>
-        <h1>Survey Form</h1>
+        <div className={styles.userForm}>
+          <label className={styles.userDetail}>
+            <span>Name*</span>
+            <input type="text" name="name" onChange={() => handleChange()} />
+          </label>
+          <label className={styles.userDetail}>
+            <span>Email*</span>
+            <input type="email" name="email" />
+          </label>
+        </div>
         {/* {console.log(questions[1])} */}
         {questions.map((question, index) => (
           <div key={index}>
@@ -68,7 +87,7 @@ export default function Home() {
             </p>
             <section>
               {options.map((option) => (
-                <label key={option}>
+                <label key={option} className={styles.radioLables}>
                   <input
                     type="radio"
                     name={`question-${index}`}

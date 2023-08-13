@@ -3,9 +3,8 @@ import connect from "../../../db/connect";
 import Answer from "../../../models/Answer";
 
 export async function POST(request) {
-  const { response } = await request.json();
-  const userName = "ABC";
-  const userEmail = "abc@gmail.com";
+  const { userName, userEmail, response } = await request.json();
+
   try {
     await connect();
 
@@ -25,6 +24,6 @@ export async function POST(request) {
       status: 200,
     });
   } catch (error) {
-    return new NextResponse("Database Error", { status: 500 });
+    return new NextResponse(error, { status: 500 });
   }
 }
