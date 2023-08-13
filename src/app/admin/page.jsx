@@ -10,14 +10,14 @@ export default function Admin() {
     const getAnswers = async () => {
       const response = await axios.get("/api/admin/answers");
       const ans = response.data;
-      console.log(ans);
+      // console.log(ans);
       setAnswers(ans);
     };
     getAnswers();
   }, []);
 
   const columns = [
-    { field: "id", headerName: "ID", width: 100 },
+    { field: "id", headerName: "ID", width: 150 },
     { field: "question", headerName: "Question", width: 280 },
     {
       field: "Good",
