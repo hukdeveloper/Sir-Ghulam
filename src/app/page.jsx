@@ -6,11 +6,6 @@ import { useRouter } from "next/navigation";
 
 const options = ["Good", "Bad", "Neutral", "Excellent", "Perfect"];
 
-export const metadata = {
-  title: "Home",
-  description: "This is the home page.....",
-};
-
 export default function Home() {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState(Array(4).fill(null));
