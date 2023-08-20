@@ -191,7 +191,7 @@ export default function SurveyForm() {
         understand the effectiveness of their communicative behaviours and the
         level of support provided. There are total 9 dialogues in this study.
         Please carefully read each dialogue and select the response that best
-        reflects your perception of the therapist's active listening and
+        reflects your perception of the therapists active listening and
         reassurance behaviour. Your honest and thoughtful responses will
         contribute to our research findings. For each question, select the
         option from the list below that best represents how much you agree with
@@ -200,7 +200,7 @@ export default function SurveyForm() {
       <Typography variant="body1" mt={2} textAlign={"justify"}>
         There are total 9 dialogues in this study. Please carefully read each
         dialogue and select the response that best reflects your perception of
-        the therapist's active listening and reassurance behaviour. Your honest
+        the therapists active listening and reassurance behaviour. Your honest
         and thoughtful responses will contribute to our research findings. For
         each question, select the option from the list below that best
         represents how much you agree with the statement.
