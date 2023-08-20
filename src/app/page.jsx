@@ -161,7 +161,7 @@ export default function SurveyForm() {
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error(error));
-  }, [data]);
+  }, []);
 
   // Define an array of options for the radio group
   const options = [
