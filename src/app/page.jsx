@@ -5,11 +5,26 @@ import RadioGroup from "@mui/material/RadioGroup";
 import Radio from "@mui/material/Radio";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+import "../app/globals.css";
+
+// import required modules
+import { Pagination } from "swiper/modules";
+
 import axios from "axios";
-// import { dialogues } from "../data/Dialog";
+import { dialoguesData } from "../data/Dialog";
 import { useRouter } from "next/navigation";
 
 let dialogues = [];
+let d = 9;
 
 // Define the survey form component
 export default function SurveyForm() {
@@ -24,7 +39,7 @@ export default function SurveyForm() {
 
   // const [sendData, setSendData] = useState([dialogues]);
 
-  let [dialoguesArray, setDiaguesArray] = useState(Array(54).fill(null));
+  let [dialogIndex, setDialogIndex] = useState(0);
 
   // Define a function that takes three parameters: _id, quiz and feedback
   function addDialogue(_id, quiz, feedback) {
@@ -75,14 +90,6 @@ export default function SurveyForm() {
     // Get the quiz _id and the value from the event object
     const quizId = event.target.name;
     const value = event.target.value;
-    // const dialogueId = event.target.dataset.dialogId;
-
-    // const [dialogueId] = value.split("_");
-
-    // const parts = value.split("_");
-    // const newValue = parts[1];
-
-    // console.log(value);
 
     const parts = value.split("-");
 
@@ -92,7 +99,6 @@ export default function SurveyForm() {
 
     addDialogue(dialogue, quiz, myvalue);
 
-    console.log(dialogues);
     setSelectedValues((prevValues) => ({
       ...prevValues,
       [quizId]: myvalue,
@@ -151,11 +157,11 @@ export default function SurveyForm() {
   // Define the useEffect hook to fetch the data from the API
   useEffect(() => {
     // Use fetch or axios to make an HTTP request to the API endpoint
-    const res = fetch("/api/response")
+    fetch("/api/response")
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error(error));
-  }, []);
+  }, [data]);
 
   // Define an array of options for the radio group
   const options = [
@@ -167,51 +173,166 @@ export default function SurveyForm() {
   ];
 
   // Return the JSX code for rendering the survey form
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  };
   return (
     <form onSubmit={handleSubmit}>
-      {/* Loop through the data array and render each dialogue */}
-      {data.map((dialogue) => (
-        <div key={dialogue._id}>
-          {/* Display the dialogue name */}
-          <Typography variant="h6" gutterBottom>
-            {dialogue.name}
-          </Typography>
-          {/* Loop through the answers array and render each question */}
-          {dialogue.answers.map((answer) => (
-            <div key={answer._id}>
-              {/* Display the question */}
-              <Typography variant="body1" gutterBottom>
-                {answer.quiz.question}
+      <Typography variant="h4" textAlign={"center"}>
+        Active Listening and Reassurance Evaluation
+      </Typography>
+      <Typography variant="body1" mt={2} textAlign={"justify"}>
+        Thank you for your participation in this study, which aims to evaluate
+        dialogue qualities such as active listening and reassurance behaviour in
+        therapist-client conversations, Your responses will help us to
+        understand the effectiveness of their communicative behaviours and the
+        level of support provided. There are total 9 dialogues in this study.
+        Please carefully read each dialogue and select the response that best
+        reflects your perception of the therapist's active listening and
+        reassurance behaviour. Your honest and thoughtful responses will
+        contribute to our research findings. For each question, select the
+        option from the list below that best represents how much you agree with
+        the statement.
+      </Typography>
+      <Typography variant="body1" mt={2} textAlign={"justify"}>
+        There are total 9 dialogues in this study. Please carefully read each
+        dialogue and select the response that best reflects your perception of
+        the therapist's active listening and reassurance behaviour. Your honest
+        and thoughtful responses will contribute to our research findings. For
+        each question, select the option from the list below that best
+        represents how much you agree with the statement.
+      </Typography>
+      <Typography variant="body1" mt={2} textAlign={"justify"}>
+        <b>Note:</b> Your responses will remain anonymous and confidential. Your
+        feedback is highly valued and will be used solely for evaluation and
+        research purposes. Thank you for your time and participation in this
+        evaluation.
+      </Typography>
+      <ul
+        style={{
+          marginLeft: "50px",
+          padding: "10px 0",
+          lineHeight: "1.5",
+        }}
+      >
+        <li>Not at all</li>
+        <li>Somewhat</li>
+        <li>Moderately</li>
+        <li>Very well</li>
+        <li>Extremely well</li>
+      </ul>
+      <Swiper
+        pagination={pagination}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        {/* Loop through the data array and render each dialogue */}
+        {data.map((dialogue, index) => (
+          <SwiperSlide key={dialogue._id}>
+            <div>
+              {/* Display the dialogue name */}
+              <br />
+              <Divider />
+              <br />
+              <Typography variant="h5" gutterBottom padding={"6px 0"}>
+                Dialog {index + 1}
               </Typography>
-              {/* Render a radio group with dynamic options */}
-              <RadioGroup
-                name={answer._id} // Use the quiz _id as the name attribute
-                value={
-                  `${answer.quiz._id}-${dialogue._id}_${
-                    selectedValues[answer._id]
-                  }` || ""
-                } // Use the selected values object to get the value for the quiz _id
-                onChange={handleRadioGroup} // Use a single handler function for all radio groups
-                data-dialog-id={dialogue._id}
-              >
-                {/* Use the map method to create an array of FormControlLabel components */}
-                {options.map((option) => (
-                  <FormControlLabel
-                    key={option}
-                    value={`${answer.quiz._id}-${dialogue._id}_${option}`}
-                    control={<Radio />}
-                    label={option}
-                  />
+              <Typography variant="body1">
+                {() => ((d = dialogue.name), ((d = d.split(" ")), (d = d[1])))}
+              </Typography>
+              {/* <b>{dialoguesData[d].name}</b> */}
+
+              <b>
+                {dialoguesData[d].data.map((item, index) => (
+                  <Box key={index}>
+                    <Typography variant="body2">
+                      <b>Therapist: </b>
+                      {item.Therapist}
+                    </Typography>
+                    <Typography variant="body2">
+                      <b>Cleint: </b>
+                      {item.Client}
+                    </Typography>
+                  </Box>
                 ))}
-              </RadioGroup>
+              </b>
+              <br />
+              <Divider />
+              <br />
+              {/* Loop through the answers array and render each question */}
+              <Typography
+                variant="body1"
+                fontWeight={"bold"}
+                padding={"5px 0"}
+                color={"red"}
+              >
+                Read the following questions, for each question, select the
+                option from the list below that best represents how much you
+                agree with the statement.{" "}
+              </Typography>
+              {dialogue.answers.map((answer) => (
+                <div key={answer._id}>
+                  {/* Display the question */}
+                  <Typography variant="h6" gutterBottom>
+                    {answer.quiz.question}
+                  </Typography>
+                  {/* Render a radio group with dynamic options */}
+                  <RadioGroup
+                    name={answer._id} // Use the quiz _id as the name attribute
+                    value={
+                      `${answer.quiz._id}-${dialogue._id}_${
+                        selectedValues[answer._id]
+                      }` || ""
+                    } // Use the selected values object to get the value for the quiz _id
+                    onChange={handleRadioGroup} // Use a single handler function for all radio groups
+                    data-dialog-id={dialogue._id}
+                    sx={{
+                      // color: "#D81B60",
+                      display: "flex",
+                      flexDirection: "row",
+                      marginLeft: "20px",
+                      "@media(max-width:500px)": {
+                        flexDirection: "column",
+                      },
+                      paddingBottom: "8px",
+                    }}
+                  >
+                    {/* Use the map method to create an array of FormControlLabel components */}
+                    {options.map((option) => (
+                      <FormControlLabel
+                        key={option}
+                        value={`${answer.quiz._id}-${dialogue._id}_${option}`}
+                        control={
+                          <Radio
+                            size="small"
+                            // sx={{
+                            //   color: "#D81B60",
+                            //   "&.Mui-checked": {
+                            //     color: "#D81B60",
+                            //   },
+                            // }}
+                          />
+                        }
+                        label={option}
+                      />
+                    ))}
+                  </RadioGroup>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-      ))}
+          </SwiperSlide>
+        ))}
+      </Swiper>
       {/* Render a submit button */}
       <Button type="submit" variant="contained" color="primary">
         Submit
       </Button>
+      {/* <Stack spacing={2} padding={"10px 0"}>
+        <Pagination count={9} color="secondary" onChange={handleChange} />
+      </Stack> */}
     </form>
   );
 }
