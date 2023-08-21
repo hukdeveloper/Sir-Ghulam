@@ -14,9 +14,11 @@ const dialogSchema = new mongoose.Schema({
           ref: "Quiz",
           required: true,
         },
-        feedback: {
-          type: String,
-        },
+        feedback: [
+          {
+            type: String,
+          },
+        ],
       },
     ],
   },

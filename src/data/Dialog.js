@@ -1870,3 +1870,164 @@ export const dialoguesData = [
     ],
   },
 ];
+
+// export const data = [
+//   {
+//     dialogues: [
+//       {
+//         name: "Dialogue 1",
+//         quizFeedbacks: [
+//           {
+//             quiz: "How well did the Therapist demonstrate active listening by paying attention and showing interest in client concerns?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist ask questions or provide feedback that demonstrated understanding and active listening?",
+//             result: [
+//               {
+//                 Notatall: 15,
+//                 Somewhat: 1,
+//                 Moderately: 47,
+//                 Verywell: 6,
+//                 Extremelywell: 7,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist give cues or responses that showed they were actively listening and paying attention?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist acknowledge and validate the client's concerns or emotions that demonstrated reassurance?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "How well did the Therapist provide reassurance, comfort, support, or encouragement to the client?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "How effective was the Therapist in fostering a sense of reassurance and encouragement for the client's overall progress?",
+//             result: [
+//               {
+//                 Notatall: 3,
+//                 Somewhat: 11,
+//                 Moderately: 8,
+//                 Verywell: 0,
+//                 Extremelywell: 0,
+//               },
+//             ],
+//           },
+//         ],
+//       },
+//       {
+//         name: "Dialogue 1",
+//         quizFeedbacks: [
+//           {
+//             quiz: "How well did the Therapist demonstrate active listening by paying attention and showing interest in client concerns?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist ask questions or provide feedback that demonstrated understanding and active listening?",
+//             result: [
+//               {
+//                 Notatall: 15,
+//                 Somewhat: 1,
+//                 Moderately: 47,
+//                 Verywell: 6,
+//                 Extremelywell: 7,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist give cues or responses that showed they were actively listening and paying attention?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "Did the Therapist acknowledge and validate the client's concerns or emotions that demonstrated reassurance?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "How well did the Therapist provide reassurance, comfort, support, or encouragement to the client?",
+//             result: [
+//               {
+//                 Notatall: 5,
+//                 Somewhat: 10,
+//                 Moderately: 7,
+//                 Verywell: 5,
+//                 Extremelywell: 13,
+//               },
+//             ],
+//           },
+//           {
+//             quiz: "How effective was the Therapist in fostering a sense of reassurance and encouragement for the client's overall progress?",
+//             result: [
+//               {
+//                 Notatall: 3,
+//                 Somewhat: 11,
+//                 Moderately: 8,
+//                 Verywell: 0,
+//                 Extremelywell: 0,
+//               },
+//             ],
+//           },
+//         ],
+//       },
+//     ],
+//   },
+// ];

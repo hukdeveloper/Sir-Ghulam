@@ -39,7 +39,7 @@ export default function SurveyForm() {
 
   // const [sendData, setSendData] = useState([dialogues]);
 
-  let [dialogIndex, setDialogIndex] = useState(0);
+  // let [dialogIndex, setDialogIndex] = useState(0);
 
   // Define a function that takes three parameters: _id, quiz and feedback
   function addDialogue(_id, quiz, feedback) {

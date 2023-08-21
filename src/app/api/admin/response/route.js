@@ -2,31 +2,50 @@ import { NextResponse } from "next/server";
 import connect from "../../../../db/connect";
 import Response from "../../../../models/Response";
 
-export async function POST(request) {
-  const { dialog } = await request.json();
-  const result = JSON.stringify(dialog);
-
+export async function GET() {
   try {
     await connect();
-    const response = new Response({ dialog: result });
-    await response.save();
-    return new NextResponse(response, {
-      status: 200,
+    const dialogues = await Response.find().populate("answers.quiz");
+
+    const formattedDialogues = dialogues.map((dialogue) => {
+      const formattedQuizFeedbacks = dialogue.answers.map((answer) => {
+        const feedbackCounts = {
+          "Not at all": 0,
+          Somewhat: 0,
+          Moderately: 0,
+          "Very well": 0,
+          "Extremely well": 0,
+        };
+
+        // Find the corresponding quiz for the answer
+        const quiz = answer.quiz;
+
+        // If the quiz has feedback, count the feedbacks
+        if (quiz && answer.feedback && answer.feedback.length > 0) {
+          answer.feedback.forEach((feedback) => {
+            if (feedbackCounts.hasOwnProperty(feedback)) {
+              feedbackCounts[feedback]++;
+            }
+          });
+        }
+
+        return {
+          quiz: quiz.question,
+          result: feedbackCounts,
+        };
+      });
+
+      return {
+        name: dialogue.name,
+        quizFeedbacks: formattedQuizFeedbacks,
+      };
     });
-  } catch (error) {
-    return new NextResponse(error, { status: 500 });
-  }
-}
-export async function PATCH(request) {
-  const {dialog} = req.json()
-  const result = JSON.stringify(dialog);
-  await connect() ;
 
-  try {
-   
-   const dialogExist = Response.findOne()
+    const data = {
+      dialogues: formattedDialogues,
+    };
 
-    return new NextResponse("Submitted", {
+    return new NextResponse(JSON.stringify(data), {
       status: 200,
     });
   } catch (error) {

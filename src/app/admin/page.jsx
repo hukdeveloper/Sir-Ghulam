@@ -2,88 +2,123 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { DataGrid } from "@mui/x-data-grid";
+import Typography from "@mui/material/Typography";
+import RadioGroup from "@mui/material/RadioGroup";
+import Radio from "@mui/material/Radio";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
+import Divider from "@mui/material/Divider";
+
+import { dialoguesData } from "../../data/Dialog";
+
+// let dialoguesMatchingData = [];
 
 export default function Admin() {
   const [answers, setAnswers] = useState([]);
+  let [quizResult, setQuizResult] = useState([]);
+
+  let d = 0;
 
   useEffect(() => {
     const getAnswers = async () => {
-      const response = await axios.get("/api/admin/answers");
-      const ans = response.data;
-      // console.log(ans);
+      const response = await axios.get("/api/admin/response");
+      const ans = response.data.dialogues;
       setAnswers(ans);
     };
     getAnswers();
   }, []);
 
   const columns = [
-    { field: "id", headerName: "ID", width: 150 },
-    { field: "question", headerName: "Question", width: 280 },
-    {
-      field: "Good",
-      headerName: "Good",
-      type: "number",
-      width: 120,
-    },
-    {
-      field: "Bad",
-      headerName: "Bad",
-      type: "number",
-      width: 100,
-    },
-    {
-      field: "Neutral",
-      headerName: "Neutral",
-      type: "number",
-      width: 120,
-    },
-    {
-      field: "Excellent",
-      headerName: "Excellent",
-      type: "number",
-      width: 140,
-    },
-    {
-      field: "Perfect",
-      headerName: "Perfect",
-      type: "number",
-      width: 140,
-    },
+    { field: "quiz", headerName: "Quiz", width: 250 },
+    { field: "Not at all", headerName: "Not at all", width: 130 },
+    { field: "Somewhat", headerName: "Somewhat", width: 130 },
+    { field: "Moderately", headerName: "Moderately", width: 130 },
+    { field: "Very well", headerName: "Very well", width: 130 },
+    { field: "Extremely well", headerName: "Extremely well", width: 150 },
   ];
+  const DialogDataGrid = ({ name, quizFeedbacks }) => {
+    const rows = quizFeedbacks.map((feedback, index) => ({
+      id: `${name}-${index}`,
+      quiz: feedback.quiz,
+      ...feedback.result,
+    }));
 
+    return (
+      <div style={{ height: 600, width: "100%" }}>
+        <DataGrid
+          rows={rows}
+          columns={columns}
+          pageSize={5}
+          getRowHeight={() => "auto"}
+        />
+      </div>
+    );
+  };
+
+  // const options = [
+  //   "Not at all",
+  //   "Somewhat",
+  //   "Moderately",
+  //   "Very well",
+  //   "Extremely well",
+  // ];
+
+  let quizData = {
+    id: "",
+    question: "",
+    "Not at all": 0,
+    Somewhat: 0,
+    Moderately: 0,
+    "Very well": 0,
+    "Extremely well": 0,
+  };
+
+  function getDiaoguesData(id, q, n, s, m, v, e) {
+    quizData.id = id;
+    quizData.question = q;
+    quizData["Not at all"] = n;
+    quizData.Somewhat = s;
+    quizData.Moderately = m;
+    quizData["Very well"] = v;
+    quizData["Extremely well"] = e;
+    quizResult.push(quizData);
+    return quizData;
+  }
   return (
-    <div>
-      <DataGrid
-        rows={answers}
-        getRowHeight={() => "auto"}
-        columns={columns}
-        initialState={{
-          pagination: {
-            paginationModel: {
-              pageSize: 20,
-            },
-          },
-        }}
-        pageSizeOptions={[5]}
-        // checkboxSelection
-        disableRowSelectionOnClick
-        sx={{
-          ".MuiDataGrid-columnHeaderTitleContainer": {
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          },
-          ".MuiDataGrid-menuIcon": {
-            visibility: "visible",
-          },
-          ".MuiDataGrid-cell--textRight": {
-            justifyContent: "center !important",
-          },
-          ".MuiDataGrid-virtualScroller": {
-            overflowY: "hidden",
-          },
-        }}
-      />
-    </div>
+    <Box>
+      {answers.map((dialogue, index) => (
+        <Box key={index}>
+          <Typography variant="h5" padding={"4px 0"} mt={3}>
+            {dialogue.name}
+          </Typography>
+          <Typography variant="body1" visibility={"hidden"} display={"none"}>
+            {
+              (d = dialoguesData.findIndex(
+                (item) => item.name === dialogue.name
+              ))
+            }
+          </Typography>
+          <b style={{ paddingBottom: "10px" }}>
+            {dialoguesData[d].data.map((item, index) => (
+              <Box key={index}>
+                <Typography variant="body2">
+                  <b>Therapist: </b>
+                  {item.Therapist}
+                </Typography>
+                <Typography variant="body2">
+                  <b>Cleint: </b>
+                  {item.Client}
+                </Typography>
+              </Box>
+            ))}
+          </b>
+          <DialogDataGrid
+            name={dialogue.name}
+            quizFeedbacks={dialogue.quizFeedbacks}
+          />
+        </Box>
+      ))}
+    </Box>
   );
 }
