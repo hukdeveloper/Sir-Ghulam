@@ -64,27 +64,6 @@ export default function Admin() {
   //   "Extremely well",
   // ];
 
-  let quizData = {
-    id: "",
-    question: "",
-    "Not at all": 0,
-    Somewhat: 0,
-    Moderately: 0,
-    "Very well": 0,
-    "Extremely well": 0,
-  };
-
-  function getDiaoguesData(id, q, n, s, m, v, e) {
-    quizData.id = id;
-    quizData.question = q;
-    quizData["Not at all"] = n;
-    quizData.Somewhat = s;
-    quizData.Moderately = m;
-    quizData["Very well"] = v;
-    quizData["Extremely well"] = e;
-    quizResult.push(quizData);
-    return quizData;
-  }
   return (
     <Box>
       {answers.map((dialogue, index) => (
@@ -113,10 +92,12 @@ export default function Admin() {
               </Box>
             ))}
           </b>
-          <DialogDataGrid
-            name={dialogue.name}
-            quizFeedbacks={dialogue.quizFeedbacks}
-          />
+          <Box mt={4}>
+            <DialogDataGrid
+              name={dialogue.name}
+              quizFeedbacks={dialogue.quizFeedbacks}
+            />
+          </Box>
         </Box>
       ))}
     </Box>
