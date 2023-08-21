@@ -10,7 +10,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 2",
+    name: "Dialog 2",
     data: [
       {
         Therapist: "Hi, I'm Dr. Smith.",
@@ -56,7 +56,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 3",
+    name: "Dialog 3",
     data: [
       {
         Therapist: "Hi, I'm Dr. Jones.",
@@ -92,7 +92,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 4",
+    name: "Dialog 4",
     data: [
       {
         Therapist: "Hello, I'm Dr. Anderson.",
@@ -136,7 +136,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 5",
+    name: "Dialog 5",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Martinez.",
@@ -174,7 +174,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 6",
+    name: "Dialog 6",
     data: [
       {
         Therapist: "Hello, I'm Dr. Patel.",
@@ -219,7 +219,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 7",
+    name: "Dialog 7",
     data: [
       {
         Therapist: "Hi, I'm Dr. Ramirez.",
@@ -258,7 +258,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 8",
+    name: "Dialog 8",
     data: [
       {
         Therapist: "Hello, I'm Dr. Lee.",
@@ -295,7 +295,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 9",
+    name: "Dialog 9",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -332,7 +332,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 10",
+    name: "Dialog 10",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -376,18 +376,15 @@ export const dialoguesData = [
       {
         Therapist: "Hi, Natalie. I'm Dawn",
         Client: "Hi, Dawn. Nice to meet you.",
-        Therapist: "Nice to meet you, too. Thanks for coming in today.",
-        Client: "Thanks for having me.",
-        Therapist: "Yeah. Tell me a little bit about yourself.",
-        Client:
-          "So I am, um, 28. And I moved out to Arizona about six months ago. Um, I really enjoy spending time with my family and hanging out with friends whenever I can. Work keeps me pretty busy. Um, But I'm really, um, looking to kind of make some changes to my diet and physical activity. I'm not really happy with where my weight's at right now, and, uh, so I thought it'd be good to come and talk with you about some of that stuff.",
-        Therapist:
-          "Yeah, you're feeling a little bit dissatisfied with your health patterns?",
+      },
+      {
+        Therapist: "Hi, Natalie. I'm Dawn",
+        Client: "Hi, Dawn. Nice to meet you.",
       },
     ],
   },
   {
-    name: "Dialogue 12",
+    name: "Dialog 12",
     data: [
       {
         Therapist: "Hi, I'm Dr. Smith.",
@@ -433,7 +430,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 13",
+    name: "Dialog 13",
     data: [
       {
         Therapist: "Hi, I'm Dr. Jones.",
@@ -469,7 +466,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 14",
+    name: "Dialog 14",
     data: [
       {
         Therapist: "Hello, I'm Dr. Anderson.",
@@ -513,7 +510,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 15",
+    name: "Dialog 15",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Martinez.",
@@ -551,7 +548,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 16",
+    name: "Dialog 16",
     data: [
       {
         Therapist: "Hello, I'm Dr. Patel.",
@@ -596,7 +593,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 17",
+    name: "Dialog 17",
     data: [
       {
         Therapist: "Hi, I'm Dr. Ramirez.",
@@ -635,7 +632,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 18",
+    name: "Dialog 18",
     data: [
       {
         Therapist: "Hello, I'm Dr. Lee.",
@@ -672,7 +669,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 19",
+    name: "Dialog 19",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -709,7 +706,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 20",
+    name: "Dialog 20",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -763,7 +760,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 22",
+    name: "Dialog 22",
     data: [
       {
         Therapist: "Hi, I'm Dr. Smith.",
@@ -809,7 +806,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 23",
+    name: "Dialog 23",
     data: [
       {
         Therapist: "Hi, I'm Dr. Jones.",
@@ -845,7 +842,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 24",
+    name: "Dialog 24",
     data: [
       {
         Therapist: "Hello, I'm Dr. Anderson.",
@@ -889,7 +886,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 25",
+    name: "Dialog 25",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Martinez.",
@@ -927,7 +924,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 26",
+    name: "Dialog 26",
     data: [
       {
         Therapist: "Hello, I'm Dr. Patel.",
@@ -972,7 +969,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 27",
+    name: "Dialog 27",
     data: [
       {
         Therapist: "Hi, I'm Dr. Ramirez.",
@@ -1011,7 +1008,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 28",
+    name: "Dialog 28",
     data: [
       {
         Therapist: "Hello, I'm Dr. Lee.",
@@ -1048,7 +1045,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 29",
+    name: "Dialog 29",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -1085,7 +1082,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 30",
+    name: "Dialog 30",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -1138,7 +1135,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 32",
+    name: "Dialog 32",
     data: [
       {
         Therapist: "Hi, I'm Dr. Smith.",
@@ -1184,7 +1181,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 33",
+    name: "Dialog 33",
     data: [
       {
         Therapist: "Hi, I'm Dr. Jones.",
@@ -1220,7 +1217,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 34",
+    name: "Dialog 34",
     data: [
       {
         Therapist: "Hello, I'm Dr. Anderson.",
@@ -1264,7 +1261,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 35",
+    name: "Dialog 35",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Martinez.",
@@ -1302,7 +1299,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 36",
+    name: "Dialog 36",
     data: [
       {
         Therapist: "Hello, I'm Dr. Patel.",
@@ -1347,7 +1344,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 37",
+    name: "Dialog 37",
     data: [
       {
         Therapist: "Hi, I'm Dr. Ramirez.",
@@ -1386,7 +1383,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 38",
+    name: "Dialog 38",
     data: [
       {
         Therapist: "Hello, I'm Dr. Lee.",
@@ -1423,7 +1420,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 39",
+    name: "Dialog 39",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -1460,7 +1457,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 40",
+    name: "Dialog 40",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -1514,7 +1511,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 42",
+    name: "Dialog 42",
     data: [
       {
         Therapist: "Hi, I'm Dr. Smith.",
@@ -1560,7 +1557,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 43",
+    name: "Dialog 43",
     data: [
       {
         Therapist: "Hi, I'm Dr. Jones.",
@@ -1596,7 +1593,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 44",
+    name: "Dialog 44",
     data: [
       {
         Therapist: "Hello, I'm Dr. Anderson.",
@@ -1640,7 +1637,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 45",
+    name: "Dialog 45",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Martinez.",
@@ -1678,7 +1675,7 @@ export const dialoguesData = [
   },
 
   {
-    name: "Dialogue 46",
+    name: "Dialog 46",
     data: [
       {
         Therapist: "Hello, I'm Dr. Patel.",
@@ -1723,7 +1720,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 47",
+    name: "Dialog 47",
     data: [
       {
         Therapist: "Hi, I'm Dr. Ramirez.",
@@ -1762,7 +1759,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 48",
+    name: "Dialog 48",
     data: [
       {
         Therapist: "Hello, I'm Dr. Lee.",
@@ -1799,7 +1796,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 49",
+    name: "Dialog 49",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",
@@ -1836,7 +1833,7 @@ export const dialoguesData = [
     ],
   },
   {
-    name: "Dialogue 50",
+    name: "Dialog 50",
     data: [
       {
         Therapist: "Hi there, I'm Dr. Carter.",

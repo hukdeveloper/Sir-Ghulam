@@ -24,13 +24,13 @@ import { dialoguesData } from "../data/Dialog";
 import { useRouter } from "next/navigation";
 
 let dialogues = [];
-let d = 9;
 
 // Define the survey form component
 export default function SurveyForm() {
   const router = useRouter();
   // Define the state variable for the data
   const [data, setData] = useState([]);
+  let d = 0;
 
   // let [mydata, setMydata] = useState([]);
 
@@ -237,11 +237,19 @@ export default function SurveyForm() {
               <br />
               <Divider />
               <br />
-              <Typography variant="h5" gutterBottom padding={"6px 0"}>
+              <Typography variant="h5" gutterBottom>
                 Dialog {index + 1}
               </Typography>
-              <Typography variant="body1">
-                {() => ((d = dialogue.name), ((d = d.split(" ")), (d = d[1])))}
+              <Typography
+                variant="body1"
+                visibility={"hidden"}
+                display={"none"}
+              >
+                {
+                  (d = dialoguesData.findIndex(
+                    (item) => item.name === dialogue.name
+                  ))
+                }
               </Typography>
               {/* <b>{dialoguesData[d].name}</b> */}
 
@@ -327,9 +335,18 @@ export default function SurveyForm() {
         ))}
       </Swiper>
       {/* Render a submit button */}
-      <Button type="submit" variant="contained" color="primary">
+      <br />
+      <Button
+        type="submit"
+        variant="contained"
+        color="primary"
+        sx={{
+          marginBottom: 2,
+        }}
+      >
         Submit
       </Button>
+      <br />
       {/* <Stack spacing={2} padding={"10px 0"}>
         <Pagination count={9} color="secondary" onChange={handleChange} />
       </Stack> */}
