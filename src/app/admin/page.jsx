@@ -10,6 +10,8 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 
+import Skeleton from "@mui/material/Skeleton";
+
 import { dialoguesData } from "../../data/Dialog";
 
 // let dialoguesMatchingData = [];
@@ -30,7 +32,7 @@ export default function Admin() {
   }, []);
 
   const columns = [
-    { field: "quiz", headerName: "Quiz", width: 250 },
+    { field: "quiz", headerName: "Question", width: 250 },
     { field: "Not at all", headerName: "Not at all", width: 130 },
     { field: "Somewhat", headerName: "Somewhat", width: 130 },
     { field: "Moderately", headerName: "Moderately", width: 130 },
@@ -66,40 +68,51 @@ export default function Admin() {
 
   return (
     <Box>
-      {answers.map((dialogue, index) => (
-        <Box key={index}>
-          <Typography variant="h5" padding={"4px 0"} mt={3}>
-            {dialogue.name}
-          </Typography>
-          <Typography variant="body1" visibility={"hidden"} display={"none"}>
-            {
-              (d = dialoguesData.findIndex(
-                (item) => item.name === dialogue.name
-              ))
-            }
-          </Typography>
-          <b style={{ paddingBottom: "10px" }}>
-            {dialoguesData[d].data.map((item, index) => (
-              <Box key={index}>
-                <Typography variant="body2">
-                  <b>Therapist: </b>
-                  {item.Therapist}
-                </Typography>
-                <Typography variant="body2">
-                  <b>Cleint: </b>
-                  {item.Client}
-                </Typography>
-              </Box>
-            ))}
-          </b>
-          <Box mt={4}>
-            <DialogDataGrid
-              name={dialogue.name}
-              quizFeedbacks={dialogue.quizFeedbacks}
-            />
-          </Box>
+      <Typography variant="h4" textAlign={"center"}>
+        Active Listening and Reassurance Evaluation
+      </Typography>
+
+      {answers.length === 0 ? (
+        <Box>
+          <Skeleton animation="wave" sx={{ height: 100 }} variant="rectangle" />
+          <Typography variant="h6">Please wait, Data is Loading....</Typography>
         </Box>
-      ))}
+      ) : (
+        answers.map((dialogue, index) => (
+          <Box key={index}>
+            <Typography variant="h5" padding={"4px 0"} mt={3}>
+              {dialogue.name}
+            </Typography>
+            <Typography variant="body1" visibility={"hidden"} display={"none"}>
+              {
+                (d = dialoguesData.findIndex(
+                  (item) => item.name === dialogue.name
+                ))
+              }
+            </Typography>
+            <b style={{ paddingBottom: "10px" }}>
+              {dialoguesData[d].data.map((item, index) => (
+                <Box key={index}>
+                  <Typography variant="body2">
+                    <b>Therapist: </b>
+                    {item.Therapist}
+                  </Typography>
+                  <Typography variant="body2">
+                    <b>Cleint: </b>
+                    {item.Client}
+                  </Typography>
+                </Box>
+              ))}
+            </b>
+            <Box mt={4}>
+              <DialogDataGrid
+                name={dialogue.name}
+                quizFeedbacks={dialogue.quizFeedbacks}
+              />
+            </Box>
+          </Box>
+        ))
+      )}
     </Box>
   );
 }
