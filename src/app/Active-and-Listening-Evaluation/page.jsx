@@ -260,14 +260,16 @@ export default function SurveyForm() {
                     <Box key={index}>
                       <Typography
                         variant="body2"
-                        visibility={!item.Therapist && "hidden"}
+                        display={!item.Therapist && "none"}
+                        padding={"2px 0"}
                       >
                         <b>Therapist: </b>
                         {item.Therapist}
                       </Typography>
                       <Typography
                         variant="body2"
-                        visibility={!item.Client && "hidden"}
+                        display={!item.Client && "none"}
+                        padding={"2px 0"}
                       >
                         <b>Client: </b>
                         {item.Client}

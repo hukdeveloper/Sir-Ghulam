@@ -93,11 +93,19 @@ export default function Admin() {
             <b style={{ paddingBottom: "10px" }}>
               {dialoguesData[d].data.map((item, index) => (
                 <Box key={index}>
-                  <Typography variant="body2">
+                  <Typography
+                    padding={"2px 0"}
+                    variant="body2"
+                    display={!item.Therapist && "none"}
+                  >
                     <b>Therapist: </b>
                     {item.Therapist}
                   </Typography>
-                  <Typography variant="body2">
+                  <Typography
+                    variant="body2"
+                    display={!item.Client && "none"}
+                    padding={"2px 0"}
+                  >
                     <b>Cleint: </b>
                     {item.Client}
                   </Typography>
