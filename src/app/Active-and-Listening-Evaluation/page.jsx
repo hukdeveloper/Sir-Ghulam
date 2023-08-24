@@ -9,6 +9,8 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import Skeleton from "@mui/material/Skeleton";
 
+import FormControl from "@mui/material/FormControl";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -29,20 +31,17 @@ let dialogues = [];
 // Define the survey form component
 export default function SurveyForm() {
   const router = useRouter();
-  // Define the state variable for the data
+
   const [data, setData] = useState([]);
+
+  const [gender, setGender] = useState("");
+  const [age, setAge] = useState("");
+  const [english, setEnglish] = useState("");
+  const [education, setEducation] = useState("");
+
   let d = 0;
-
-  // let [mydata, setMydata] = useState([]);
-
-  // Define the state variable for the selected values
   const [selectedValues, setSelectedValues] = useState({});
 
-  // const [sendData, setSendData] = useState([dialogues]);
-
-  // let [dialogIndex, setDialogIndex] = useState(0);
-
-  // Define a function that takes three parameters: _id, quiz and feedback
   function addDialogue(_id, quiz, feedback) {
     // console.log(_id, quiz, feedback);
     // Check if the dialogues array already contains an object with the same _id
@@ -86,6 +85,26 @@ export default function SurveyForm() {
       quizFeedbacks[quizIndex].feedback = feedback;
     }
   }
+
+  const handleGender = (event) => {
+    const value = event.target.value;
+    setGender(event.target.value);
+  };
+  const handleAge = (event) => {
+    const value = event.target.value;
+    setAge(() => value);
+    console.log(age);
+  };
+  const handleEnglish = (event) => {
+    const value = event.target.value;
+    setEnglish(value);
+    console.log(english);
+  };
+  const handleEducation = (event) => {
+    const value = event.target.value;
+    setEducation(value);
+    console.log(education);
+  };
 
   const handleRadioGroup = (event) => {
     // Get the quiz _id and the value from the event object
@@ -140,6 +159,10 @@ export default function SurveyForm() {
       }
     }
     const data = {
+      gender,
+      age,
+      english,
+      education,
       dialogues,
     };
     axios
@@ -180,6 +203,7 @@ export default function SurveyForm() {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
+  // console.log(dialoguesData);
   return (
     <form onSubmit={handleSubmit}>
       <Typography variant="h4" textAlign={"center"}>
@@ -231,7 +255,6 @@ export default function SurveyForm() {
           modules={[Pagination]}
           className="mySwiper"
         >
-          {/* Loop through the data array and render each dialogue */}
           {data.map((dialogue, index) => (
             <SwiperSlide key={dialogue._id}>
               <div>
@@ -256,26 +279,30 @@ export default function SurveyForm() {
                 {/* <b>{dialoguesData[d].name}</b> */}
 
                 <b>
-                  {dialoguesData[d].data.map((item, index) => (
-                    <Box key={index}>
-                      <Typography
-                        variant="body2"
-                        display={!item.Therapist && "none"}
-                        padding={"2px 0"}
-                      >
-                        <b>Therapist: </b>
-                        {item.Therapist}
-                      </Typography>
-                      <Typography
-                        variant="body2"
-                        display={!item.Client && "none"}
-                        padding={"2px 0"}
-                      >
-                        <b>Client: </b>
-                        {item.Client}
-                      </Typography>
-                    </Box>
-                  ))}
+                  {d ? (
+                    dialoguesData[d].data.map((item, index) => (
+                      <Box key={index}>
+                        <Typography
+                          variant="body2"
+                          display={!item.Therapist && "none"}
+                          padding={"2px 0"}
+                        >
+                          <b>Therapist: </b>
+                          {item.Therapist}
+                        </Typography>
+                        <Typography
+                          variant="body2"
+                          display={!item.Client && "none"}
+                          padding={"2px 0"}
+                        >
+                          <b>Client: </b>
+                          {item.Client}
+                        </Typography>
+                      </Box>
+                    ))
+                  ) : (
+                    <b>d</b>
+                  )}
                 </b>
                 <br />
                 <Divider />
@@ -343,6 +370,185 @@ export default function SurveyForm() {
               </div>
             </SwiperSlide>
           ))}
+          <SwiperSlide>
+            <Box display={"flex"} flexDirection={"column"} width={"100%"}>
+              <Typography variant="h4" mt={10} textAlign={"center"}>
+                Demographic Information
+              </Typography>
+              <Typography variant="h6" gutterBottom mt={20}>
+                What gender do you identify as?
+              </Typography>
+              <FormControl component="fieldset">
+                <RadioGroup
+                  onChange={handleGender}
+                  sx={{
+                    // color: "#D81B60",
+                    display: "flex",
+                    flexDirection: "row",
+                    marginLeft: "20px",
+                    "@media(max-width:500px)": {
+                      flexDirection: "column",
+                    },
+                    paddingBottom: "8px",
+                  }}
+                  aria-label="gender"
+                  name="gender"
+                  value={gender}
+                >
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Male"
+                    value="male"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Female"
+                    value="female"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Others"
+                    value="others"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Prefer not to say"
+                    value="prefer not to say"
+                  />
+                </RadioGroup>
+              </FormControl>
+              <Typography variant="h6" gutterBottom>
+                What is your age?
+              </Typography>
+              <FormControl component="fieldset">
+                <RadioGroup
+                  onChange={handleAge}
+                  sx={{
+                    // color: "#D81B60",
+                    display: "flex",
+                    flexDirection: "row",
+                    marginLeft: "20px",
+                    "@media(max-width:500px)": {
+                      flexDirection: "column",
+                    },
+                    paddingBottom: "8px",
+                  }}
+                  aria-label="gender"
+                  name="age"
+                  value={age}
+                >
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="18-25"
+                    value="18-25"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="26-35"
+                    value="26-35"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="36-45"
+                    value="36-45"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="46-55"
+                    value="46-55"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="56-65"
+                    value="56-65"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="65+"
+                    value="65+"
+                  />
+                </RadioGroup>
+              </FormControl>
+              <Typography variant="h6" gutterBottom>
+                Is English a native language for you?
+              </Typography>
+              <FormControl component="fieldset">
+                <RadioGroup
+                  onChange={handleEnglish}
+                  sx={{
+                    // color: "#D81B60",
+                    display: "flex",
+                    flexDirection: "row",
+                    marginLeft: "20px",
+                    "@media(max-width:500px)": {
+                      flexDirection: "column",
+                    },
+                    paddingBottom: "8px",
+                  }}
+                  aria-label="english"
+                  name="english"
+                  value={english}
+                >
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Yes"
+                    value="yes"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="No"
+                    value="no"
+                  />
+                </RadioGroup>
+              </FormControl>
+              <Typography variant="h6" gutterBottom>
+                What is the highest degree or level of education you have
+                completed?
+              </Typography>
+              <FormControl component="fieldset">
+                <RadioGroup
+                  onChange={handleEducation}
+                  sx={{
+                    // color: "#D81B60",
+                    display: "flex",
+                    flexDirection: "row",
+                    marginLeft: "20px",
+                    "@media(max-width:500px)": {
+                      flexDirection: "column",
+                    },
+                    paddingBottom: "8px",
+                  }}
+                  aria-label="education"
+                  name="education"
+                  value={education}
+                >
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Undergraduate"
+                    value="undergraduate"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Graduate"
+                    value="graduate"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="Masters"
+                    value="masters"
+                  />
+                  <FormControlLabel
+                    control={<Radio size="small" />}
+                    label="PhD"
+                    value="phd"
+                  />
+                </RadioGroup>
+              </FormControl>
+              {/* <Typography variant="h6">
+                ({gender})-({age})-({english})-({education})
+              </Typography> */}
+            </Box>
+          </SwiperSlide>
         </Swiper>
       ) : (
         <Box height={"100px"}>

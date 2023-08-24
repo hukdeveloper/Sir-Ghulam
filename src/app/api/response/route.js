@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import connect from "../../../db/connect";
 import Response from "../../../models/Response";
+import User from "../../../models/User";
 import Quiz from "../../../models/Quiz";
 
 // export async function POST(request) {
@@ -36,10 +37,10 @@ import Quiz from "../../../models/Quiz";
 //     };
 
 //     // Call the function with the number of documents you want to insert
-//     const documents = generateDocuments(50);
+//     const documents = generateDocuments(49);
 
 //     // Insert the documents into the Response collection
-//     Response.insertMany(documents)
+//     const newRes = Response.insertMany(documents)
 //       .then((result) => {
 //         // Do something with the result
 //         console.log(result);
@@ -49,7 +50,7 @@ import Quiz from "../../../models/Quiz";
 //         console.error(err);
 //       });
 
-//     return new NextResponse("......", { status: 200 });
+//     return new NextResponse(newRes, { status: 200 });
 //   } catch (error) {
 //     return new NextResponse("Internal server error", { status: 500 });
 //   }
@@ -77,8 +78,13 @@ export async function GET() {
 }
 
 export async function PUT(request) {
-  const { dialogues } = await request.json();
+  const { gender, age, english, education, dialogues } = await request.json();
+  console.log(gender, age, english, education);
   try {
+    const g = gender;
+    const a = age;
+    const e = english;
+    const ed = education;
     await connect();
     dialogues.forEach((dialogue) => {
       // Loop through the quizFeedbacks array
@@ -103,8 +109,16 @@ export async function PUT(request) {
           });
       });
     });
-
-    return new NextResponse("Submitted....", { status: 201 });
+    const userArray = dialogues.map((dialogue) => dialogue._id);
+    const user = new User({
+      gender: g,
+      age: a,
+      english: e,
+      education: ed,
+      dialogue: userArray,
+    });
+    await user.save();
+    return new NextResponse(user, { status: 201 });
   } catch (error) {
     return new NextResponse(error, { status: 500 });
   }
