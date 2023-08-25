@@ -79,12 +79,13 @@ export async function GET() {
 
 export async function PUT(request) {
   const { gender, age, english, education, dialogues } = await request.json();
-  console.log(gender, age, english, education);
+
   try {
     const g = gender;
     const a = age;
     const e = english;
     const ed = education;
+    const d = dialogues;
     await connect();
     dialogues.forEach((dialogue) => {
       // Loop through the quizFeedbacks array
@@ -109,16 +110,16 @@ export async function PUT(request) {
           });
       });
     });
-    const userArray = dialogues.map((dialogue) => dialogue._id);
+    // const userArray = dialogues.map((dialogue) => dialogue._id);
     const user = new User({
       gender: g,
       age: a,
       english: e,
       education: ed,
-      dialogue: userArray,
+      dialogues: d,
     });
     await user.save();
-    return new NextResponse(user, { status: 201 });
+    return new NextResponse(JSON.stringify(user), { status: 201 });
   } catch (error) {
     return new NextResponse(error, { status: 500 });
   }

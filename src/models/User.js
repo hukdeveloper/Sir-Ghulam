@@ -18,12 +18,29 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  dialogue: {
+  dialogues: {
     type: [
       {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Response",
-        required: true,
+        _id: {
+          type: String,
+          required: true,
+        },
+        quizFeedbacks: {
+          type: [
+            {
+              quiz: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "Quiz",
+                required: true,
+              },
+              feedback: [
+                {
+                  type: String,
+                },
+              ],
+            },
+          ],
+        },
       },
     ],
   },
