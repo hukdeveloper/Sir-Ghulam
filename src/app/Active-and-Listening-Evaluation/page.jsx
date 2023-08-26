@@ -204,6 +204,7 @@ export default function SurveyForm() {
     },
   };
   // console.log(dialoguesData);
+
   return (
     <form onSubmit={handleSubmit}>
       <Typography variant="h4" textAlign={"center"}>
@@ -279,7 +280,7 @@ export default function SurveyForm() {
                 {/* <b>{dialoguesData[d].name}</b> */}
 
                 <b>
-                  {d ? (
+                  {d !== null ? (
                     dialoguesData[d].data.map((item, index) => (
                       <Box key={index}>
                         <Typography
@@ -301,7 +302,7 @@ export default function SurveyForm() {
                       </Box>
                     ))
                   ) : (
-                    <b>d</b>
+                    <b>{dialogue.name}</b>
                   )}
                 </b>
                 <br />

@@ -65,13 +65,11 @@ export default function Admin() {
   //   "Very well",
   //   "Extremely well",
   // ];
-
   return (
     <Box>
       <Typography variant="h4" textAlign={"center"}>
         Active Listening and Reassurance Evaluation
       </Typography>
-
       {answers.length === 0 ? (
         <Box>
           <Skeleton animation="wave" sx={{ height: 100 }} variant="rectangle" />
