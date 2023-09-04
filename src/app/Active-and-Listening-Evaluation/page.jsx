@@ -8,8 +8,11 @@ import Button from "@mui/material/Button";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import Skeleton from "@mui/material/Skeleton";
-
+import TextField from "@mui/material/TextField";
+import InputLabel from "@mui/material/InputLabel";
+import InputAdornment from "@mui/material/InputAdornment";
 import FormControl from "@mui/material/FormControl";
+import Input from "@mui/material/Input";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -38,6 +41,7 @@ export default function SurveyForm() {
   const [age, setAge] = useState("");
   const [english, setEnglish] = useState("");
   const [education, setEducation] = useState("");
+  const [message, setMessage] = useState("");
 
   let d = 0;
   const [selectedValues, setSelectedValues] = useState({});
@@ -164,6 +168,7 @@ export default function SurveyForm() {
       english,
       education,
       dialogues,
+      message,
     };
     axios
       .put("/api/response", data)
@@ -176,6 +181,7 @@ export default function SurveyForm() {
 
     // Do something with the selected values, such as sending them to a server or displaying them on the screen
     // console.log(dialogues);
+    // event.target.reset();
   };
 
   // Define the useEffect hook to fetch the data from the API
@@ -224,7 +230,7 @@ export default function SurveyForm() {
         the statement.
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
-        There are total 9 dialogues in this study. Please carefully read each
+        There are total 9 of dialogues in this study. Please carefully read each
         dialogue and select the response that best reflects your perception of
         the therapists active listening and reassurance behaviour. Your honest
         and thoughtful responses will contribute to our research findings. For
@@ -553,6 +559,32 @@ export default function SurveyForm() {
                 ({gender})-({age})-({english})-({education})
               </Typography> */}
             </Box>
+            <Typography variant="body1" mt={2} textAlign={"justify"}>
+              If you have any comments or suggestions please write
+              down in the box
+            </Typography>
+            <FormControl fullWidth sx={{ m: 1 }} variant="standard">
+              <TextField
+                id="standard-multiline-static"
+                label="Message"
+                multiline
+                rows={8}
+                variant="filled"
+                required
+                onChange={(e) => setMessage(e.target.value)}
+              />
+            </FormControl>
+            <Button
+              type="submit"
+              variant="contained"
+              color="primary"
+              sx={{
+                // marginBottom: 2,
+                mt: 4,
+              }}
+            >
+              Submit
+            </Button>
           </SwiperSlide>
         </Swiper>
       ) : (
@@ -566,16 +598,7 @@ export default function SurveyForm() {
 
       {/* Render a submit button */}
       <br />
-      <Button
-        type="submit"
-        variant="contained"
-        color="primary"
-        sx={{
-          marginBottom: 2,
-        }}
-      >
-        Submit
-      </Button>
+
       <br />
       {/* <Stack spacing={2} padding={"10px 0"}>
         <Pagination count={9} color="secondary" onChange={handleChange} />

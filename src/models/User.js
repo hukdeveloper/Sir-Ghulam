@@ -44,6 +44,10 @@ const userSchema = mongoose.Schema({
       },
     ],
   },
+  message: {
+    type: String,
+    required: true,
+  },
 });
 
 const User = mongoose.models.User || mongoose.model("User", userSchema);

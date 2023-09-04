@@ -78,7 +78,8 @@ export async function GET() {
 }
 
 export async function PUT(request) {
-  const { gender, age, english, education, dialogues } = await request.json();
+  const { gender, age, english, education, dialogues, message } =
+    await request.json();
 
   try {
     const g = gender;
@@ -86,6 +87,7 @@ export async function PUT(request) {
     const e = english;
     const ed = education;
     const d = dialogues;
+    const m = message;
     await connect();
     dialogues.forEach((dialogue) => {
       // Loop through the quizFeedbacks array
@@ -117,6 +119,7 @@ export async function PUT(request) {
       english: e,
       education: ed,
       dialogues: d,
+      message: m,
     });
     await user.save();
     return new NextResponse(JSON.stringify(user), { status: 201 });
