@@ -221,7 +221,7 @@ export default function SurveyForm() {
         dialogue qualities such as active listening and reassurance behaviour in
         therapist-client conversations, Your responses will help us to
         understand the effectiveness of their communicative behaviours and the
-        level of support provided. There are total 9 dialogues in this study.
+        level of support provided. There are total of 9 dialogues in this study.
         Please carefully read each dialogue and select the response that best
         reflects your perception of the therapists active listening and
         reassurance behaviour. Your honest and thoughtful responses will
@@ -235,7 +235,9 @@ export default function SurveyForm() {
         the therapists active listening and reassurance behaviour. Your honest
         and thoughtful responses will contribute to our research findings. For
         each question, select the option from the list below that best
-        represents how much you agree with the statement.
+        represents how much you agree with the statement. At the end of all 9
+        dialogues you will be asked to give some basic feedback and
+        demographic information
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
         <b>Note:</b> Your responses will remain anonymous and confidential. Your
@@ -243,10 +245,10 @@ export default function SurveyForm() {
         research purposes. Thank you for your time and participation in this
         evaluation.
       </Typography>
-      <Typography variant="body1" mt={2} textAlign={"justify"}>
+      {/* <Typography variant="body1" mt={2} textAlign={"justify"}>
         At the end of all 9 dialogues you will be asked to give some basic
         feedback and demographic information
-      </Typography>
+      </Typography> */}
       {/* <ul
         style={{
           marginLeft: "50px",
@@ -265,6 +267,7 @@ export default function SurveyForm() {
           pagination={pagination}
           modules={[Pagination]}
           className="mySwiper"
+          navigation={true}
         >
           {data.map((dialogue, index) => (
             <SwiperSlide key={dialogue._id}>
