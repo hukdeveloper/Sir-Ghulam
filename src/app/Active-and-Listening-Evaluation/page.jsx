@@ -241,7 +241,7 @@ export default function SurveyForm() {
         At the end of all 9 dialogues you will be asked to give some basic
         feedback and demographic information
       </Typography>
-      <ul
+      {/* <ul
         style={{
           marginLeft: "50px",
           padding: "10px 0",
@@ -253,7 +253,7 @@ export default function SurveyForm() {
         <li>Moderately</li>
         <li>Very well</li>
         <li>Extremely well</li>
-      </ul>
+      </ul> */}
       {data.length !== 0 ? (
         <Swiper
           pagination={pagination}
