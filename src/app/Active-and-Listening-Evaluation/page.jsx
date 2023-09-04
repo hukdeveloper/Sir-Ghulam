@@ -237,6 +237,10 @@ export default function SurveyForm() {
         research purposes. Thank you for your time and participation in this
         evaluation.
       </Typography>
+      <Typography variant="body1" mt={2} textAlign={"justify"}>
+        At the end of all 9 dialogues you will be asked to give some basic
+        feedback and demographic information
+      </Typography>
       <ul
         style={{
           marginLeft: "50px",
@@ -317,7 +321,7 @@ export default function SurveyForm() {
                 >
                   Read the following questions, for each question, select the
                   option from the list below that best represents how much you
-                  agree with the statement.{" "}
+                  agree with the statement.
                 </Typography>
                 {dialogue.answers.map((answer) => (
                   <div key={answer._id}>
