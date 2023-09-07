@@ -230,7 +230,7 @@ export default function SurveyForm() {
         the statement.
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
-        There are total 9 of dialogues in this study. Please carefully read each
+        There are total 9 dialogues in this study. Please carefully read each
         dialogue and select the response that best reflects your perception of
         the therapists active listening and reassurance behaviour. Your honest
         and thoughtful responses will contribute to our research findings. For
