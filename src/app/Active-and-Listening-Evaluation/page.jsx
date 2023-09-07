@@ -227,15 +227,7 @@ export default function SurveyForm() {
         reassurance behaviour. Your honest and thoughtful responses will
         contribute to our research findings. For each question, select the
         option from the list below that best represents how much you agree with
-        the statement.
-      </Typography>
-      <Typography variant="body1" mt={2} textAlign={"justify"}>
-        There are total 9 dialogues in this study. Please carefully read each
-        dialogue and select the response that best reflects your perception of
-        the therapists active listening and reassurance behaviour. Your honest
-        and thoughtful responses will contribute to our research findings. For
-        each question, select the option from the list below that best
-        represents how much you agree with the statement. At the end of all 9
+        the statement. At the end of all 9
         dialogues you will be asked to give some basic feedback and
         demographic information.
       </Typography>
