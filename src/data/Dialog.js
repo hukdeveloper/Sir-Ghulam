@@ -1000,7 +1000,7 @@ export const dialoguesData = [
     name: "Dialog 16",
     data: [
       {
-        Therapist: "Hello, how are you today?",
+        Therapist: "Hello William, how are you today?",
         Client: "I'm doing well.",
       },
       {
@@ -1031,7 +1031,7 @@ export const dialoguesData = [
     name: "Dialog 17",
     data: [
       {
-        Therapist: "Good morning!",
+        Therapist: "Good morning! Michael",
         Client: "How are you?",
       },
       {
@@ -1068,7 +1068,7 @@ export const dialoguesData = [
     name: "Dialog 18",
     data: [
       {
-        Therapist: "Hello there!",
+        Therapist: "Hello Thomas!",
         Client: "Hi, how are you?",
       },
       {
@@ -1104,7 +1104,7 @@ export const dialoguesData = [
     name: "Dialog 19",
     data: [
       {
-        Therapist: "Good morning!",
+        Therapist: "Good morning! David",
         Client: "How are you?",
       },
       {
@@ -1136,7 +1136,7 @@ export const dialoguesData = [
     name: "Dialog 20",
     data: [
       {
-        Therapist: "Hi there! How are you doing today?",
+        Therapist: "Hi Anna! How are you doing today?",
         Client: "I'm feeling a bit overwhelmed, to be honest.",
       },
       {
@@ -1164,7 +1164,7 @@ export const dialoguesData = [
     name: "Dialog 21",
     data: [
       {
-        Therapist: "Hello! How are you today?",
+        Therapist: "Hello Olivia! How are you today?",
         Client: "I'm feeling a bit down, to be honest.",
       },
       {
@@ -1192,7 +1192,7 @@ export const dialoguesData = [
     name: "Dialog 22",
     data: [
       {
-        Therapist: "Good afternoon! How have you been?",
+        Therapist: "Good afternoon Andrew! How have you been?",
         Client: "Hi. I've been feeling quite restless lately.",
       },
       {
@@ -1221,7 +1221,7 @@ export const dialoguesData = [
     name: "Dialog 23",
     data: [
       {
-        Therapist: "Hello, how are you today?",
+        Therapist: "Hello Emma, how are you today?",
         Client: "I'm doing well, thank you.",
       },
       {
@@ -1253,7 +1253,7 @@ export const dialoguesData = [
     name: "Dialog 24",
     data: [
       {
-        Therapist: "Good day! How are you feeling today?",
+        Therapist: "Good day Adam! How are you feeling today?",
         Client: "I'm feeling a bit discouraged, to be honest.",
       },
       {
@@ -1281,7 +1281,7 @@ export const dialoguesData = [
     name: "Dialog 25",
     data: [
       {
-        Therapist: "Hi there! How have you been?",
+        Therapist: "Hi Jack! How have you been?",
         Client: "I'm doing alright, thanks for asking.",
       },
       {
@@ -1311,7 +1311,7 @@ export const dialoguesData = [
     name: "Dialog 26",
     data: [
       {
-        Therapist: "Hello! How are you today?",
+        Therapist: "Hello Aaron! How are you today?",
         Client:
           "I'm feeling a bit discouraged about my physical activity progress.",
       },
@@ -1339,7 +1339,7 @@ export const dialoguesData = [
     name: "Dialog 27",
     data: [
       {
-        Therapist: "Hi there! How are you today?",
+        Therapist: "Hi Robert! How are you today?",
         Client: "I'm doing well, thank you. How about you?",
       },
       {
@@ -1365,7 +1365,7 @@ export const dialoguesData = [
     name: "Dialog 28",
     data: [
       {
-        Therapist: "Hello! How are you today?",
+        Therapist: "Hello Charles! How are you today?",
         Client: "I'm doing well, thank you. How about you?",
       },
       {
@@ -1391,7 +1391,7 @@ export const dialoguesData = [
     name: "Dialog 29",
     data: [
       {
-        Therapist: "Hello! Welcome back.",
+        Therapist: "Hello Elizabeth! Welcome back.",
         Client: "Thank you, it's good to be here. How are you?",
       },
       {
@@ -1447,7 +1447,7 @@ export const dialoguesData = [
     name: "Dialog 30",
     data: [
       {
-        Therapist: "Hello! Welcome back.",
+        Therapist: "Hello Emily! Welcome back.",
         Client: "Thank you, you too. How are you?",
       },
       {
@@ -1482,7 +1482,7 @@ export const dialoguesData = [
     name: "Dialog 31",
     data: [
       {
-        Therapist: "Hello! It's me again.",
+        Therapist: "Hello Benjamin! It's me again.",
         Client: "Hi, how are you?",
       },
       {
@@ -1519,7 +1519,7 @@ export const dialoguesData = [
     name: "Dialog 32",
     data: [
       {
-        Therapist: "Hello! It's me again.",
+        Therapist: "Hello Joseph! It's me again.",
         Client: "Hi there, how are you?",
       },
       {
@@ -1566,7 +1566,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Thank you so much for taking the time to talk today! I want to discuss setting a new long-term goal for your physical activity.",
+          "Thank you so much for taking the time to talk today Samuel! I want to discuss setting a new long-term goal for your physical activity.",
         Client: "Sure, that sounds good.",
       },
       {
@@ -1602,7 +1602,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Thank you for joining me today. Let's discuss your long-term running goal.",
+          "Thank you for joining me today Thomas. Let's discuss your long-term running goal.",
         Client: "Sure, I'm interested in setting a new goal.",
       },
       {
@@ -1635,7 +1635,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "It's great to see you again. Let's discuss your long-term running goal.",
+          "It's great to see you again John. Let's discuss your long-term running goal.",
         Client: "I'm ready to set a new goal for myself.",
       },
       {
@@ -1670,7 +1670,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Welcome back! Today, let's discuss your long-term running goal.",
+          "Welcome back James! Today, let's discuss your long-term running goal.",
         Client: "I'm excited to set a new goal. What do you have in mind?",
       },
       {
@@ -1704,7 +1704,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Thank you for joining me today. Let's discuss your long-term running goal.",
+          "Thank you for joining me today Daniel. Let's discuss your long-term running goal.",
         Client:
           "I'm ready to set a new goal for myself. What do you have in mind?",
       },
@@ -1739,7 +1739,7 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Hi, Ali. It's nice to see you again. What would you like to work on today?",
+          "Hi, Mark. It's nice to see you again. What would you like to work on today?",
         Client:
           "I've been feeling really anxious and stressed lately. I don't know how to relax.",
       },
@@ -1821,7 +1821,7 @@ export const dialoguesData = [
     name: "Dialog 40",
     data: [
       {
-        Therapist: "Hi there, how are you today?",
+        Therapist: "Hi Donald, how are you today?",
         Client: "I'm doing pretty well, thanks for asking.",
       },
       {
@@ -1866,7 +1866,7 @@ export const dialoguesData = [
     name: "Dialog 41",
     data: [
       {
-        Therapist: "Hi, it's great to see you again.",
+        Therapist: "Hi Paul, it's great to see you again.",
         Client: "Thanks, it's good to be back.",
       },
       {
@@ -1905,7 +1905,7 @@ export const dialoguesData = [
     name: "Dialog 42",
     data: [
       {
-        Therapist: "Hello! Thank you for taking the time to talk to me today.",
+        Therapist: "Hello Kevin! Thank you for taking the time to talk to me today.",
         Client: "No problem.",
       },
       {
@@ -1941,7 +1941,7 @@ export const dialoguesData = [
     name: "Dialog 43",
     data: [
       {
-        Therapist: "Hello. How have you been?",
+        Therapist: "Hello Jason. How have you been?",
         Client:
           "Oh well. My husband was diagnosed with colon cancer. I'm feeling overwhelmed and haven't done much exercise over the past two weeks. I feel like I should be with my husband rather than taking a walk by myself.",
       },
@@ -1964,7 +1964,7 @@ export const dialoguesData = [
     name: "Dialog 44",
     data: [
       {
-        Therapist: "Hello! How are you feeling after your surgery?",
+        Therapist: "Hello Ryan! How are you feeling after your surgery?",
         Client:
           "I'm doing okay, but I'm still in the recovery process. It's been challenging to stay active.",
       },
@@ -1983,7 +1983,7 @@ export const dialoguesData = [
     name: "Dialog 45",
     data: [
       {
-        Therapist: "Hi there! How have you been since your surgery?",
+        Therapist: "Hi George! How have you been since your surgery?",
         Client:
           "It's been a challenging journey, but I'm starting to regain my strength. I'm interested in incorporating exercise into my recovery process.",
       },
@@ -2003,7 +2003,7 @@ export const dialoguesData = [
     name: "Dialog 46",
     data: [
       {
-        Therapist: "Hello! How are you doing post-surgery?",
+        Therapist: "Hello Stephen! How are you doing post-surgery?",
         Client:
           "It's been a challenging recovery, but I'm determined to regain my strength and mobility. I want to incorporate exercise into my routine.",
       },
@@ -2023,7 +2023,7 @@ export const dialoguesData = [
     name: "Dialog 47",
     data: [
       {
-        Therapist: "Hi, how are you?",
+        Therapist: "Hi Justin, how are you?",
         Client: "Okay, but I am a bit embarrassed.",
       },
       {
@@ -2053,7 +2053,7 @@ export const dialoguesData = [
     name: "Dialog 48",
     data: [
       {
-        Therapist: "Hi, how are you today?",
+        Therapist: "Hi Dennis, how are you today?",
         Client: "Okay, but I feel a bit embarrassed.",
       },
       {
@@ -2083,7 +2083,7 @@ export const dialoguesData = [
     name: "Dialog 49",
     data: [
       {
-        Therapist: "Hello, how are you doing today?",
+        Therapist: "Hello Merry, how are you doing today?",
         Client: "I'm okay, but I'm feeling a bit embarrassed.",
       },
       {
