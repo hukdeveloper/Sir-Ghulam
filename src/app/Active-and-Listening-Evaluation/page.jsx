@@ -221,23 +221,15 @@ export default function SurveyForm() {
         dialogue qualities such as active listening and reassurance behaviour in
         therapist-client conversations, Your responses will help us to
         understand the effectiveness of their communicative behaviours and the
-        level of support provided. There are total of 9 dialogues in this study.
+        level of support provided. There are a total of 9 dialogues in this study.
         Please carefully read each dialogue and select the response that best
         reflects your perception of the therapists active listening and
         reassurance behaviour. Your honest and thoughtful responses will
         contribute to our research findings. For each question, select the
         option from the list below that best represents how much you agree with
-        the statement.
-      </Typography>
-      <Typography variant="body1" mt={2} textAlign={"justify"}>
-        There are total 9 of dialogues in this study. Please carefully read each
-        dialogue and select the response that best reflects your perception of
-        the therapists active listening and reassurance behaviour. Your honest
-        and thoughtful responses will contribute to our research findings. For
-        each question, select the option from the list below that best
-        represents how much you agree with the statement. At the end of all 9
+        the statement. At the end of all 9
         dialogues you will be asked to give some basic feedback and
-        demographic information
+        demographic information.
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
         <b>Note:</b> Your responses will remain anonymous and confidential. Your
