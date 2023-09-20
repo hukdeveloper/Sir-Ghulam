@@ -24,9 +24,14 @@ export default function Admin() {
 
   useEffect(() => {
     const getAnswers = async () => {
-      const response = await axios.get("/api/admin/response");
-      const ans = response.data.dialogues;
-      setAnswers(ans);
+      // const response = await axios.get("/api/admin/response");
+      // const ans = response.data.dialogues;
+      // setAnswers(ans);
+
+      fetch("/api/admin/response")
+        .then((response) => response.json())
+        .then((data) => setAnswers(data.dialogues))
+        .catch((error) => console.error(error));
     };
     getAnswers();
   }, []);
