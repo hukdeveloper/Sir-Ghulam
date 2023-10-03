@@ -32,6 +32,20 @@ import { useRouter } from "next/navigation";
 let dialogues = [];
 
 // Define the survey form component
+
+const questions = [
+  "Extraverted, enthusiastic",
+  "Critical, quarrelsome",
+  "Dependable, self-disciplined",
+  "Anxious, easily upset",
+  "Open to new experiences, complex",
+  "Reserved, quiet",
+  "Sympathetic, warm",
+  "Disorganized, careless",
+  "Calm, emotionally stable",
+  "Conventional, uncreative",
+];
+
 export default function SurveyForm() {
   const router = useRouter();
 
@@ -42,6 +56,15 @@ export default function SurveyForm() {
   const [english, setEnglish] = useState("");
   const [education, setEducation] = useState("");
   const [message, setMessage] = useState("");
+  const [personality, setPersonality] = useState("");
+
+  const [answers, setAnswers] = useState(Array(questions.length).fill(""));
+
+  const handleUserChange = (event, index) => {
+    const newAnswers = [...answers];
+    newAnswers[index] = event.target.value;
+    setAnswers(newAnswers);
+  };
 
   let d = 0;
   const [selectedValues, setSelectedValues] = useState({});
@@ -107,7 +130,11 @@ export default function SurveyForm() {
   const handleEducation = (event) => {
     const value = event.target.value;
     setEducation(value);
-    console.log(education);
+  };
+
+  const handlePersonality = (event) => {
+    const value = event.target.value;
+    setPersonality(value);
   };
 
   const handleRadioGroup = (event) => {
@@ -130,6 +157,11 @@ export default function SurveyForm() {
   };
 
   // Define the handler function for the submit button
+
+  const testingSubmit = (event) => {
+    event.preventDefault();
+    console.log(answers);
+  };
   const handleSubmit = (event) => {
     event.preventDefault();
     var form = event.target;
@@ -169,6 +201,7 @@ export default function SurveyForm() {
       education,
       dialogues,
       message,
+      answers,
     };
     axios
       .put("/api/response", data)
@@ -221,15 +254,14 @@ export default function SurveyForm() {
         dialogue qualities such as active listening and reassurance behaviour in
         therapist-client conversations, Your responses will help us to
         understand the effectiveness of their communicative behaviours and the
-        level of support provided. There are a total of 9 dialogues in this study.
-        Please carefully read each dialogue and select the response that best
-        reflects your perception of the therapists active listening and
+        level of support provided. There are a total of 9 dialogues in this
+        study. Please carefully read each dialogue and select the response that
+        best reflects your perception of the therapists active listening and
         reassurance behaviour. Your honest and thoughtful responses will
         contribute to our research findings. For each question, select the
         option from the list below that best represents how much you agree with
-        the statement. At the end of all 9
-        dialogues you will be asked to give some basic feedback and
-        demographic information.
+        the statement. At the end of all 9 dialogues you will be asked to give
+        some basic feedback and demographic information.
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
         <b>Note:</b> Your responses will remain anonymous and confidential. Your
@@ -237,23 +269,6 @@ export default function SurveyForm() {
         research purposes. Thank you for your time and participation in this
         evaluation.
       </Typography>
-      {/* <Typography variant="body1" mt={2} textAlign={"justify"}>
-        At the end of all 9 dialogues you will be asked to give some basic
-        feedback and demographic information
-      </Typography> */}
-      {/* <ul
-        style={{
-          marginLeft: "50px",
-          padding: "10px 0",
-          lineHeight: "1.5",
-        }}
-      >
-        <li>Not at all</li>
-        <li>Somewhat</li>
-        <li>Moderately</li>
-        <li>Very well</li>
-        <li>Extremely well</li>
-      </ul> */}
       {data.length !== 0 ? (
         <Swiper
           pagination={pagination}
@@ -381,7 +396,113 @@ export default function SurveyForm() {
               <Typography variant="h4" mt={10} textAlign={"center"}>
                 Demographic Information
               </Typography>
-              <Typography variant="h6" gutterBottom mt={20}>
+              <Typography variant="h6" mt={2}>
+                Here are a number of personality traits that may or may not
+                apply to you. Please write a number next to each statement to
+                indicate the extent to which you agree or disagree with
+                statement. You should rate the extent to which the pair of
+                traits applies to you, even if or characteristic applies more
+                strongly than the other.
+              </Typography>
+              <Box
+                display={"flex"}
+                flexWrap={"wrap"}
+                gap={2}
+                mt={2}
+                ml={4}
+                sx={{
+                  ".MuiTypography-root": {
+                    backgroundColor: "#afbacc",
+                    fontSize: "14px",
+                    p: 1,
+                    borderRadius: 2,
+                  },
+                }}
+              >
+                <Typography variant="body">1 = Disagree strongly</Typography>
+                <Typography variant="body">2 = Disagree moderately</Typography>
+                <Typography variant="body">3 = Disagree a little</Typography>
+                <Typography variant="body">
+                  4 = Neither agree nor disagree
+                </Typography>
+                <Typography variant="body">5 = Agree a little</Typography>
+                <Typography variant="body">6 = Agree moderately</Typography>
+                <Typography variant="body">7= Agree strongly</Typography>
+                <Typography variant="body">1 = Disagree strongly</Typography>
+              </Box>
+              <Typography variant="h6" fontWeight={"bold"} m={"20px 0"}>
+                I see myself as ;-
+              </Typography>
+              {questions.map((question, index) => (
+                <div key={index}>
+                  <Typography variant="h6">
+                    {index + 1}) {question}
+                  </Typography>
+                  <FormControl component="fieldset">
+                    <RadioGroup
+                      aria-label={`Question ${index + 1}`}
+                      name={`question-${index + 1}`}
+                      value={answers[index]}
+                      onChange={(event) => handleUserChange(event, index)}
+                      sx={{
+                        // color: "#D81B60",
+                        display: "flex",
+                        flexDirection: "row",
+                        ml: "20px",
+                        "@media(max-width:500px)": {
+                          flexDirection: "column",
+                        },
+                        paddingBottom: "8px",
+                      }}
+                    >
+                      <FormControlLabel
+                        value="Disagree strongly"
+                        control={<Radio size="small" />}
+                        label="Disagree strongly"
+                      />
+                      <FormControlLabel
+                        value="Disagree moderately"
+                        control={<Radio size="small" />}
+                        label="Disagree moderately"
+                      />
+                      <FormControlLabel
+                        value="Disagree a little"
+                        control={<Radio size="small" />}
+                        label="Disagree a little"
+                      />
+                      <FormControlLabel
+                        value="Neither agree nor disagree"
+                        control={<Radio size="small" />}
+                        label="Neither agree nor disagree"
+                      />
+                      <FormControlLabel
+                        value="Agree a little"
+                        control={<Radio size="small" />}
+                        label="Agree a little"
+                      />
+                      <FormControlLabel
+                        value="Agree moderately"
+                        control={<Radio size="small" />}
+                        label="Agree moderately"
+                      />
+                      <FormControlLabel
+                        value="Agree strongly"
+                        control={<Radio size="small" />}
+                        label="Agree strongly"
+                      />
+                    </RadioGroup>
+                  </FormControl>
+                </div>
+              ))}
+            </Box>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Box display={"flex"} flexDirection={"column"} width={"100%"}>
+              <Typography variant="h4" mt={10} textAlign={"center"}>
+                Demographic Information
+              </Typography>
+
+              <Typography variant="h6" gutterBottom mt={5}>
                 What gender do you identify as?
               </Typography>
               <FormControl component="fieldset">

@@ -48,6 +48,9 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  answers: {
+    type: [String],
+  },
 });
 
 const User = mongoose.models.User || mongoose.model("User", userSchema);

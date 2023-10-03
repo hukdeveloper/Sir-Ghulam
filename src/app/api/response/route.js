@@ -78,7 +78,7 @@ export async function GET() {
 }
 
 export async function PUT(request) {
-  const { gender, age, english, education, dialogues, message } =
+  const { gender, age, english, education, dialogues, message, answers } =
     await request.json();
 
   try {
@@ -120,6 +120,7 @@ export async function PUT(request) {
       education: ed,
       dialogues: d,
       message: m,
+      answers,
     });
     await user.save();
     return new NextResponse(JSON.stringify(user), { status: 201 });
