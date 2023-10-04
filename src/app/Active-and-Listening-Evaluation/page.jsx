@@ -261,7 +261,7 @@ export default function SurveyForm() {
         contribute to our research findings. For each question, select the
         option from the list below that best represents how much you agree with
         the statement. At the end of all 9 dialogues you will be asked to give
-        some basic feedback and demographic information.
+        some basic feedback and demographic and personality related information.
       </Typography>
       <Typography variant="body1" mt={2} textAlign={"justify"}>
         <b>Note:</b> Your responses will remain anonymous and confidential. Your
@@ -431,7 +431,7 @@ export default function SurveyForm() {
                 <Typography variant="body">1 = Disagree strongly</Typography>
               </Box>
               <Typography variant="h6" fontWeight={"bold"} m={"20px 0"}>
-                I see myself as ;-
+                I see myself as:
               </Typography>
               {questions.map((question, index) => (
                 <div key={index}>
