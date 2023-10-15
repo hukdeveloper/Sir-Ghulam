@@ -1599,12 +1599,12 @@ export const dialoguesData = [
         Client:
           "#NAME?",
       },
-	  
+	    { 
         Therapist: "Good. And see if you can fix it up, and also give some thought to what we've talked about.",
         Client:
           "Yeah, of course.",
       },
-	  
+	    { 
         Therapist: "Good stuff. Okay.",
         Client:
           "Okay, thanks. Sorry, I went off a bit.",
@@ -1730,15 +1730,15 @@ export const dialoguesData = [
         Therapist:
           "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
 		Client: 
-		  "Wow, I think I only get about an hour right now."
+		  "Wow, I think I only get about an hour right now.",
 		Client: 
-		  "I try to walk once or twice per week, for about 30 minutes."
+		  "I try to walk once or twice per week, for about 30 minutes.",
 		Therapist: 
-		  "Well that’s a great start, it sounds like you already found an activity you enjoy."
+		  "Well that’s a great start, it sounds like you already found an activity you enjoy.",
 		Therapist: 
-		  "Maybe you can work on increasing the time spent jogging?"
+		  "Maybe you can work on increasing the time spent jogging?",
 		Client: 
-		  "Yeah, I think I can do that."
+		  "Yeah, I think I can do that.",
       },
     ],
   },
