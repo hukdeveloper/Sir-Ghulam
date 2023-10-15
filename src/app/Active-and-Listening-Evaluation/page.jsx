@@ -26,7 +26,7 @@ import "../../app/globals.css";
 import { Pagination } from "swiper/modules";
 
 import axios from "axios";
-#import { dialoguesData } from "../../data/Dialog";
+import { dialoguesData } from "../../data/Dialog";
 import { useRouter } from "next/navigation";
 
 let dialogues = [];
