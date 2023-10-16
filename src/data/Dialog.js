@@ -1644,29 +1644,25 @@ export const dialoguesData = [
     data: [
       {
         Therapist: "Hi Anna! How are you doing today?",
-        Client: "I'm fine, thanks.",
-        Client: "How are you?",
+        Client: "I'm feeling a bit overwhelmed, to be honest.",
       },
       {
-        Therapist: "I'm great",
-        Therapist: "Thank you for taking the time to talk to me today!",
+        Therapist:
+          "I understand how busy life can get. It's important to prioritize your health too.",
+        Therapist:
+          "Regular physical activity can actually improve your productivity and help you manage stress better.",
       },
       {
-        Client: "No problem, I'm excited to learn something new.",
-        Therapist: "Great! That's what we like to hear.",
         Therapist:
-          "Today we'll talk about the current physical activity guidelines in place for adults.",
+          "That's true. I always feel better after a workout, but it's hard to find the motivation.",
+        Therapist:
+          "Have you considered finding an exercise buddy or joining a group activity?",
       },
       {
-        Client: "Okay, sure.",
         Therapist:
-          "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
-        Client: "Wow, I think I only get about an hour right now.",
-        Client: "I try to walk once or twice per week, for about 30 minutes.",
-        Therapist:
-          "Well that's a great start, it sounds like you already found an activity you enjoy.",
-        Therapist: "Maybe you can work on increasing the time spent jogging?",
-        Client: "Yeah, I think I can do that.",
+          "Having someone to exercise with can make it more enjoyable and hold you accountable.",
+        Client:
+          "That's a great idea! I'll talk to my friend and see if they're interested in joining me.",
       },
     ],
   },
@@ -1933,21 +1929,13 @@ export const dialoguesData = [
       },
       {
         Therapist:
-          "I understand. Prolonged sitting can have negative effects on our health.",
-        Therapist:
-          "Incorporating regular physical activity into your routine can counteract those effects.",
-      },
-      {
-        Client: "That sounds promising. But I'm not a fan of intense workouts.",
-        Client: "Is there something less strenuous that I can do?",
+          "I understand. Prolonged sitting can have negative effects on our health. Incorporating regular physical activity into your routine can counteract those effects.",
+        Client:
+          "That sounds promising. But I'm not a fan of intense workouts. Is there something less strenuous that I can do?",
       },
       {
         Therapist:
-          "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.",
-        Therapist:
-          "These activities improve flexibility, posture, and help relieve muscle tension.",
-      },
-      {
+          "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.These activities improve flexibility, posture, and help relieve muscle tension.",
         Client:
           "That sounds more manageable. I'll look into incorporating these exercises into my daily routine.",
       },
@@ -2007,65 +1995,30 @@ export const dialoguesData = [
         Client: "Oh, yeah.",
       },
       {
-        Therapist: "You've heard of it?",
-        Client: "Uh, I have.",
+        Therapist: "Hello Emma, how are you today?",
+        Client: "I'm doing well, thank you.",
       },
       {
-        Therapist: "Okay.",
+        Therapist:
+          "Glad to hear it! How have you been doing with your physical activity goals?",
+        Client: "Okay, I think. It's been a bit challenging lately.",
+      },
+      {
+        Therapist:
+          "It's common to face challenges along the way. What do you think is holding you back?",
         Client:
-          "I have a friend who, uh, does it and she just raves about it. She loves it.",
+          "Well, I find it hard to make time for exercise amidst my busy schedule.",
       },
       {
-        Therapist:
-          "Well, you know, Tai Chi is one of the best ways to get your balance back after you've had something like a stroke. And it's also really good for preventing falls. And if you wanna be home and you wanna be doing the things you wanna do and going for walks with your dog, it's very important to make sure that you don't fall 'cause that would cause more problems down the road.",
-        Client: "Absolutely. I do not want to fall, for sure.",
-      },
-      {
-        Therapist:
-          "So what do you think about Tai Chi? Is that something you think you might be able to try sometime?",
+        Therapist: "Plus, I don't have any workout equipment at home.",
         Client:
-          "Well, I-I hadn't really thought about it, but yeah I guess, I guess.",
+          "I understand. Have you considered incorporating short bursts of physical activity throughout your day?",
       },
       {
-        Therapist: "Mm-hmm.",
+        Therapist:
+          "You can try doing quick exercises during breaks or opting for active transportation, like walking or biking, whenever possible.",
         Client:
-          "Like I said, my friend talks about it and-and it's very pretty. I've seen pictures, you know.",
-      },
-      {
-        Therapist:
-          "Yeah, yeah, yeah. Well, it's not that easy to get started. You do certainly have to have some motivation to want to do it. Um, and when you first start, oftentimes you do feel a little wobbly or a little insecure.",
-        Client:
-          "Well, I don't see how I could do it. I-I'm still in a walker, you know.",
-      },
-      {
-        Therapist:
-          "Yeah, yeah, I understand. So there are lots of places around that have it. Your local senior center would have it. And what I recommend is that you start by doing it in a chair. Just sitting in the chair.",
-        Client: "I could?",
-      },
-      {
-        Therapist:
-          "You could. You can talk to the instructor and that way you won't fall, you'll feel confident and you'll start to learn some of the moves. And then gradually over time, as you get a little bit better at doing the moves in a chair, you can start to stand up, use the chair to lean on, and then eventually, you'll be able to get to the point where you can do it on your own.",
-        Client: "And you really recommend this?",
-      },
-      {
-        Therapist:
-          "You know, it cuts your risk of falls in half. It also helps to reduce pain although that's not a short-term benefit, you do have to stick with it for at least three to six months to start have it help reduce your pain. But it does have a number of things that I think would get you to your goals of being home and able to play with your dog and doing your own cooking and things like that.",
-        Client: "You do Tai Chi",
-      },
-      {
-        Therapist:
-          "I do Tai Chi. I do it three days a week and it's really helped my balance as well",
-        Client:
-          "Oh, okay. Well, yeah. Um, listen, anything that's going to get me home and if you do it and you recommend it, I'll try it.",
-      },
-      {
-        Therapist:
-          "All right. Well, I'm delighted. It's a pleasure to see you again. I hope your rehab continues to go well and we can talk some more about this at our next visit.",
-        Client: "Okay, okay.",
-      },
-      {
-        Therapist: " All right. Thank you for coming in.",
-        Client: " You are very Welcome",
+          "That's a good idea! I'll give it a try and see if it helps me stay more active.",
       },
     ],
   },
@@ -2212,52 +2165,27 @@ export const dialoguesData = [
         Client: "Oh I'm well, just another day in paradise.",
       },
       {
-        Therapist: "Glad to hear it.",
-      },
-      {
-        Therapist: "Have you been getting any physical activity in?",
-      },
-      {
-        Client: "Oh, yes.",
-      },
-      {
+        Therapist:
+          "I'm glad to hear that. How have you been progressing with your physical activity goals?",
         Client:
-          "I've been going for walks almost every day, and doing water aerobics once per week at my gym.",
+          "Things have been going really well. I've been more active lately.",
       },
       {
         Therapist: "That's awesome!",
-      },
-      {
         Therapist:
-          "I'm happy to hear you've found a routine that works for you.",
+          "That's fantastic! Jogging can help improve your cardiovascular fitness and contribute to weight management.",
+        Client:
+          "I've started incorporating some jogging into my walks, and it's been challenging but rewarding.",
       },
       {
         Client: "It's a really fun class!",
-      },
-      {
         Client: "I enjoy it.",
       },
       {
         Therapist: "Wonderful.",
-      },
-      {
         Therapist:
-          "One thing to keep in mind is that in addition to aerobic exercise, it's important that older adults do some balance and muscle training as well.",
-      },
-      {
-        Client: "What does that mean?",
-      },
-      {
-        Client: "Balance training?",
-      },
-      {
-        Therapist:
-          "To help with mobility as you age, and reduce fall risk or other injuries, it is recommended that older adults do some sort of balance and strength exercise such as yoga, tai chi, or body-weight exercises.",
-        Client:
-          "My gym also offers yoga classes, maybe I can do that once a week in addition to the water aerobics?",
-      },
-      {
-        Therapist: "That sounds like a great idea.",
+          "Keep up the great work, and you'll continue to see improvements in your overall health and well-being.",
+        Client: "",
       },
     ],
   },
