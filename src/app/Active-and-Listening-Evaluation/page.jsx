@@ -398,7 +398,7 @@ export default function SurveyForm() {
               </Typography>
               <Typography variant="h6" mt={2}>
                 Here are a number of personality traits that may or may not
-                apply to you. Please write a number next to each statement to
+                apply to you. Please choose an option next to each statement to
                 indicate the extent to which you agree or disagree with
                 statement. You should rate the extent to which the pair of
                 traits applies to you, even if or characteristic applies more
