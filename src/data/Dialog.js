@@ -1665,6 +1665,8 @@ export const dialoguesData = [
         Client: "Okay, sure.",
         Therapist:
           "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
+      },
+      {
         Client: "Wow, I think I only get about an hour right now.",
       },
       {
