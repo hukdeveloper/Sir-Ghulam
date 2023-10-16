@@ -1937,22 +1937,13 @@ export const dialoguesData = [
       },
       {
         Therapist:
-          "I understand. Prolonged sitting can have negative effects on our health.",
-        Therapist:
-          "Incorporating regular physical activity into your routine can counteract those effects.",
-      },
-      {
-        Client: "That sounds promising. But I'm not a fan of intense workouts.",
-        Client: "Is there something less strenuous that I can do?",
+          "I understand. Prolonged sitting can have negative effects on our health. Incorporating regular physical activity into your routine can counteract those effects.",
+        Client: "That sounds promising. But I'm not a fan of intense workouts. Is there something less strenuous that I can do?",
       },
       {
         Therapist:
-          "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.",
-        Therapist:
-          "These activities improve flexibility, posture, and help relieve muscle tension.",
-      },
-      {
-        Client:
+          "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.These activities improve flexibility, posture, and help relieve muscle tension.",
+         Client:
           "That sounds more manageable. I'll look into incorporating these exercises into my daily routine.",
       },
     ],
