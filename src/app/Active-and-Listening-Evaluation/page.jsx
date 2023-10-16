@@ -427,8 +427,7 @@ export default function SurveyForm() {
                 </Typography>
                 <Typography variant="body">5 = Agree a little</Typography>
                 <Typography variant="body">6 = Agree moderately</Typography>
-                <Typography variant="body">7= Agree strongly</Typography>
-                <Typography variant="body">1 = Disagree strongly</Typography>
+                <Typography variant="body">7 = Agree strongly</Typography>
               </Box>
               <Typography variant="h6" fontWeight={"bold"} m={"20px 0"}>
                 I see myself as ;-

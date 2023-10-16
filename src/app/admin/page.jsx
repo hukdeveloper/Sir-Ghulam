@@ -109,7 +109,7 @@ export default function Admin() {
                     display={!item.Client && "none"}
                     padding={"2px 0"}
                   >
-                    <b>Cleint: </b>
+                    <b>Client: </b>
                     {item.Client}
                   </Typography>
                 </Box>
