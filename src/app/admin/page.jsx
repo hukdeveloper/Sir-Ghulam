@@ -28,7 +28,7 @@ export default function Admin() {
       // const ans = response.data.dialogues;
       // setAnswers(ans);
 
-      fetch("/api/admin/response")
+      await fetch("/api/admin/response")
         .then((response) => response.json())
         .then((data) => setAnswers(data.dialogues))
         .catch((error) => console.error(error));
