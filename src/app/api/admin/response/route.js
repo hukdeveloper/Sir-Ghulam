@@ -36,6 +36,7 @@ export async function GET() {
       });
 
       return {
+        _id: dialogue._id,
         name: dialogue.name,
         quizFeedbacks: formattedQuizFeedbacks,
       };

@@ -13,6 +13,7 @@ import Divider from "@mui/material/Divider";
 import Skeleton from "@mui/material/Skeleton";
 
 import { dialoguesData } from "../../data/Dialog";
+import NiveBarChart from "../../components/NiveBarChart";
 
 // let dialoguesMatchingData = [];
 
@@ -120,6 +121,9 @@ export default function Admin() {
                 name={dialogue.name}
                 quizFeedbacks={dialogue.quizFeedbacks}
               />
+            </Box>
+            <Box>
+              <NiveBarChart chartData={dialogue._id} />
             </Box>
           </Box>
         ))
