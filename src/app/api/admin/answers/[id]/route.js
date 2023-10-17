@@ -17,8 +17,8 @@ export async function GET(request, { params }) {
 
       const transformedData = dialog.answers.map((feedback, index) => {
         const feedbackCounts = {
-          "Not at All": 0,
-          "Not at AllColor": "hsl(35, 70%, 50%)",
+          "Not at all": 0,
+          "Not at allColor": "hsl(35, 70%, 50%)",
           Moderately: 0,
           ModeratelyColor: "hsl(304, 70%, 50%)",
           Somewhat: 0,

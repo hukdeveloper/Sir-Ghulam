@@ -120,8 +120,9 @@ const NiveBarChart = ({ chartData }) => {
         // />
         <ResponsiveBar
           data={data}
+          groupMode="grouped"
           keys={[
-            "Not at All",
+            "Not at all",
             "Moderately",
             "Somewhat",
             "Very well",
@@ -143,12 +144,11 @@ const NiveBarChart = ({ chartData }) => {
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: "Quiz",
+            legend: "Questions",
             legendPosition: "middle",
             legendOffset: 32,
           }}
           axisLeft={{
-            tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
             legend: "Responses",
