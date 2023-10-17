@@ -1645,15 +1645,21 @@ export const dialoguesData = [
       {
         Therapist: "Hi Anna! How are you doing today?",
         Client: "I'm fine, thanks.",
+      },
+      {
         Client: "How are you?",
       },
       {
         Therapist: "I'm great",
+      },
+      {
         Therapist: "Thank you for taking the time to talk to me today!",
       },
       {
         Client: "No problem, I'm excited to learn something new.",
         Therapist: "Great! That's what we like to hear.",
+      },
+      {
         Therapist:
           "Today we'll talk about the current physical activity guidelines in place for adults.",
       },
@@ -1661,10 +1667,16 @@ export const dialoguesData = [
         Client: "Okay, sure.",
         Therapist:
           "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
+      },
+      {
         Client: "Wow, I think I only get about an hour right now.",
+      },
+      {
         Client: "I try to walk once or twice per week, for about 30 minutes.",
         Therapist:
           "Well that's a great start, it sounds like you already found an activity you enjoy.",
+      },
+      {
         Therapist: "Maybe you can work on increasing the time spent jogging?",
         Client: "Yeah, I think I can do that.",
       },
@@ -1934,16 +1946,22 @@ export const dialoguesData = [
       {
         Therapist:
           "I understand. Prolonged sitting can have negative effects on our health.",
+      },
+      {
         Therapist:
           "Incorporating regular physical activity into your routine can counteract those effects.",
       },
       {
         Client: "That sounds promising. But I'm not a fan of intense workouts.",
+      },
+      {
         Client: "Is there something less strenuous that I can do?",
       },
       {
         Therapist:
           "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.",
+      },
+      {
         Therapist:
           "These activities improve flexibility, posture, and help relieve muscle tension.",
       },
@@ -2079,6 +2097,8 @@ export const dialoguesData = [
       },
       {
         Therapist: "Sure!",
+      },
+      {
         Therapist:
           "The goal of our conversation today is to talk about physical activity guidelines, so that you can make some goals for yourself to become more physically active.",
       },
@@ -2088,6 +2108,8 @@ export const dialoguesData = [
       },
       {
         Client: "Yeah, pretty much.",
+      },
+      {
         Client:
           "I mean I don't get a ton of real exercise, but I am up and moving all day.",
       },
@@ -2100,6 +2122,8 @@ export const dialoguesData = [
       {
         Therapist:
           "It's also recommended that all adults participate in muscle strengthening activities at least twice a week.",
+      },
+      {
         Therapist: "So there are plenty of options for physical activity!.",
       },
     ],
@@ -2115,6 +2139,8 @@ export const dialoguesData = [
       {
         Therapist:
           "Finding activities you enjoy is crucial for long-term adherence to a physical activity routine.",
+      },
+      {
         Therapist:
           "Have you explored different options? Maybe there's something you haven't tried yet.",
       },
@@ -2126,6 +2152,8 @@ export const dialoguesData = [
       {
         Therapist:
           "It's important to experiment with different activities until you find what resonates with you.",
+      },
+      {
         Therapist:
           "Have you considered trying dance classes, martial arts, or even outdoor activities like hiking or swimming?",
       },
@@ -2213,6 +2241,8 @@ export const dialoguesData = [
       },
       {
         Therapist: "Glad to hear it.",
+      },
+      {
         Therapist: "Have you been getting any physical activity in?",
       },
       {
@@ -2535,12 +2565,16 @@ export const dialoguesData = [
       {
         Therapist:
           "That's good to hear. Let's talk about your short-term step goals. Your baseline daily steps were around 8,000.",
+      },
+      {
         Therapist:
           "How did you do with your goal of increasing your daily steps by 15% each week?",
       },
       {
         Client:
           "I started off strong, but I've been struggling to keep up with the increases.",
+      },
+      {
         Client: "By the way, what's my long-term step goal?",
       },
       {
@@ -2551,6 +2585,8 @@ export const dialoguesData = [
       {
         Therapist:
           "It may seem challenging, but let's break it down. You'll need to add around 4,000 more steps per day.",
+      },
+      {
         Therapist: "How do you feel about that?",
       },
       {
@@ -2695,6 +2731,8 @@ export const dialoguesData = [
     data: [
       {
         Therapist: "Hi Paul, welcome back! ",
+      },
+      {
         Therapist: "Thanks for joining me.",
       },
       {
@@ -2704,12 +2742,16 @@ export const dialoguesData = [
       },
       {
         Client: "Okay, yeah that sounds good.",
+      },
+      {
         Client:
           " I feel like I go through periods of being really motivated, but then I always stop at some point.",
       },
       {
         Therapist:
           "That is a really common problem, which is why it's important to think of strategies ahead of time.",
+      },
+      {
         Therapist: "Why do you think you usually lose motivation?",
       },
       {
@@ -2739,20 +2781,30 @@ export const dialoguesData = [
     data: [
       {
         Therapist: "Hi James! Hello again.",
+      },
+      {
         Therapist: "How's everything?",
       },
       {
         Client: "I'm doing great.",
+      },
+      {
         Client:
           "You know I am taking a walk almost every day since I joined this program.",
       },
       {
         Therapist: "That's wonderful. ",
+      },
+      {
         Therapist: "Congratulations on your progress.",
       },
       {
         Client: "Thanks.",
+      },
+      {
         Client: " This program makes me more aware of my daily exercise. ",
+      },
+      {
         Client: "I pay attention to my daily activity goal.",
       },
       {
@@ -2762,21 +2814,29 @@ export const dialoguesData = [
       },
       {
         Client: "I changed jobs last March.",
+      },
+      {
         Client:
           " I was so busy and I was too tired to go to the gym after work.",
       },
       {
         Therapist: "I understand. ",
+      },
+      {
         Therapist:
           "To avoid an exercise relapse, it's helpful to recognize possible roadblocks to exercising and develop plans to overcome them.",
       },
       {
         Client: "Yeah, I had my lesson.",
+      },
+      {
         Client: "Now I do exercise before I start my work.",
       },
       {
         Therapist:
           "I am glad to hear that you have a strategy to overcome relapsing. ",
+      },
+      {
         Therapist: "Keep up with the great work.",
       },
       {
@@ -2870,6 +2930,8 @@ export const dialoguesData = [
       {
         Client:
           " Weight loss is just such a slow process, and sometimes when I don't see any new results I feel like there's no point in sticking to my goals, even though I know I should.",
+      },
+      {
         Client:
           "What are some strategies you think you could use to stay motivated?",
       },
@@ -2954,21 +3016,31 @@ export const dialoguesData = [
       },
       {
         Therapist: "Great!",
+      },
+      {
         Therapist: "How has your physical activity been going?",
       },
       {
         Client: "it's okay, but I guess I'm getting pretty bored with walking.",
+      },
+      {
         Client: "It's been nice, but I find myself getting sick of it.",
+      },
+      {
         Client: "And my friends and family are tired of going with me as well.",
       },
       {
         Therapist:
           "It sounds like you might be able to stay more motivated if you shake up your routine a little bit.",
+      },
+      {
         Therapist:
           "Have you considered trying a new activity such as dancing, or playing tennis?",
       },
       {
         Client: "No, but I guess I could do that.",
+      },
+      {
         Client: "I just don't know where I would start.",
       },
       {
@@ -3043,6 +3115,8 @@ export const dialoguesData = [
       {
         Therapist:
           "Tracking your physical activity is essential for achieving your long-term goals.",
+      },
+      {
         Therapist:
           "There are various ways to track your activity. For example, you can simply write down your daily activity in a journal or use a voice recorder if writing is challenging for you.",
       },
@@ -3077,6 +3151,8 @@ export const dialoguesData = [
       {
         Therapist:
           " Speaking of which, today we are going to discuss your short term physical activity goals.",
+      },
+      {
         Therapist: "These are the goals you will try to reach each week.",
       },
       {
@@ -3085,11 +3161,15 @@ export const dialoguesData = [
       {
         Therapist:
           " Each week, we want you to increase your daily step count goal by 20%.",
+      },
+      {
         Therapist:
           "So, if your baseline is 5,000 steps per day, your short-term goal for week one is to walk 6,000 steps per day.",
       },
       {
         Client: " Okay. ",
+      },
+      {
         Client: "Why only 20%?.",
       },
       {
@@ -3097,6 +3177,8 @@ export const dialoguesData = [
           " If I am feeling really motivated, can I walk much more than that?",
         Therapist:
           "For safety, we want to emphasize gradual increases in physical activity.",
+      },
+      {
         Therapist: "Feeling motivated is great!",
       },
       {
@@ -3125,12 +3207,16 @@ export const dialoguesData = [
       {
         Client:
           " I'm feeling overwhelmed and have not done much exercise over the past 2 weeks.",
+      },
+      {
         Client:
           " I feel like that I should be with my husband rather taking a walk by myself.",
       },
       {
         Therapist:
           "I am sorry to hear that you are going through a difficult time. ",
+      },
+      {
         Therapist: "Sounds like you have a lot of stress.",
       },
       {
@@ -3145,7 +3231,11 @@ export const dialoguesData = [
       {
         Therapist:
           "Even 10 to 15 minutes per day is better than not exercising at all.",
+      },
+      {
         Therapist: "Or just walking around a few blocks around your house.",
+      },
+      {
         Therapist: "How about starting a little exercise to see how you feel?",
       },
       {
@@ -3160,6 +3250,8 @@ export const dialoguesData = [
       {
         Therapist:
           "Hi George! thank you for taking the time to talk to me today.",
+      },
+      {
         Therapist: "How are you?",
       },
       {
@@ -3173,17 +3265,25 @@ export const dialoguesData = [
       {
         Therapist:
           "I wanted to check in today to talk about how you have been doing since we last spoke.",
+      },
+      {
         Therapist: "Have you been able to reach some of your short-term goals?",
       },
       {
         Client: "It's been pretty difficult.",
+      },
+      {
         Client:
           " I think I'm struggling with remembering to do things and staying motivated.",
+      },
+      {
         Client:
           " Sometimes a few days go by and I realize that I haven't exercised at all.",
       },
       {
         Therapist: "Yeah, holding yourself accountable can be difficult.",
+      },
+      {
         Therapist:
           "Luckily, there are strategies that you can use to keep yourself on track.",
       },
@@ -3217,11 +3317,15 @@ export const dialoguesData = [
       },
       {
         Therapist: "Me too.",
+      },
+      {
         Therapist:
           " Today I want to talk to you about how to keep on track for your goals, even when you go a while without hearing from me.",
       },
       {
         Client: "Okay, that sounds good. ",
+      },
+      {
         Client:
           "I think the biggest problem is that I often forget to wear my activity tracker when I get out of bed.",
       },
@@ -3233,15 +3337,21 @@ export const dialoguesData = [
       },
       {
         Therapist: "That's a great idea!",
+      },
+      {
         Therapist: " Anything else you can think of?.",
       },
       {
         Client:
           "I make coffee every morning, and I'm supposed to wear my activity tracker as soon as I get up.",
+      },
+      {
         Client: "Maybe I can tape a reminder to my coffee maker.",
       },
       {
         Therapist: "That sounds good, too.",
+      },
+      {
         Therapist:
           "I think if you do both of those things you should have an easier time remembering to wear your activity tracker.",
       },
@@ -3259,16 +3369,22 @@ export const dialoguesData = [
       },
       {
         Therapist: "Good to hear.",
+      },
+      {
         Therapist:
           "Well, now that we've discussed your physical activity goals, how are you feeling about them?",
       },
       {
         Client: "Pretty good.",
+      },
+      {
         Client:
           "I mean I'm really excited about the idea of being more fit, it's just a matter of getting there.",
       },
       {
         Therapist: "It can certainly feel like a pretty daunting journey.",
+      },
+      {
         Therapist: " What are you most concerned about?",
       },
       {
@@ -3279,15 +3395,21 @@ export const dialoguesData = [
       {
         Therapist:
           "The good news is that physical activity can be incredibly simple.",
+      },
+      {
         Therapist:
           " You could reach your physical activity goals simply by walking!",
       },
       {
         Client: "Yeah, I guess that's true.",
+      },
+      {
         Client: "But wouldn't that get boring?",
       },
       {
         Therapist: "Over time, most likely.",
+      },
+      {
         Therapist: "What are some other activities that you feel confident in?",
       },
       {
@@ -3298,6 +3420,8 @@ export const dialoguesData = [
       },
       {
         Therapist: "Strength exercises don't have to be fancy either.",
+      },
+      {
         Therapist:
           "Simple exercises like pushups and bodyweight squats are fairly easy to master and are a great place to start.",
       },
@@ -3362,12 +3486,16 @@ export const dialoguesData = [
       },
       {
         Client: "Yeah, actually",
+      },
+      {
         Client: "Although not when it rains.",
       },
       {
         Client:
           " I don't like walking in the rain because I am worried about cars not being able to see me.",
         Therapist: "That's a great point.  ",
+      },
+      {
         Therapist:
           "It's very important to keep safety in mind while being physically active.",
       },
@@ -3379,11 +3507,15 @@ export const dialoguesData = [
       },
       {
         Therapist: "That's great!",
+      },
+      {
         Therapist:
           "Other things to keep in mind are that you want to stay hydrated, make sure you stretch and warm up, and wear good, sturdy footwear.",
       },
       {
         Client: "Oh, that's a good point.",
+      },
+      {
         Client: " I didn't really think about my shoes.",
       },
       {
