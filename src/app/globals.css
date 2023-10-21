@@ -90,7 +90,9 @@ a {
   border-radius: 50%;
   width: 20px;
   z-index: 9999;
+  opacity: 0.9;
   left: 0;
+  right: 300px;
 }
 .swiper-button-prev:after,
 .swiper-button-next:after {
