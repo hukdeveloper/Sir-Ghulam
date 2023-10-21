@@ -350,13 +350,7 @@ export default function SurveyForm() {
                 {dialogue.answers.map((answer) => (
                   <div key={answer._id}>
                     {/* Display the question */}
-                    <Typography
-                      variant="h6"
-                      gutterBottom
-                      sx={{
-                        marginLeft: "30px",
-                      }}
-                    >
+                    <Typography variant="h6" gutterBottom>
                       {answer.quiz.question}
                     </Typography>
                     {/* Render a radio group with dynamic options */}
@@ -373,7 +367,7 @@ export default function SurveyForm() {
                         // color: "#D81B60",
                         display: "flex",
                         flexDirection: "row",
-                        marginLeft: "50px",
+                        marginLeft: "20px",
                         "@media(max-width:500px)": {
                           flexDirection: "column",
                         },
