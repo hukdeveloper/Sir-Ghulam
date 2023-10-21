@@ -19,11 +19,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
+import "swiper/css/navigation";
 import "../../app/globals.css";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 import axios from "axios";
 import { dialoguesData } from "../../data/Dialog";
@@ -245,7 +245,7 @@ export default function SurveyForm() {
   // console.log(dialoguesData);
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="activeForm">
       <Typography variant="h4" textAlign={"center"}>
         Active Listening and Reassurance Evaluation
       </Typography>
@@ -272,7 +272,7 @@ export default function SurveyForm() {
       {data.length !== 0 ? (
         <Swiper
           pagination={pagination}
-          modules={[Pagination]}
+          modules={[Pagination, Navigation]}
           className="mySwiper"
           navigation={true}
         >
@@ -338,6 +338,14 @@ export default function SurveyForm() {
                   Read the following questions, for each question, select the
                   option from the list below that best represents how much you
                   agree with the statement.
+                </Typography>
+                <Typography
+                  variant="body1"
+                  fontWeight={"bold"}
+                  padding={"5px 0"}
+                  color={"red"}
+                >
+                  Dialog : {index + 1}/9 {"("}Slide to jump to next page{")"}
                 </Typography>
                 {dialogue.answers.map((answer) => (
                   <div key={answer._id}>
@@ -429,6 +437,7 @@ export default function SurveyForm() {
                 <Typography variant="body">6 = Agree moderately</Typography>
                 <Typography variant="body">7 = Agree strongly</Typography>
               </Box>
+
               <Typography variant="h6" fontWeight={"bold"} m={"20px 0"}>
                 I see myself as:
               </Typography>
@@ -494,6 +503,16 @@ export default function SurveyForm() {
                 </div>
               ))}
             </Box>
+            <Typography
+              variant="body1"
+              fontWeight={"bold"}
+              m={"20px 0"}
+              sx={{
+                color: "red",
+              }}
+            >
+              {"("}Please wait, Slide to last one page{")"}
+            </Typography>
           </SwiperSlide>
           <SwiperSlide>
             <Box display={"flex"} flexDirection={"column"} width={"100%"}>
