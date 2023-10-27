@@ -4,3576 +4,2933 @@ export const dialoguesData = [
     name: "Dialog 1",
     data: [
       {
-        Therapist: "Hi, Natalie. I'm Dawn",
-        Client: "Hi, Dawn. Nice to meet you",
+		  
+    Therapist: "Hello, how are you doing today?",
+		Client: "I'm okay, but I'm feeling a bit embarrassed.",
+	  },
+	  {
+		Therapist: "Thank you for being open with me. Can you share why you're feeling embarrassed?",
+		Client: "I haven't been consistent with my physical activity lately.",
+	  },
+	  {	
+		Therapist: "It's alright to have periods when our motivation dips. The important thing is to acknowledge it and take steps to get back on track. Have you discussed your lack of motivation with anyone?",
+		Client: "Not yet, but I can talk to my wife about it.",
+	  },
+	  {
+		Therapist: "That's a good idea. Sharing your feelings and struggles can provide valuable support. Remember, you've shown dedication in the past, and I believe in your ability to regain your motivation. How do you feel about making an effort to restart your activity routine?",
+		Client: "I'm willing to try and get back into it.",
       },
-      {
-        Therapist: "Nice to meet you, too. Thanks for coming in today.",
-        Client: "Hi, Dawn. Nice to meet you.",
-      },
-      {
-        Therapist: "Yeah. Tell me a little bit about yourself.",
-        Client: "Thanks for having me.",
-      },
-      {
-        Therapist:
-          "You're feeling a little bit dissatisfied with your health patterns?",
-        Client:
-          "Yeah. I'm really starting to notice how I feel more sluggish and just not-- My mood is shifted a lot too...",
-      },
-      {
-        Therapist:
-          "Okay, so you're feeling some low energy and you know, in the past, when you've been more active and eating differently, you've had more energy?",
-        Client:
-          "Right. Yeah. Especially during times when I'm more active is when I noticed the biggest cha-change in energy and mood.",
-      },
-      {
-        Therapist:
-          "Tell me more about that, those previous times that you've been active.",
-        Client:
-          "Yeah. Well, I played sports in college, so that kept me pretty busy...",
-      },
-      {
-        Therapist:
-          "You had energy, and you were like the Energizer Bunny, just keep going and going and going.",
-        Client: "Yeah, yeah, exactly. And now it's not so much the same...",
-      },
-      {
-        Therapist:
-          "So your days are just as full now that you're working and a career person, and your energy level isn't what it used to be. What-- Do you have any ideas about why that might have shifted?",
-        Client:
-          "Um, well, I think part of it is that when I was in college, it wasn't really an option to go...",
-      },
-      {
-        Therapist:
-          "Right. So in the past, it wasn't up to you whether you had the choice to go be physically active...",
-        Client:
-          "Yeah, yeah, I think so. That's not to say like, I wanna go run a marathon but I do think that it would help me a lot...",
-      },
-      {
-        Therapist:
-          "Great. And you've noticed a mood enhancement effect of exercise.",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist:
-          "Tell me more about that. What do you notice specifically about your mood on the days you're physically active?",
-        Client:
-          "Just, I'm-I'm just happier and more upbeat and I think that even my outlook is more positive...",
-      },
-      {
-        Therapist:
-          "Yeah, you feel more accomplished and you feel less irritated by the small stuff.",
-        Client: "Mm-hmm. Yeah, exactly.",
-      },
-      {
-        Therapist:
-          "Well, let me see if I've got this all. You came to Arizona six months ago...",
-        Client:
-          "Yeah. And then also to, um, like I mentioned, I'm not totally happy with my weight...",
-      },
-      {
-        Therapist:
-          "Great. And you've noticed a mood enhancement effect of exercise.",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist:
-          "Yeah, you feel more accomplished and you feel less irritated by the small stuff.",
-        Client: "Mm-hmm. Yeah, exactly.",
-      },
-      {
-        Therapist:
-          "Okay, so it sounds like a sort of a vicious cycle and-and maybe the lacking physical activity has made you feel less confident in yourself...",
-        Client:
-          "Yeah, I think the activity piece and then also to like, the foods that I'm eating, I don't think are that great...",
-      },
-      {
-        Therapist:
-          "So you had a pretty strong self-confidence, pretty strong body image all the way up until a few months ago...",
-        Client:
-          "Yeah, I think the activity piece and then also to like, the foods that I'm eating, I don't think are that great...",
-      },
-      {
-        Therapist:
-          "Okay. So it sounds like a sort of a vicious cycle and-and maybe the lacking physical activity has made you feel less confident in yourself...",
-        Client:
-          "Yeah, I think the activity piece and then also to like, the foods that I'm eating, I don't think are that great...",
-      },
-      {
-        Therapist:
-          "So you had a pretty strong self-confidence, pretty strong body image all the way up until a few months ago...",
-        Client: "Mm-hmm. Yeah.",
-      },
-      {
-        Therapist: "Great.",
+	  {
+		Therapist: "Fantastic, See you then",
+		Client: "Thanks, Bye.",
       },
     ],
   },
-
   {
     name: "Dialog 2",
     data: [
       {
-        Therapist: "Good day, Scott. How are you today?",
-        Client: "Hi.",
+		Therapist: "Hello, today we'll talk a bit about the social support that you have in your life, as well as how you can increase it.",
       },
       {
-        Therapist:
-          "Earlier, we briefly discussed your interest in discussing exercising. Is that still something you'd like to talk about?",
-        Client: "Yes.",
+		Therapist: "Social support is very important for getting physically active.",
+		Client: "Okay, sure.",
       },
       {
-        Therapist: "What's been happening in regards to exercising?",
-        Client:
-          "Well, I'm having trouble getting back to the gym. I used to work out regularly, but in the past couple of years, I've stopped going. I got busy, and now I've fallen out of the habit. I feel like I need to get back into it.",
+		Client: "No problem.",
       },
       {
-        Therapist:
-          "I understand. It might help if you take a moment to write down a list of reasons why you feel the need to return to the gym. On the other side of the list, jot down some ideas on how you can overcome the obstacles and make it happen.",
-        Client: "Okay, that sounds reasonable.",
+		Therapist: "What are some sources of social support that you have right now?",
+		Client: "Well, I don't have all that many friends, but I live with my wife and two children.",
       },
       {
-        Therapist: "Which gym are you a member of?",
-        Client: "I belong to the Sport Fitness Center.",
+		Therapist: "That's wonderful. Your family can be a great source of support.",
       },
       {
-        Therapist: "Alright. And how far is it from your home?",
-        Client: "It's just a couple of miles away.",
+		Therapist: "What are some strategies you can think of to increase the social support that you have, especially with physical activity?",
+		Client: "Um... I don't really know. I'm not sure how I would involve my family.",
       },
       {
-        Therapist:
-          "Oh, that's not too far. Have you considered riding a bike or walking to the gym? It could be a convenient option.",
-        Client:
-          "If I walked that distance, maybe I wouldn't even need to go to the gym, right?",
+		Therapist: "Asking people to join you in increasing physical activity can seem daunting, but many people might have similar goals and not know how to get motivated.",
       },
       {
-        Therapist:
-          "Walking is beneficial for cardiovascular health, but it's important to focus on both cardiovascular exercise and weightlifting for a well-rounded fitness routine.",
-        Client: "Right, weightlifting is important too.",
+		Therapist: "So they may receive it very well.",
+		Client: "Maybe, but I'm not sure how to bring it up.",
       },
       {
-        Therapist: "Absolutely.",
-        Client: "It would make a difference.",
+		Therapist: "There is a helpful acronym called 'PART'.",
+		Client: "Be Polite, Ask with confidence, be Reasonable with your requests, and choose appropriate Timing.",
       },
       {
-        Therapist:
-          "Yes. So, what do you hope to achieve through exercising? Is it primarily about changing your appearance?",
-        Client:
-          "Well, I would feel better about myself. I want to be able to fit into my clothes comfortably. I've gained some weight around my midsection, and I'd like to get back to where I was, around a thirty-four or thirty-six waist size.",
+		Therapist: "Who do you think you can try this with?",
+		Client: "Well, my wife and my daughter may be willing to try walking with me.",
       },
       {
-        Therapist: "I see.",
-        Client: "It's about feeling more comfortable and better overall.",
+		Therapist: "That sounds like a great place to start.",
       },
       {
-        Therapist:
-          "I understand your perspective. Your well-being is more important than just your physical appearance. While fitting into your jeans would be nice, prioritizing your health is crucial.",
-        Client: "Yes, I agree. I'm not getting any younger.",
+		Therapist: "You can approach them politely and confidently, explaining your desire to increase physical activity and the benefits it can bring to the whole family's health and well-being.",
+		Client: "That makes sense. I'll try to find the right time to bring it up and make a reasonable request for them to join me.",
       },
       {
-        Therapist:
-          "Indeed. You've been through this before, and you know what needs to be done.",
-        Client: "Yes.",
+		Therapist: "Remember, starting with small steps and creating a supportive environment at home can make a big difference.",
       },
       {
-        Therapist: "It's just a matter of taking action.",
-        Client: "I need to make time for it.",
+		Therapist: "Your family members might appreciate the opportunity to spend quality time together while also improving their fitness.",
+		Client: "I hope so. I'll give it a try and see how it goes.",
       },
       {
-        Therapist: "Exactly.",
-        Client: "I have to prioritize it.",
+		Therapist: "That's the spirit! Don't be discouraged if they don't immediately agree. Be patient and keep reinforcing the benefits and positive aspects of being physically active together.",
+		Client: "I will keep that in mind. Thank you for the guidance.",
       },
       {
-        Therapist:
-          "That might mean sacrificing an hour of sleep and waking up earlier to fit in your exercise routine. Personally, I find it helpful.",
-        Client: "Yes, I understand.",
+		Therapist: "You're welcome! I'm here to support you throughout this process. Feel free to discuss any challenges or progress in our future sessions.",
       },
       {
-        Therapist:
-          "Great. So, when I see you next time, I'd like you to try waking up an hour earlier and experimenting with incorporating exercise into your mornings. And remember to bring back the list we discussed.",
-        Client: "Okay, I'll give it a try.",
-      },
-      {
-        Therapist: "Excellent. I'll see you next week then.",
-        Client: "Okay. Thank you.",
-      },
-      {
-        Therapist: "You're welcome. Goodbye, and take care.",
-      },
-    ],
+		Therapist: "Good luck, and I hope you and your family enjoy the journey towards increased physical activity and strengthened social support.",
+      }
+    ]
   },
   {
     name: "Dialog 3",
     data: [
       {
-        Therapist:
-          "Hi, Mrs. Smith. I'm Denise, the exercise coach here at the clinic. I work with people like you who have recently returned home from rehab. How have things been going since you got home?",
-        Client: "Pretty good.",
+		Therapist: "Hello, how are you feeling today?",
+		Client: "I'm recovering well, thank you.",
       },
       {
-        Therapist:
-          "That's great to hear. What specifically are you enjoying about being home?",
-        Client: "I'm glad to see my dog and it feels good to be home.",
+		Client: "How about you?",
+		Therapist: "I'm doing well, thank you for asking.",
       },
       {
-        Therapist:
-          "That's wonderful. How have your physical therapy and Tai Chi sessions been going?",
-        Client:
-          "I didn't attend them this week. I had a little semi-fall, and I feel like I may have been pushing myself too hard.",
+		Therapist: "Today, let's discuss the role of physical exercise in your recovery from liver surgery.",
+      },
+      { 
+		Client: "Sure, I'm interested to learn more about it.",
       },
       {
-        Therapist:
-          "I understand. It's important to find the right balance. What are your concerns regarding falling?",
-        Client:
-          "I'm worried about getting hurt and not being able to stay home. I want to do what it takes to stay safe.",
+		Therapist: "Engaging in physical exercise after liver surgery can help improve your overall strength, promote circulation, and aid in the healing process.",
       },
       {
-        Therapist:
-          "I hear you. Let's work together to create a plan that helps you feel safe at home. One suggestion is getting a lifeline or emergency button for quick assistance. How does that sound?",
-        Client: "That's a good idea. I definitely want to do that.",
+		Therapist: "However, it's essential to follow your doctor's guidance and ensure that the exercises you choose are safe for your specific condition.",
       },
       {
-        Therapist:
-          "Great. We can also arrange a refresher on home safety and consider connecting you with case management services for additional support. Additionally, returning to Tai Chi and seeking support at the senior center may be beneficial. What are your thoughts on these suggestions?",
-        Client:
-          "I'm willing to try again. It's scary, but I want to stay in my home.",
+		Client: "That makes sense. I want to be cautious and not put myself at risk.",
       },
       {
-        Therapist:
-          "Your determination is admirable. We'll take it one step at a time, and I'm here to support you along the way. Remember, staying active can reduce the risk of falling. You're doing great.",
-        Client: "Thank you. I appreciate the help and support.",
+		Client: "Are there any specific exercises I should focus on during my recovery?",
+		Therapist: "Your doctor may recommend starting with gentle exercises, such as walking or light stretching, to gradually reintroduce physical activity.",
       },
       {
-        Therapist:
-          "You're welcome. Let's continue working together to ensure your safety and well-being at home.",
+		Therapist: "As you progress, they may suggest incorporating resistance exercises to build strength and improve flexibility.",
       },
-    ],
+      {
+		Client: "Okay, I'll consult with my doctor to determine when I can start and which exercises are suitable for me.",
+      },
+      {
+		Client: "What about the intensity and duration of the exercises?",
+		Therapist: "It's crucial to listen to your body and start at a comfortable level.",
+      },
+      {
+		Therapist: "Begin with shorter durations and low-to-moderate intensity, gradually increasing as your strength and endurance improve.",
+      },
+      {
+		Client: "I'll be mindful of not pushing myself too hard.",
+      },
+      {
+		Client: "Besides the physical benefits, will exercise also help with my overall well-being during recovery?",
+		Therapist: "Absolutely! Engaging in regular physical exercise can have positive effects on your mental and emotional well-being.",
+      },
+      {
+		Therapist: "It can help reduce stress, improve mood, and boost your overall energy levels.",
+      },
+      {
+		Client: "That's great to hear. I want to support my recovery in every possible way.",
+      },
+      {
+		Client: "Are there any precautions I should take or signs to watch out for during exercise?",
+		Therapist: "It's important to pay attention to your body and stop exercising if you experience severe pain, shortness of breath, or any unusual symptoms.",
+      },
+      {
+		Therapist: "Contact your doctor if you have any concerns or encounter persistent issues during or after exercise.",
+      },
+      {
+		Client: "I'll keep a close eye on how my body responds and seek medical advice if needed.",
+      },
+      {
+		Client: "Thank you for providing guidance on incorporating physical exercise into my recovery plan.",
+		Therapist: "You're welcome! It's my pleasure to support you.",
+      },
+      {
+		Therapist: "If you have any further questions or need additional assistance, don't hesitate to reach out. Wishing you a smooth and successful recovery from your liver surgery.",
+      }
+    ]
   },
-
   {
     name: "Dialog 4",
     data: [
       {
-        Therapist: "Hi, Scott.",
-        Client: "Hey.",
+		Therapist: "Hello, how are you doing?",
+		Client: "I'm recovering well, thank you.",
       },
       {
-        Therapist:
-          "You mentioned wanting to talk about exercise. Where should we start?",
-        Client:
-          "Well, I used to work out a lot, had a gym routine, even ran a half marathon.",
+		Client: "How are you?",
+		Therapist: "I'm doing well, thank you.",
       },
       {
-        Therapist: "Impressive. What changed?",
-        Client:
-          "My schedule got busier, and I made excuses instead of making time for exercise.",
+		Therapist: "I appreciate you taking the time to speak with me today.",
       },
       {
-        Therapist: "I see. What did you enjoy about running?",
-        Client:
-          "The adrenaline rush, feeling good about myself, and building self-esteem.",
+		Client: "Of course, I'm eager to discuss my progress and physical activity.",
       },
       {
-        Therapist: "Running meant a lot to you. Any other activities you like?",
-        Client: "I enjoy the elliptical and biking at the gym.",
+		Therapist: "That's great to hear.",
       },
       {
-        Therapist: "Good options. What would help you get back into it?",
-        Client:
-          "Making time, finding motivation, and maybe setting a new goal.",
+		Therapist: "Today, we'll talk about the importance of physical activity during your recovery from surgery.",
       },
       {
-        Therapist:
-          "How about finding someone to exercise with or seeking immediate feedback?",
-        Client: "That's a great idea. I'll consider it.",
+		Client: "Okay, I'm interested to learn more.",
       },
       {
-        Therapist:
-          "Start by getting to the gym once and take it from there. Three times a week could be a good target.",
-        Client: "Yeah, that sounds doable. I'll give it a try.",
+		Therapist: "Engaging in physical activity after surgery is crucial for a successful recovery.",
       },
       {
-        Therapist:
-          "Excellent. Remember to listen to your body and enjoy the process.",
-        Client: "Will do. Thanks.",
+		Therapist: "It helps improve circulation, prevent blood clots, maintain muscle strength, and promote overall healing.",
+      },
+      {  
+		Client: "I understand the benefits, but I'm not sure how much activity is safe for me right now.",
+		Client: "I'm still in the early stages of recovery.",
       },
       {
-        Therapist: "You're welcome. Take care.",
+		Therapist: "That's understandable. It's important to consult with your healthcare provider or surgeon regarding specific activity guidelines for your condition.",
       },
-    ],
+      {
+		Therapist: "They can provide tailored recommendations based on your surgery and individual progress.",
+      },
+      {
+		Client: "I had a knee surgery, and my doctor mentioned starting with gentle exercises and walking.",
+	  },
+	  {
+		Client: "But I'm unsure about how much I should push myself.",
+      },
+      {
+		Therapist: "It's crucial to listen to your body and progress gradually.",
+	  },
+	  {
+		Therapist: "You can start with short walks, using any assistive devices prescribed by your doctor, and gradually increase your distance and duration as you feel comfortable.",
+      },
+      {
+		Client: "That sounds reasonable. I don't want to overexert myself.",
+	  },
+	  {
+		Client: "What other exercises can I incorporate into my routine to aid my recovery?",
+      },
+      {
+		Therapist: "Depending on your specific surgery and recovery stage, your doctor may recommend exercises to improve flexibility, strength, and balance.",
+	  },
+	  {
+		Therapist: "These may include gentle range-of-motion exercises, light stretching, and targeted muscle strengthening exercises.",
+      },
+      {
+		Client: "I'll make sure to discuss these options with my doctor.",
+	  },
+	  {
+		Client: "I want to ensure I'm following the right plan for my recovery.",
+      },
+      {
+		Therapist: "That's an excellent approach. Your doctor will provide the best guidance based on your unique circumstances.",
+	  },
+	  {
+		Therapist: "Additionally, remember to pace yourself, take breaks when needed, and avoid activities that cause excessive pain or discomfort.",
+      },
+      {
+		Client: "I'll keep that in mind. Safety is my top priority.",
+	  },
+	  {
+		Client: "Will physical activity help with pain management during my recovery?",
+      },
+      {
+		Therapist: "Engaging in appropriate physical activity can help manage pain by promoting blood flow, reducing stiffness, and releasing endorphins, which are natural pain relievers.",
+	  },
+	  {
+		Therapist: "However, it's important to stay within your comfort level and not push through severe pain.",
+      },
+      {
+		Client: "I'll be mindful of that balance.",
+	  },
+	  {
+		Client: "Thank you for explaining the importance of physical activity in my recovery.",
+      },
+      {
+		Therapist: "You're welcome! I'm here to support you throughout your recovery journey.",
+	  },
+	  {
+		Therapist: "If you have any further questions or concerns, feel free to reach out. Wishing you a smooth and successful recovery.",
+      }
+    ]
   },
-
   {
     name: "Dialog 5",
     data: [
       {
-        Therapist:
-          "Hi, Mrs. Smith. Good to see you again. How's your rehab going at the facility?",
-        Client: "[signs] Kind of slow.",
+        
+		Therapist: "Hello, how are you?",
+		Client: "I'm good!",
       },
       {
-        Therapist: "Slow? In what way?",
-        Client: "Yeah.",
+		Client: "I have been getting outside and walking a lot, which has been nice.",
+	  },
+      {
+		Therapist: "That's fantastic!",
+	  },
+	  {
+		Therapist: "Great to hear.",
+	  },
+	  {
+		Therapist: "It has been beautiful outside lately.",
       },
       {
-        Therapist:
-          "Can you tell me what activities they have you doing in rehab?",
-        Client: "Oh, they make me use different machines and stuff. It hurts.",
+		Client: "Yes, it's been great.",
       },
       {
-        Therapist: "I'm sorry to hear that. Where are you experiencing pain?",
-        Client:
-          "Almost every joint, especially my knees. The leg exercises they have me doing, are they really necessary?",
+		Therapist: "Well, I'm excited to hear that you've been getting active.",
+	  },
+	  {
+		Therapist: "Today I want to talk about weight loss and how it relates to this regular physical activity.",
       },
       {
-        Therapist:
-          "I understand that pain can be challenging, but during stroke rehab, it often indicates that your muscles and joints are getting back to work. It's a positive sign that your body is returning to normal.",
-        Client: "Okay.",
+		Client: "Okay, yeah. I'm a little disappointed because I haven't lost any weight yet.",
       },
       {
-        Therapist: "What are your long-term goals?",
-        Client: "I want to go home.",
+		Therapist: "That is completely understandable.",
+	  },
+	  {
+		Therapist: "It is important to keep in mind that while physical activity can support healthy weight management, it does not necessarily lead to weight loss.",
       },
       {
-        Therapist:
-          "Of course, that's important. What are some things you'd like to do once you're back home?",
-        Client:
-          "Everything. I want to play with my dog, cook for myself. I'm an independent person and I want to take care of myself.",
+		Client: "Oh, really?",
+	  },
+	  {
+		Client: "I thought that I would lose weight for sure.",
       },
       {
-        Therapist:
-          "That's great. Going home and regaining your independence are crucial goals. Have you thought about what it will take to achieve them?",
-        Client: "Maybe the rehab.",
+		Therapist: "In order to lose weight, you have to increase intensity activity and cut back your daily caloric intake.",
+		Client: "Oh, okay. I had no idea.",
       },
       {
-        Therapist:
-          "Absolutely. It's also important to maintain an activity program once you're home. Have you heard of Tai Chi?",
-        Client: "Oh, yeah.",
+		Therapist: "But keep up the great work!",
+	  },
+	  {
+		Therapist: "Even if you aren't losing weight, physical activity has a lot of health benefits that aren't immediately visible or obvious.",
       },
       {
-        Therapist: "You're familiar with it?",
-        Client: "Yes, a friend of mine does it and loves it.",
+      Therapist: "Hello! Welcome back.",
+      Client: "Thank you, you too.",
       },
       {
-        Therapist:
-          "Tai Chi is an excellent way to regain balance after a stroke and prevent falls. If you want to enjoy activities like walking with your dog, preventing falls is crucial.",
-        Client: "Definitely. Falling is something I want to avoid.",
+		Therapist: "How are you?",
+		Client: "I'm doing well, staying active and productive.",
       },
       {
-        Therapist:
-          "What do you think about trying Tai Chi? It could be something worth considering.",
-        Client: "I hadn't thought about it, but yeah, I guess I could try.",
+		Therapist: "Speaking of which, let's discuss your short-term fitness goals today.",
+	  },
+	  {
+		Therapist: "These goals will help you progress each week.",
       },
       {
-        Therapist:
-          "When you start, you can do it while sitting in a chair. It's a safe way to begin, and the instructor can guide you. As you progress and feel more confident, you can gradually transition to standing with the support of a chair and eventually do it on your own.",
-        Client: "Can I really do it while still using a walker?",
+		Client: "Sure, I'm all ears. What's the plan?",
       },
       {
-        Therapist:
-          "Yes, you can. Talk to the instructor, and they'll accommodate your needs. Starting in a chair will help you gain confidence and learn the moves. Over time, you'll be able to do it independently.",
-        Client: "Do you recommend it?",
+		Therapist: "Each week, we want you to increase the number of reps for each exercise by 10%.",
+	  },
+	  {
+		Therapist: "So, if you're currently doing 10 reps, your goal for week one would be 11 reps.",
       },
       {
-        Therapist:
-          "Absolutely. Tai Chi reduces the risk of falls by half and can also help reduce pain, although it may take three to six months of regular practice. It aligns with your goals of going home, playing with your dog, and being self-sufficient.",
-        Client: "Do you practice Tai Chi too?",
+		Client: "Got it. Gradual increments to challenge myself.",
       },
       {
-        Therapist:
-          "Yes, I do it three days a week, and it has significantly improved my balance.",
-        Client:
-          "Oh, okay. Well, if it's going to help me get home and you recommend it, I'll give it a try.",
+		Therapist: "Absolutely. We want to avoid strain and ensure steady progress.",
+	  },
+	  {
+		Therapist: "But if you're feeling extra motivated, you can push yourself a bit further.",
       },
       {
-        Therapist:
-          "That's wonderful to hear. It was great seeing you again. I hope your rehab continues to progress well, and we can discuss this further at our next visit.",
-        Client: "Okay, sounds good.",
+		Client: "I understand. I'll focus on reaching each week's goal first.",
       },
       {
-        Therapist: "Thank you for coming in.",
+		Therapist: "That's the right mindset. Consistency is key for long-term success.",
+	  },
+	  {
+		Therapist: "How confident are you that you can meet these short-term goals?"
       },
+      {
+		Client: "I'm quite confident. Starting small gives me a sense of accomplishment.",
+      },
+      {
+		Therapist: "That's great to hear! And if you ever need tips to stay motivated, I'm here to help.",
+      }
     ],
   },
   {
     name: "Dialog 6",
     data: [
       {
-        Therapist:
-          "So there are a lot of different directions that we could take. Um, you've mentioned wanting to make changes in your physical activity. You've mentioned wanting to make changes in your eating habits and also just wanting more body confidence. Um, what's on your mind as far as a change topic for the rest of our session today?",
-        Client:
-          "I think the activity piece is the kind of low-hanging fruit that I see. Um, I feel like it's gonna be harder for me to change some of my nutrition habits right out the gate, but if I can get into maybe an activity routine, that could be good to help maybe some of the other changes happen later.",
+		Therapist: "Hello, how are you?",
+		Client: "I'm good!",
       },
       {
-        Therapist:
-          "Yeah. Okay. So physical activity is feeling like the easiest change to look at first.",
-        Client: "Yeah, I think so.",
+		Client: "I have been getting outside and walking a lot, which has been nice.",
       },
       {
-        Therapist:
-          "Great. So tell me a little bit more about your motivators for getting started in being more physically active. I know you shared energy levels and I know you've shared that you'd like to see a boost in your mood and feeling less irritable and stressed. Any other benefits that really make you wanna make this change right now?",
-        Client:
-          "Yeah, I think just to feeling like physically stronger, um, like physically more able. Uh, last night I struggled with the jar of salsa, like opening it. So I think that just stuff like that, um, you know, would be in addition to mood and being more productive and energy and all that stuff. Um, yeah, that would be a definite end goal for me too. And then really to like, I think if I am more active, I think my body image or my body confidence would improve also.",
+		Therapist: "That's fantastic!",
+	  },
+	  {
+		Therapist: "Great to hear.",
+	  },
+	  {
+		Therapist: "It has been beautiful outside lately.",
       },
       {
-        Therapist:
-          "Yeah. So you're wanting to feel stronger so that you can open jars and other things and- and also just have a better sense of confidence.",
-        Client: "Mm-hmm.",
+		Client: "Yes, it's been great.",
       },
       {
-        Therapist:
-          "Great. So on a scale from zero to 10, zero being not at all ready to make a change in the area of physical activity, and 10 being let's- let's do this. I'm excited. I'm ready. Where do you fall on that scale?",
-        Client: "Hmm, I'd say I'm about an eight.",
+		Therapist: "Well, I'm excited to hear that you've been getting active.",
+	  },
+	  {
+		Therapist: "Today I want to talk about weight loss and how it relates to this regular physical activity.",
       },
       {
-        Therapist: "Okay. So you're- you're feeling fairly motivated.",
-        Client: "Mm-hmm.",
+		Client: "Okay, yeah. I'm a little disappointed because I haven't lost any weight yet.",
       },
       {
-        Therapist: "Why didn't you pick a six?",
-        Client:
-          "Well, like I said, I just, I've identified like a lot of things that I think would be good. If I were to be more active and I definitely wanna have that improved mood and energy, and feel better about myself. So yeah, all of those things I think are what's really driving that- that rating.",
+		Therapist: "That is completely understandable.",
+	  },
+	  {
+		Therapist: "It is important to keep in mind that while physical activity can support healthy weight management, it does not necessarily lead to weight loss.",
       },
       {
-        Therapist:
-          "Okay. You're noticing there- there are too many great benefits to being physically active and, um, today you've mentioned energy, mood, strength and body confidence.",
-        Client: "Mm-hmm.",
+		Client: "Oh, really?",
+	  },
+	  {
+		Client: "I thought that I would lose weight for sure.",
       },
       {
-        Therapist: "Am I missing anything else?",
-        Client: "I don't think so.",
+		Therapist: "In order to lose weight, you have to increase intensity activity and cut back your daily caloric intake.",
+		Client: "Oh, okay. I had no idea.",
       },
       {
-        Therapist: "Okay. Those are the big ones for you.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist:
-          "Fantastic. Well, now we can start looking at if you're interested in how that might look-",
-        Client: "Mm-hmm, yeah.",
-      },
-      {
-        Therapist: "- and what activities you might end up, um, choosing.",
-        Client: "Yeah, that'd be great.",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "",
-      },
+		Therapist: "But keep up the great work!",
+	  },
+	  {
+		Therapist: "Even if you aren't losing weight, physical activity has a lot of health benefits that aren't immediately visible or obvious.",
+     }
     ],
   },
-
   {
     name: "Dialog 7",
     data: [
       {
-        Therapist: "Hi, Liz. Well, thanks for meeting with me today.",
-        Client: "Sure.",
+		Therapist: "Hello! Welcome back.",
+		Client: "Thank you, you too."'
       },
       {
-        Therapist:
-          "So what's something that you'd like to change or, um, work towards?",
-        Client:
-          "Well, [sighs] I've been thinking about working out lately. I really want to start working out again. It's-it's been in my mind, I know I need to do it. It's just getting the motivation to do it.",
+		Therapist: "How are you?",
+		Client: "I'm good, just trying to stay active and healthy."'
       },
       {
-        Therapist:
-          "And you've been talking about that a lot lately. So I really-",
-        Client: "Mm-hmm.",
+		Therapist: "Speaking of which, today let's talk about your short-term exercise goals.",
+	  },
+	  {
+		Therapist: "These goals will help you stay on track each week."'
       },
       {
-        Therapist:
-          "-feel like this is something that you need to do soon because, um, a lot of times, you're just a lot of talk. And then, there's no action. And if you really wanna see results, I think it's something that needs to be done. And, you know, stop being lazy about it and just do it.",
-        Client:
-          "Well, I don't know if I'm really being lazy about it. I think it's just that I have a busy schedule.",
+		Client: "Alright, how does it work?"'
       },
       {
-        Therapist: "Yeah.",
-        Client:
-          "I just need to find the time to do it. And, yes, I might be lacking a little bit of motivation, but I think it's more timing and trying to fit it in.",
+		Therapist: "Each week, we want you to increase your workout duration by 10%.",
+	  },
+	  {
+		Therapist: "So, if you're currently exercising for 30 minutes, your goal for week one would be 33 minutes."'
       },
       {
-        Therapist:
-          "And that sounds like a lot of excuses to me. So I feel like you had shared with me before that you do have a gym membership. So I think that's something that you just need to fit in your schedule. So for you to really see results that you want, my guess is you need to go about three to four times a week and really fit in that hour workout, um, on a daily basis.",
-        Client:
-          "But I think that part of the problem is that I-I don't have three to four times- three to four times a week to do it, or an hour even. I mean, hour is a long time because if I'm working out for an hour that means I'm leaving home to get there-",
+		Client: "I see, gradual progress."'
       },
       {
-        Therapist: "Mm-hmm.",
-        Client:
-          "-time there, time back. I mean, it's not just an hour, it's like two hours, realistically.",
+		Therapist: "Exactly. We want to avoid overexertion and ensure a sustainable routine.",
+	  },
+	  {
+		Therapist: "But if you're feeling motivated, you can certainly do more. Just listen to your body."'
       },
       {
-        Therapist:
-          "And it seems like if you really want to see the results you have to put the time in. And if it's gonna take you two hours, then it's gonna take you two hours. And, again, if you want the results that you want, you need to start, and you need to start now.",
-        Client: "Well, oh, um, okay.",
+		Client: "That makes sense. I'll focus on reaching each week's goal for now."'
       },
       {
-        Therapist:
-          "All right. Well, um, I look forward to talking to you tomorrow. And I'm hoping that you're gonna be able to tell me that you went to the gym.",
-        Client: "Okay.",
+		Therapist: "That's the right approach. Consistency is key.",
+	  },
+	  {
+		Therapist: "How confident are you that you can meet these short-term goals?"'
       },
       {
-        Therapist: "Thanks.",
+		Client: "I'm pretty confident. Starting small makes it feel achievable."'
       },
+      {
+		Therapist: "Excellent! And if you ever need extra motivation, we can explore strategies together."'
+      }
     ],
   },
   {
     name: "Dialog 8",
     data: [
       {
-        Therapist:
-          "Well, I'm glad we figured that out and I think you'll feel better over the next few days.",
-        Client:
-          "Oh, thanks so much doctor. I'll just take it easy for a couple of days.",
+		Therapist: "Hello, it's wonderful to connect with you again!",
+		Client: "Thank you, it's nice to see you too.",
       },
       {
-        Therapist:
-          "Well, since I have you here and we still have a few minutes left, I'd like to bring up another topic. I noticed that your blood pressure and your weight have been climbing a bit over the past few years. We haven't really had time to talk about this much before and I may be able to offer some useful strategies. Would it be okay if we discussed weight and health for a few minutes?",
-        Client:
-          "Yeah, I suppose. I know my weight is a problem, but every time I try to take it off, I end up gaining it back. I don't know what to do.",
+		Client: "I apologize for being late.",
       },
       {
-        Therapist:
-          "I know how you feel. Managing weight can be frustrating. Maybe we can just start trying to figure it out together and I'll be here to help you through the challenges.",
-        Client:
-          "Okay, thank you doctor, but I'm just concerned about how I can possibly lose weight now since work is so busy and the kids take up so much of my time.",
+		Therapist: "No problem at all.",
+	  },
+	  {
+		Therapist: "Today, let's focus on establishing a long-term goal for managing your weight.",
       },
       {
-        Therapist:
-          "Yeah, that's certainly understandable. We both know that there's a lot that plays into weight management, but there's no need to figure it all out today, especially since things are so busy for you right now. Maybe we could put our heads together and think about something small that fits reasonably into your life and then we can take further steps when you're ready.",
-        Client: "Okay, that sounds great. So, what should I do?",
+		Client: "Alright. I've been trying to lose weight for years, but I haven't had much success.",
+	  },
+	  {
+		Client: "I tend to lose a few pounds, but then I always end up gaining it back.",
       },
       {
-        Therapist:
-          "Well, let's see. One of the things that's involved in managing weight and health is being active. Physical activity benefits the whole body. It's healthy for our joints, our stress levels, and especially for weight management. Perhaps we could talk about some ways of adding activity that fit into your life.",
-        Client:
-          "I knew you were gonna say that, but I don't have time in my schedule. I can't afford to take an hour to go to the gym every day.",
+		Therapist: "Losing weight can certainly be a challenging journey.",
+	  },
+	  {
+		Therapist: "However, setting achievable and realistic goals can make a significant difference.",
+	  },
+	  {
+		Therapist: "We can then discuss strategies for success and ways to stay motivated.",
       },
       {
-        Therapist:
-          "Well, I understand that. I don't have an hour to go to the gym every day either, but one of the great things about physical activity is that any amount in any type of activity can be very helpful. For example, let's think about some activities that you enjoy doing.",
-        Client: "I like to walk.",
+		Client: "Yeah, I always struggle with staying motivated.",
+	  },
+	  {
+		Client: "It's been my main issue.",
       },
       {
-        Therapist: "Me too. Walking is great exercise.",
-        Client:
-          "Wait a minute, isn't walking too mild to help you lose weight, though?",
+		Therapist: "Let's begin by talking about the goal itself.",
+	  },
+	  {
+		Therapist: "A moderate weight loss of 5 to 10% can bring about numerous health benefits.",
+	  },
+	  {
+		Therapist: "Your ideal long-term goal would be to lose 5% of your total body weight over the next six months.",
+	  },
+	  {
+		Therapist: "For you, that translates to shedding 15 pounds.",
       },
       {
-        Therapist:
-          "Actually, even just a few minutes of walking is really healthy and worthwhile, and then when you have time to do even more, that's great. Walking is also great because you can do it anywhere, it doesn't need to be at the gym.",
-        Client:
-          "Oh, wow, that sounds good. You know what? Come to think of it, I have some time before I have to go back to work and I saw a nice park on the way over here, maybe I can take a short walk after this appointment.",
+		Client: "15 pounds in six months?",
+	  },
+	  {
+		Client: "Seems like a stretch.",
       },
       {
-        Therapist: "That sounds great.",
-        Client:
-          "And you know what? I used to really love to dance, but I haven't done that in such a long time.",
+		Therapist: "I understand it may sound challenging, but when we break it down, it averages out to about 2 to 3 pounds per month.",
+		Client: "Oh, I see.",
+	  },
+	  {
+		Client: "I suppose I could manage that.",
       },
       {
-        Therapist:
-          "Well, dancing is a great exercise, especially because it's fun.",
-        Client:
-          "Hmm. And I know my family would support me if I could just find some place where I can go dancing.",
+		Therapist: "How confident are you that you could achieve this long-term goal?",
+		Client: "I'm fairly confident. On a scale of 1 to 10, maybe an 8?",
       },
       {
-        Therapist:
-          "Oh, that's great to hear that your family is so supportive. And I bet there's a dance class somewhere around where you live or maybe even a dance fitness class at the gym.",
-        Client: "Yeah, and you know what? I really like to try that.",
-      },
-      {
-        Therapist:
-          "Would you like to do some research on this and give it a shot?",
-        Client:
-          "Actually, I really would. I'm kind of excited about it. What else you got?",
-      },
-      {
-        Therapist:
-          "Well, small steps can go a long way. So, even things like taking the stairs instead of the elevator every once in a while or parking just a bit further from the door when you go to a store can be ways to increase movement in your day.",
-        Client: "Mm-hmm. I can do that.",
-      },
-      {
-        Therapist:
-          "How about we start there and let's plan to follow up in a few weeks so we can see how it's going and then maybe talk about some other strategies that might help.",
-        Client: "Diet, the D word.",
-      },
-      {
-        Therapist:
-          "Not necessarily. What we eat is certainly important for weight and health, but just like we did today, we can talk about some small steps that can fit into your life, and especially ones that you feel good about.",
-        Client:
-          "Yeah, I like that. Okay, I'll make an appointment and I'll start dancing right away, doc.",
-      },
-      {
-        Therapist: "That's great. I'll see you soon.",
-      },
+		Therapist: "That's wonderful to hear!",
+      }
     ],
   },
   {
     name: "Dialog 9",
     data: [
       {
-        Therapist:
-          "Okay. So what ideas do you have, Natalie for, um, getting started in adding more physical activity?",
-        Client:
-          "Well, I think, um, like when I was really active in the past, I enjoy going to the gym and I like that regardless of what's happening with the weather outside, that-that's always an option. Um, so I've kind of already started to look and see, like, how much gym memberships cost in the area. Um, I really like one that's like month to month and doesn't require me to pay out for like a year because, in the summertime, I just don't use that when the weather is nice, I like to be outside.",
+       
+		Therapist: "Hello there, how are you feeling today?",
+		Client: "I'm doing well, and yourself?",
+	  },
+      {
+		Therapist: "I'm good, thank you for asking.",
+	  },
+	  {
+		Therapist: "Today, I'd like to discuss your short-term goals regarding weight loss."'
       },
       {
-        Client:
-          "So, um, I do think that that would be an option. Um, I did enjoy doing yoga in the past. I, um, I don't care for swimming, uh, because it requires a lot of extra prep time, and like, I don't- chlorine in my hair just doesn't really go very well usually. Um, but I really like walking, um, weightlifting, running is okay. Um, that was more at my, like, peak activity level, so I don't think I could start out running now, but I'd like to work up to it.",
+		Client: "Well, that's fine, but I've been trying to lose weight for as long as I can remember, and it hasn't been successful.",
       },
       {
-        Therapist:
-          "Great. It sounds like there are a lot of activities that you do like-",
-        Client: "Mm-hmm.",
+		Therapist: "I can understand how frustrating that must be.",
+	  },
+	  {
+		Therapist: "To make weight loss more achievable, we can start by setting realistic and gradual short-term goals.",
       },
       {
-        Therapist:
-          "-and I'm hearing a theme of climate control, [chuckles] being important to you and you've already been researching gyms.",
-        Client: "Mm-hmm.",
+		Client: "Okay, that sounds reasonable.",
+	  },
+	  {
+		Client: "Can you give me an example?",
       },
       {
-        Therapist: "Tell me more about that.",
-        Client:
-          "Yeah. So I just- on my phone, if I'm like in the grocery store, I'm kind of just looking through, and on Google, I'll type in like 'Gyms in the area' and I'll look and see what's there. And, um, I don't ever want to sign up to learn more 'cause I feel like then they just keep emailing you forever. So at this point, I'm just trying to kind of figure out what I can, based on their website as far as cost goes, but that, um, month to month is kind of really important for me. Just like I mentioned, I don't want to be paying for six months or a year out.",
+		Therapist: "A realistic short-term goal could be aiming to lose 1-2 pounds per week over the next 6 weeks.",
+	  },
+	  {
+		Therapist: "Based on your current weight, achieving this goal would involve reducing your daily caloric intake to 1200 calories.",
       },
       {
-        Therapist:
-          "Right. Okay. So you're looking for some-something that's reasonably priced-",
-        Client: "Mm-hmm.",
+		Client: "I think I can manage that, although I've never really counted calories before.",
       },
       {
-        Therapist:
-          "-and that you don't have to sign a contract and you're right. It's hard to tell what the cost is just from looking on the website.",
-        Client: "Yeah.",
+		Therapist: "It seems like learning how to do that might be a challenge for you.",
+	  },
+	  {
+		Therapist: "If you'd like, I can provide you with some helpful resources and links that provide information on the calorie content of different foods.",
       },
       {
-        Therapist:
-          "And I completely agree [laughs]about wanting to avoid the sales pitch-",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist:
-          "-um, element of it. What seems like a logical next step based on-- You've kind of already gotten the ball rolling. What feels like a logical next step?",
-        Client:
-          "Yeah, I think, um, you know, I've kind of looked around and seen what I- what's available to me. Um, I think the next step would be to maybe go visit one place and just see, like, what equipment they have. Um, I also think too, I'd like to be outside when the weather permits. I like to walk. I just- I don't like rain or snow or cold, like, um, I don't like doing things when I'm just not in a climate that's enjoyable. So if there is, uh, decent weather, I think going outside and, you know, getting some steps in or just walking would be a good first start for me.",
-      },
-      {
-        Therapist:
-          "Okay. So maybe visiting a gym and then also choosing a non-gym activity to sort of get started when the weather's permitting.",
-        Client: "Right. Yeah.",
-      },
-      {
-        Therapist:
-          "I have one, um, idea that is jumping into my mind as you're talking. Is it okay if I share that?",
-        Client: "Sure. Yeah.",
-      },
-      {
-        Therapist:
-          "I'm wondering about the price of the YMCA compared to other gyms. Uh, is that one that you have an interest in or have looked at already?",
-        Client:
-          "I don't know that I've looked closely at that. I don't know much about their pricing or anything like that.",
-      },
-      {
-        Therapist:
-          "Yes. And honestly, I don't either. [chuckles] I just suspect that it might be slightly cheaper than some of the more private gyms.",
-        Client: "I agree.",
-      },
-      {
-        Therapist: "So something to look into if you're interested.",
-        Client: "Yeah, definitely.",
-      },
-      {
-        Therapist:
-          "And they-- I would suspect they'd be less sales pitch-oriented than a private gym. So it might be a safe place to explore first-",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist: "-and to build some confidence in that conversation.",
-        Client:
-          "Yeah, no, yeah. That's a good-good recommendation. I'll definitely check it out.",
-      },
-      {
-        Therapist:
-          "Okay. Great. So, um, in addition to exploring the gym possibility, what sounds like a logical next step for a non-gym activity to get started, some small goal that feels doable, um, and you have control over because it doesn't require the perfect weather-",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist: "-or the perfect gym?",
-        Client:
-          "Yeah. I think, um, finding ways to walk more would be good, um, even if that is inside somewhere. Uh, I've done the like trick of parking in the back of the parking lot and walking up to the store. Um, and like I've also been in Target and taken an extra lap, which is kind of dangerous too 'cause you might spend more money. Um, but I- I think if the weather's nice too, I would like to get outside and try to find a place to walk. Um, and two, I really did enjoy yoga, it's- it was good for my, like, flexibility and posture, and so I would be interested in maybe seeing too what classes are available in the area. I haven't looked at that at all.",
-      },
-      {
-        Therapist:
-          "Okay. So exploring some yoga classes. Is-is doing yoga in your living room appealing to you at all?",
-        Client:
-          "Home workouts have never really worked for me in the past just because there's so many distractions, and I can, like, set the mat out there and everything and get everything ready, like bottled water, everything's good to go. And then it just sits there and I don't actually do it, whereas if I go somewhere else, I'm already there. And so I'm doing it.",
-      },
-      {
-        Therapist:
-          "That's great. It's important to know this about yourself, what works, and what doesn't work, and what you feel motivated to do. So, it sounds like we sort of have two small goals right now. One is to maybe visit the YMCA and find out how much that costs-",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist:
-          "-and the other goal being maybe just a walk, um, one time between now and the next time I see you. Um, and I say one time, you can, of course, go more than that, but just with snow in the forecast, it might be reasonable to start with a small goal like that and go for one nice day between now and a few weeks from now when I get to see you again. How do those two goals sound?",
-        Client:
-          "No, that sounds good. I think, um, I'll walk probably more than one time in the next couple of weeks, but, um, I also have this app on my phone that tracks my steps, uh, and it was like built into the phone. It's nothing I downloaded or anything. So I can also use that to kind of see if I'm getting more active 'cause right now I think I'm averaging like 2,000 steps a day, so it's like a lot of sitting.",
-      },
-      {
-        Therapist:
-          "Okay. So you'd like to kind of get motivated with- with the use of an app and that might help you get started.",
-        Client: "Yeah, I think so.",
-      },
-      {
-        Therapist:
-          "Okay, fantastic. So, on a scale from 0 to 10, 10 being really confident, I can research a gym and go for one walk, and zero being not at all confident, how are you feeling about these two small goals?",
-        Client: "I think I'm at a 10.",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist:
-          "Client: I think that, like I said, I think I'll find ways to walk. Um, and I'm at a point now where I've done as much research, I've found out as much information, I think, as I can on the gyms that are local here. Um, but I will check out the- the Y to see if it maybe is a bit cheaper and also a bit more, like, welcoming and doesn't require a- like, a six-month contract or anything like that. So I feel like those would both be good starts. Yeah.",
-        Client:
-          "Wonderful. Are there any other barriers that would be helpful to sort of talk through?",
-      },
-      {
-        Therapist:
-          "Client: Um, well, if I'm trying to walk outside, the weather's always going to be one, but I, again, like I said, if I'm checking, uh, using the app on my phone to see my step count, I can maybe make more of a priority to walk indoors, um, and just find places inside that I could walk, even if it's just around the hallway or whatever that looks like-",
-        Client:
-          "Okay. So being creative with your indoor space is a-is a solution you've come up with yourself for - f there just aren't any good days, nice days outside.",
-      },
-      {
-        Therapist: "Client: Yeah, but hopefully there's one. So, yeah.",
-        Client:
-          "Great. Well, you came in today feeling pretty discouraged about your energy levels and your mood and, um, feeling lousy about your body in general. And, uh, today we've talked about a small-small step to get started and you're hoping to experience some mood boost and some energy as you get rolling here. Um, how are you feeling about today's session?",
-      },
-      {
-        Therapist:
-          "Client: No, I feel really good. I think even coming in, I didn't have a like step-by-step idea of what I wanted to do next, but no, this has been helpful to know what those small steps are, and like you said, hopefully, I do start feeling better. Yeah.",
-        Client:
-          "Great. Well, I look forward to checking in with you, and thanks so much for coming in.",
-      },
-      {
-        Therapist: "Client: Thanks for having me. All right.",
-        Client: "You're welcome. Take care!",
-      },
+		Client: "That would be fantastic, thank you!",
+      }
     ],
   },
   {
     name: "Dialog 10",
     data: [
       {
-        Therapist:
-          "So, again, I hear your overall goal is really, to not give up these things you'd like but to cut back on how much you have-",
-        Client: "Yeah, I guess so.",
+		Therapist: "Hi there, how are you feeling today?",
+		Client: "I'm doing well, thank you.",
       },
       {
-        Therapist:
-          "-on that. All right. So, I'd like to ask you, uh, kind of a scaling question about this 'cause I'm hearing that this feels really important to you that you'd be way up there on the high- on the high end of importance.",
-        Client: "Yeah.",
+		Therapist: "That's great to hear!",
+	  },
+	  {
+		Therapist: "How have you been progressing with your physical activity goals?",
       },
       {
-        Therapist:
-          "So, I'm gonna ask the question this way, on a scale of 0 to 10, where 0 is not at all confident, and 10 is like, I'm very, very confident, where would you put yourself on a scale right now of confidence in starting this new plan?",
-        Client: "Right now, I'm probably-.",
+		Client: "It's been okay, I guess.",
+	  },
+	  {
+		Client: "Some of the goals have been difficult to meet.",
       },
       {
-        Therapist: "Mm-hmm",
-        Client: "#NAME?",
+		Therapist: "What do you think has been causing the challenges?",
+		Client: "Well, the main issue is that I don't live in the safest neighborhood.",
+	  },
+	  {
+		Client: "So, I don't always feel comfortable going out alone, especially at night.",
+	  },
+	  {
+		Client: "It's also hard to coordinate with my friends all the time.",
       },
       {
-        Therapist: "A six",
-        Client:
-          "But I know when I go home and I see the food, it's probably gonna drop back down to a four.",
+		Therapist: "I completely understand. Those are valid concerns.",
+	  },
+	  {
+		Therapist: "When environmental factors like neighborhood safety or unfavorable weather pose obstacles, it's worth exploring alternative ways to engage in physical activity indoors.",
       },
       {
-        Therapist:
-          "Okay. All right. So, let's talk about that, um, so we should just assume we're gonna be at a four.",
-        Client: "Right?",
+		Client: "I've considered that, but gym memberships can be quite costly.",
       },
       {
-        Therapist: "Okay?",
-        Client: "I guess.",
+		Therapist: "Gym memberships are one option, but there are simpler alternatives as well.",
+	  },
+	  {
+		Therapist: "For instance, you could try going to a mall and walking around. It provides a safe indoor environment with plenty to see.",
+	  },
+	  {
+		Therapist: "Plus, you'll find plenty of stairs to climb, which can be a great workout!",
       },
       {
-        Therapist:
-          "So, why are you at a four and not even a lower number? Why are you not like a zero or a one?",
-        Client: "Because I've been wanting to do this for-for years, like-",
-      },
-      {
-        Therapist: "Okay",
-        Client: "#NAME?",
-      },
-      {
-        Therapist: "Okay",
-        Client:
-          "Like ever since I started being a teen, like this has always been a goal of mine, like, especially 'cause all my friends play soccer, and like-.",
-      },
-      {
-        Therapist: "Uh-huh",
-        Client: "#NAME?",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "And so I'm just sort of like, well, I'm not.",
-      },
-      {
-        Therapist: "Okay.",
-        Client:
-          "But I want to be like-- I don't want to be like stick-thin, but I really want to be like really healthy and really active.",
-      },
-      {
-        Therapist: "Okay",
-        Client: "And like be able to look nice, you know.",
-      },
-      {
-        Therapist: "Okay, all right.",
-        Client: "I wanna be able to look nice.",
-      },
-      {
-        Therapist:
-          "Okay. So, what would help increase that confidence? What-- Because that sounds like where we really need to focus on. What's gonna help you feel more confident about this?",
-        Client: " I don't even really know-",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "-honestly. Like, I mean, I know I'm gonna have to keep like telling myself like-",
-      },
-      {
-        Therapist: " Mm-hmm.",
-        Client: "-like this is something that you want- that you've wanted-",
-      },
-      {
-        Therapist: "Uh-huh.",
-        Client: "#NAME?",
-      },
-      {
-        Therapist: "Uh-huh",
-        Client: "Like, you can do it. Because like-",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "I know I can do it. Like I can do anything.",
-      },
-      {
-        Therapist: "All right.",
-        Client: "I can do anything-",
-      },
-      {
-        Therapist: "All right.",
-        Client: "-I know that. But it's hard getting to the point where I-",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "#NAME?",
-      },
-      {
-        Therapist:
-          "All right. Well, if it's okay, just for a moment, let's put the- let's put the changing the eating pattern off to the side, and let's take a look at some other time in your life that there was something you really wanted to accomplish and you did. And what is it about you- what was it about you? What kind of strengths did you bring to the table that allowed you to tackle something that felt like a challenge and-and allowed you to be successful?",
-        Client: "",
-      },
+		Client: "Oh, that's an interesting idea!",
+	  },
+	  {
+		Client: "I hadn't thought of that before.",
+	  },
+	  {
+		Client: "I'll definitely give it a try.",
+      }
     ],
   },
+  
   // 10 to 20
-  // 1 to 10
+  
   {
     name: "Dialog 11",
     data: [
       {
-        Therapist:
-          "So, Liz, what's something that you'd like to change or maybe that you're feeling two ways about right now?",
-        Client:
-          "Um, I really want to start working out again. Definitely wanna get back in it, have a routine, and just be healthy.",
+       
+		Therapist: "Hi there, thanks for joining me today.",
+		Client: "No problem",
       },
       {
-        Therapist: "Okay, and-and why would you want to make this change?",
-        Client:
-          "Um, I'm sick of feeling the way I do. I feel kinda sluggish. Especially with the winter coming, I think I want to have more energy.",
+		Therapist: "Last time we talked, we discussed your new goals for getting more physically active.",
+	  },
+	  {
+		Therapist: "Today, I want to talk about the barriers in your life that may make reaching those goals more challenging.",
       },
       {
-        Therapist: "Mm-hmm.",
-        Client: "Um, I don't like the way my clothes fit or don't fit me.",
+		Client: "Okay, that sounds fine.",
+	  },
+	  {
+		Client: "It is definitely hard for me to reach the goals sometimes.",
       },
       {
-        Therapist: "Mm-hmm.",
-        Client: "Just, I don't feel comfortable.",
+		Therapist: "That makes sense.",
+	  },
+	  {
+		Therapist: "Identifying your barriers ahead of time allows you to make a strategy for combating them, which can help with long-term success.",
       },
       {
-        Therapist:
-          "Yeah. So, you're not feeling comfortable with the way that, you said, your clothes fit.",
-        Client: "Mm-hmm.",
+		Client: "Yeah, that makes sense.",
+	  },
+	  {
+		Client: "I think my biggest barrier is that I just don't feel that motivated.",
+	  },
+	  {
+		Client: "Like I have time, but I keep putting it off and saying I'll start tomorrow.",
       },
       {
-        Therapist:
-          "What are some of the reasons why, um, it would be good for you to kinda make this change?",
-        Client:
-          "Um, I know exercise is-- in the past, has always made me feel good. I felt good about myself, and just in general, exercise, I know, makes me feel good. I want to be a good example for my kids. I want them to feel like that's a part of life-",
+		Therapist: "Lack of motivation is a very common barrier.",
+	  },
+	  {
+		Therapist: "Do you have any other barriers?",
+	  },
+	  {
+		Therapist: "People often report barriers such as lack of time, safety concerns, family obligations, and lack of resources.",
       },
       {
-        Therapist: "Mm-hmm.",
-        Client: "#NAME?",
+		Client: "Yeah, I also don't feel very safe in my neighborhood.",
+	  },
+	  {
+		Client: "Especially once it gets dark out, I get scared to walk outside alone, whether I'm going for a walk, or getting to the gym.",
       },
       {
-        Therapist:
-          "So, to heal-- feel healthy for yourself as well be a good role model for your kids?",
-        Client: "Yeah.",
-      },
-      {
-        Therapist:
-          "So, if you did decide to get exercising more into your daily routine, how would you go about doing it?",
-        Client:
-          "Um, I don't know. I'd probably have to sit down maybe with my husband and try to figure out a good time for me to be able to do that, where he'd be home with the kids and I'd be going to do that, whether it's morning-time, evening, maybe the weekends.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "Just to find the time to be able to do it, or what works in our schedule.",
-      },
-      {
-        Therapist:
-          "So, it's that balance of doing something for yourself, but it sounds like you don't want that schedule to affect too much into your family routine.",
-        Client: "Right, yeah.",
-      },
-      {
-        Therapist:
-          "So, on a scale from 1 to 10, 1 being not important and 10 being very important, where would you rate yourself on how important it is to start exercising more?",
-        Client:
-          "Mm, I would like to say a seven or an eight, that that's how important it is to me.",
-      },
-      {
-        Therapist: "Okay, and how come not at like a five or a six?",
-        Client: "Because I'm really sick of being overweight.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "Not ha-- I just don't like being unhealthy. It doesn't make me feel good, so I'm motivated to change, it's just getting there.",
-      },
-      {
-        Therapist:
-          "So, to summarize, it's important for you to do this. You're starting to feel sluggish, you're not feeling healthy, and you know that you've got other people in your family watching you, and you want to be a good role model for them to know that this is gonna be just a part of your life, is your exercise. Yet for you, you're struggling just a little with the logistics of when to schedule time for you so it doesn't interfere too much with your family.",
-        Client: "Exactly, yeah.",
-      },
-      {
-        Therapist: "So, knowing this, what do you think you'll do next?",
-        Client:
-          "Mm, I'll probably, I don't know, find-- Now, while it's still somewhat okay outside, maybe pick days I'm gonna go for walks or runs, um, maybe look for a gym close to the house so that I know I can go there quickly or maybe that has daycare, um, yeah, maybe I'll just start to look for that, and find ways I can do it first.",
-      },
-      {
-        Therapist:
-          "That's great. It sounds like you've got some options and leads on how- on how to get that done.",
-        Client: "Yeah.",
-      },
+		Therapist: "I see. I can understand why that might be difficult.",
+	  },
+	  {
+		Therapist: "Let's talk about how we can overcome these barriers!",
+     }
     ],
   },
+
   {
     name: "Dialog 12",
     data: [
       {
-        Therapist:
-          "Hi, Emily. It's nice to see you again. How have you been since our last session?",
-        Client:
-          "I've been feeling a bit stagnant and I want to incorporate more physical activity into my daily life.",
+        
+		Therapist: "Hello, how are you today?",
+		Client: "I'm doing well.",
       },
       {
-        Therapist:
-          "That's great. What types of activities are you considering to add more movement to your routine?",
-        Client:
-          "I've been thinking about trying yoga and also going for regular walks in the park.",
+		Therapist: "Glad to hear it!",
+	  },
+	  {
+		Therapist: "How have you been doing with your physical activity goals?",
       },
       {
-        Therapist:
-          "Wonderful choices. What are your motivations for adding these activities to your routine?",
-        Client:
-          "I want to improve my flexibility, reduce stress, and enjoy the benefits of being in nature.",
+		Client: "Okay, I think.",
+	  },
+	  {
+		Client: "I don't know, it's been hard to meet some of the goals.",
       },
       {
-        Therapist:
-          "Those are fantastic reasons. On a scale of zero to 10, how ready do you feel to make these changes in your physical activity routine?",
-        Client:
-          "I would say I'm at a 6. I have some reservations, but I'm willing to give it a try.",
+		Therapist: "Why do you think that is?",
+		Client: "Well, it's mostly that I don't live in the safest neighborhood.",
+	  },
+	  {
+		Client: "So I don't always feel safe going out alone, especially at night.",
+	  },
+	  {
+		Client: "And it's hard to always coordinate with my friends.",
       },
       {
-        Therapist:
-          "That's a great mindset. We can work together to address any concerns and find a way to incorporate these activities in a way that feels comfortable for you.",
+		Therapist: "Absolutely, I can see why that might be challenging.",
+	  },
+	  {
+		Therapist: "Sometimes when environmental concerns like neighborhood safety or the weather are a factor, it can be useful to find a reliable way to get physical activity inside.",
       },
+      {
+		Client: "I've thought about that, but gym memberships are so expensive!",
+		Therapist: "Gym memberships are one option, but you could also try something simpler, like going to a mall and walking around there where you have plenty to look at, but can stay inside.",
+	  },
+	  {
+		Therapist: "There will even be plenty of stairs to climb!",
+      },
+      {
+		Client: "Huh, yeah!",
+	  },
+	  {
+		Client: "I didn't think of that.",
+	  },
+	  {
+		Client: "I'll try that.",
+      }
     ],
   },
+
   {
     name: "Dialog 13",
     data: [
       {
-        Therapist:
-          "So you shared that you're, um, here today because you're having some dissatisfaction with your body and your confidence and your mood and your energy. And you're looking for, um, some different patterns to kind of turn things around for yourself. And what I like to do as I get to know Clients is-is let them know a little bit about my philosophies, about health and wellbeing. Um, but first, I'd love to hear what are your philosophies about health and wellbeing?",
-        Client:
-          "Um, I definitely, uh, you know, I-I strive to be physically healthy, but I also have in my life seeing how that impacts me mentally. Um, so I think if I'm- if I'm able to do the things that I wanna do and, um, you know, that I'm feeling good about where I'm at mentally, then that's kind of my end goal, always. Um, yeah, so this body dissatisfaction piece has really just kinda thrown a wrench in that and it's been enough of a challenge that I thought I should seek out someone who can really help me through that piece.",
+        
+		Therapist: "Good morning!",
+	  },
+	  {
+		Therapist: "How are you?",
       },
       {
-        Therapist:
-          "Yeah. Well, I'm so glad that you reached out for help, um, and just know that you're not alone. And-and so, yeah, is that okay if I share a little bit about, um, how I tend to work with Clients on that topic?",
-        Client: "Yes, please.",
+		Client: "I'm fine, thanks.",
       },
       {
-        Therapist:
-          "Yeah. Well, um, first of all, I really am passionate about looking at the whole picture, um, physical health and emotional wellbeing and what I found in working with Clients in the past is when, um, we make a focus of weight loss, sometimes, uh, physical health improves, but at the cost of emotional wellbeing.",
-        Client: " Mm-hmm.",
+		Therapist: "Today we'll talk a bit about the health benefits that come with physical activity.",
       },
       {
-        Therapist:
-          "Um, many people find that when then- when they are restricting their intake or starting some, uh, ac-activity patterns that are really rigorous, that, um, a piece of their mental health suffers because they start to obsess, um, more than they'd like to be about those things. So, my approach with Clients is just a more holistic approach. Looking at certainly some behavior changes that you could make to be more physically active, improve your energy levels.Um, and also look at activities that enhance your mood. We can also take a look at some dietary patterns and see if-if there are ways you could tweak how you're fueling your body throughout the day, but at the same time, sort of letting go of what happens on the scale. Letting go of, um, the final, you know, weight outcome of that, and really focusing instead on healing your relationship with food and also adopting sustainable physical activity patterns. What do you make of all that?",
-        Client:
-          "So, like, for example, having like a-a set out meal plan, um, you know, where I'm eating certain food groups or certain macronutrients, for example, that wouldn't necessarily follow that same approach.",
+		Client: "Okay.",
+	  },
+	  {
+		Client: "The thing is, I've never really needed to work out much, because I'm naturally skinny.",
+	  },
+	  {
+		Client: "I've never needed to worry about losing weight.",
+	  },
+	  {
+		Client: "I can eat whatever I want, too.",
       },
       {
-        Therapist:
-          "Yeah, I-I found in the past when working with Clients that creating a prescriptive meal plan, um, tends to work for a few days, but then Clients usually get really tired of the foods on there. Um, and so instead, I'm really more interested in equipping you to learn how to space your meals and snacks out in a way that makes your body feel energized. Um, and then I can also support you, you know, in looking at the grocery shopping patterns and the meal planning patterns that come alongside all of that. Um, so really teaching you how to do more of your own meal planning, um, to fuel your body in a way that gives you energy, but also in a way where you're really still enjoying food.",
-        Client: "Mm-hmm.",
+		Therapist: "Well you're certainly lucky, but it's important to keep in mind that these health benefits pertain to everyone, regardless of weight or BMI.",
+	  },
+	  {
+		Therapist: "Weight management is just one of many health benefits you can get from being physically active.",
       },
       {
-        Therapist:
-          "Food is meant to be enjoyed, and it's a source of pleasure. So I'd want to help you certainly look for ways to add more fruits and vegetables and-and things that nourish your body, but also look for ways to add pleasure-",
-        Client: "Mm-hmm.",
+		Client: "Oh, okay.",
+	  },
+	  {
+		Client: "I guess I never really thought about that.",
       },
       {
-        Therapist: " #NAME?",
-        Client: "Okay, yeah.",
+		Therapist: "Guidelines suggest that physical activity reduces risk of heart disease, stroke, diabetes, and high blood pressure.",
+	  },
+	  {
+		Therapist: "But it also increases mood, energy, self-confidence, and even cognition.",
       },
       {
-        Therapist: " Think about all of that.",
-        Client:
-          "Well, I think it makes sense, especially like-like you said, to be sustainable. Um, yeah, I definitely wouldn't wanna try something where I'm going to crash and burn for days in.",
-      },
-      {
-        Therapist: "Yeah.",
-        Client:
-          "Um, when you talk about activity and you mentioned like really, um, like rigorous activity types, um, like I go to a gym and I enjoy going to the gym when I was active.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "Um, would that be kind of against that philosophy too or I guess, can you explain that a bit more?",
-      },
-      {
-        Therapist:
-          "Yeah, I'm all about trying to help you figure out what types of physical activity bring you the most joy because those are the things that you'll make time for.",
-        Client: " Mm-hmm.",
-      },
-      {
-        Therapist:
-          "So if-if the gym is what brings you the most joy, then we can work with that, but if you, um, start to think about it and discover there other activities that you're more excited to attend and you're more, um, you're looking at rear-rearranging your schedule too because you really want to be there-",
-        Client: "Mm-hmm.",
-      },
-      {
-        Therapist:
-          "-um, then we can pursue those things. So it's really just about what brings you joy in terms of how you move your body and I'm just here to help you figure that out.",
-        Client:
-          "Cool, so both with the foods and the activity, we would be working to find things that I like to do-",
-      },
-      {
-        Therapist: "Yeah.",
-        Client: "#NAME?",
-      },
-      {
-        Therapist:
-          "Exactly. Yeah. So helping you find changes that feel sustainable because they bring you both nourishment health, but also pleasure.",
-        Client:
-          "Mm-hmm. Yeah, no, I think that-that all sounds good. Um, you know, I still would want to lose weight.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "Um, and I know you said weight loss isn't really the goal, so I-",
-      },
-      {
-        Therapist: "Sure.",
-        Client:
-          "-I just want to be upfront about that part with me and maybe that changes or maybe it doesn't, but what do you think about that.",
-      },
-      {
-        Therapist:
-          "Absolutely, I appreciate you sharing that piece with me and you absolutely get to have that desire. And, um, we certainly are bombarded all day long with messages about how a body is supposed to look and so we all, um, certainly have moments of feeling dissatisfied with how our bodies look. And so you're absolutely, um, welcome to hold that and we can have space for that and you can certainly talk about that in these sessions. And I'll check in with you as we're going through the process of behavior change, um, to see how your body confidence is, um, as we talk more.",
-        Client: "Great. Yeah, now that sounds good.",
-      },
-      {
-        Therapist: "Fantastic. Thanks, Natalie.",
-        Client: "You are very Welcome",
-      },
+		Client: "Woah, I had no idea. Maybe I'll start trying to get moving more often.",
+      }
     ],
   },
-
   {
     name: "Dialog 14",
     data: [
       {
-        Therapist: "Hi, Tim. Well, thanks for meeting with me today.",
-        Client: "Sure.",
+		Therapist: "Hi there, how are you doing today?",
       },
       {
-        Therapist:
-          "So what's something that you'd like to change or, um, work towards?",
-        Client:
-          "Well, [sighs] I've been thinking about incorporating more physical activity into my daily routine. I really want to start leading a more active lifestyle. It's-it's been in my mind, I know I need to do it. It's just finding the motivation to get started.",
+		Client: "I'm doing well.",
       },
       {
-        Therapist:
-          "And you've been talking about that a lot lately. So I really-",
-        Client: "Mm-hmm.",
+		Therapist: "How have you been doing with your physical activity goals?",
       },
       {
-        Therapist:
-          "-feel like this is something that you need to do soon because, um, a lot of times, you're just a lot of talk. And then, there's no action. And if you really wanna see results, I think it's something that needs to be done. And, you know, stop making excuses about it and just do it.",
-        Client:
-          "Well, I don't know if I'm really making excuses. I think it's just that I have a busy schedule.",
+		Client: "Things have been actually going really well.",
+	  },
+	  {
+		Client: "I've even started trying to jog a little bit during my walks!",
       },
       {
-        Therapist: "Yeah.",
-        Client:
-          "I just need to find the time to incorporate exercise into my daily routine. And, yes, I might be lacking a little bit of motivation, but I think it's more about finding the right balance and making it a priority.",
+		Therapist: "That's awesome!",
+	  },
+	  {
+		Therapist: "It's always a good feeling to make progress.",
       },
       {
-        Therapist:
-          "And that sounds like a lot of excuses to me. So I feel like you had mentioned before that you enjoy walking. So I think that's something you can easily integrate into your day. Try going for a brisk walk during your lunch break or in the evenings. It doesn't have to be a huge time commitment, but consistency is key.",
-        Client:
-          "But I think part of the problem is that I-I don't have a specific time slot for it. My schedule tends to vary, and it's hard to plan ahead.",
+		Client: "Definitely.",
       },
       {
-        Therapist:
-          "And it seems like if you really want to see the results, you have to prioritize it. Instead of waiting for the perfect time slot, try to be flexible and seize the opportunities that arise throughout your day. Even short bursts of physical activity can make a difference if done consistently.",
-        Client: "Well, oh, um, okay.",
+		Therapist: "Have you noticed any benefits of being more physically active?",
       },
       {
-        Therapist:
-          "All right. Well, um, I look forward to talking to you tomorrow. And I'm hoping that you'll have some positive updates on your efforts to incorporate more physical activity.",
-        Client: "Okay.",
+		Client: "Yeah, actually, I've noticed that I sleep way better.",
+	  },
+	  {
+		Client: "I used to struggle to fall asleep at night, but not anymore.",
       },
       {
-        Therapist: "Thanks.",
+		Therapist: "That's great to hear, I'm happy to see that you are already enjoying some benefits.",
+	  },
+	  {
+		Therapist: "What benefits are you hoping to enjoy in the long term?",
       },
+      {
+		Client: "Well, I eventually want to lose weight.",
+	  },
+	  {
+		Client: "But I'm also looking to protect my health like my blood pressure and my heart health.",
+	  },
+		Client: "My father died of a heart attack, so I know I have some risk there.",
+      },
+      {
+		Therapist: "Absolutely, even though the effects aren't immediately visible, getting more physically active is an excellent way to protect your health in that regard.",
+	  },
+	  {
+		Therapist: "Keep up the good work!",
+      },
+      {  
+		Client: "Thanks!",
+      }
     ],
   },
-
   {
     name: "Dialog 15",
     data: [
       {
-        Therapist:
-          "So, Robert, any ideas on how to incorporate more physical activity into your routine?",
-        Client:
-          "Well, I've been considering joining a gym on a month-to-month basis so that I have the option regardless of the weather. I've already checked out some gym memberships in the area to see their costs. I also enjoy walking, weightlifting, and yoga. Running was more intense for me, but I'd like to work up to it again.",
+        Therapist: "Hello! Welcome back.",
       },
       {
-        Therapist:
-          "That's great to hear. It seems like you have several activities in mind. I also noticed that climate control is important to you, and you've already started researching gyms.",
-        Client:
-          "Yes, I've been browsing gym options on my phone, looking for ones that offer month-to-month memberships. I prefer not to commit to long-term contracts, especially since I enjoy being outside when the weather is nice.",
+		Client: "Thank you, you too.",
       },
       {
-        Therapist:
-          "I understand your preference for flexibility. It's challenging to determine the actual cost of a gym membership just from their website. Finding a reasonably priced option without a sales pitch can be a logical next step. Have you considered checking out the YMCA? It may be more affordable and less sales-oriented.",
-        Client:
-          "I haven't looked into the YMCA specifically, but I agree that it's worth considering. I'll definitely explore it.",
+		Client: "How are you?",
       },
       {
-        Therapist:
-          "Excellent. In addition to exploring the gym, what other small step can you take in terms of physical activity, regardless of the weather or the gym?",
-        Client:
-          "I think incorporating more walking into my routine would be a good start, even if it's indoors. For example, I can park farther away in parking lots or take an extra lap when shopping. Additionally, I used to enjoy yoga, so I could look into local classes for that as well.",
+		Therapist: "I'm good, keeping very busy with the study.",
+	  },
+	  {
+		Therapist: "Speaking of which, today we are going to discuss your short term physical activity goals.",
+	  },
+	  {
+		Therapist: "These are the goals you will try to reach each week.",
       },
       {
-        Therapist:
-          "That sounds like a great plan. It's important to acknowledge what works for you. So, for now, your goals are to visit the YMCA and go for a walk at least once before our next session. How confident do you feel about achieving these goals on a scale of 0 to 10?",
-        Client:
-          "I'm at a 10. I believe I can achieve these goals and even go for more walks. I've done enough research on gyms, and I'm motivated to get started.",
+		Client: "Okay, and how does that work?",
       },
       {
-        Therapist:
-          "That's fantastic to hear. If the weather doesn't cooperate, you can get creative and find indoor spaces for walking. Is there anything else we should discuss or any barriers you foresee?",
-        Client:
-          "Weather is always a potential barrier for outdoor walks, but I can prioritize indoor walking and find suitable spaces. Hopefully, I'll have at least one nice day to go outside. Overall, I feel positive about today's session and the small steps we've discussed.",
+		Therapist: "Each week, we want you to increase your daily step count goal by 20%.",
+	  },
+	  {
+		Therapist: "So, if your baseline is 5,000 steps per day, your short-term goal for week one is to walk 6,000 steps per day.",
       },
       {
-        Therapist:
-          "I'm glad to hear that. You came in feeling discouraged, but now you have a clear plan to boost your mood and energy levels. I look forward to our next session. Thank you for coming in today.",
-        Client: "Thank you for your help.",
+		Client: "Okay. Why only 20%? If I am feeling really motivated, can I walk much more than that?",
       },
+      {
+		Therapist: "For safety, we want to emphasize gradual increases in physical activity.",
+	  },
+	  {
+		Therapist: "Feeling motivated is great!",
+	  },
+	  {
+		Therapist: "But for now, please focus on reaching each week's goal.",
+      },
+      {
+		Client: "Okay, that makes sense.",
+      },
+      {
+		Therapist: "How confident are you that you can meet these short term goals?",
+      },
+      {
+		Client: "Pretty confident, I feel like since they start out pretty small I should be fine.",
+      },
+      {
+		Therapist: "Great, and we can go over some strategies for staying motivated as well.",
+      }
     ],
   },
   {
     name: "Dialog 16",
     data: [
       {
-        Therapist: "Hello William, how are you today?",
-        Client: "I'm doing well.",
+        Client: "Hi, how are you?",
       },
       {
-        Therapist:
-          "Glad to hear it! How have you been doing with your physical activity goals?",
-        Client: "Okay, I think. It's been hard to meet some of the goals.",
+		Therapist: "I'm good, keeping very busy with the study.",
       },
       {
-        Therapist: "Why do you think that is?",
-        Client:
-          "Well, it's mostly because I don't feel safe going out alone in my neighborhood, especially at night. It's also challenging to coordinate with friends.",
+		Therapist: "So your baseline daily steps were about 6000.",
       },
       {
-        Therapist:
-          "I understand. Safety and coordination can be real barriers. In such cases, finding a reliable way to exercise indoors can be helpful.",
-        Client:
-          "I've thought about that, but gym memberships are so expensive!",
+		Therapist: "How did you do with your short term step goal of increasing your daily steps by 20% each week?",
       },
       {
-        Therapist:
-          "Gym memberships are one option, but you could also try something simpler, like going to a mall and walking around. It provides a safe environment with plenty to look at, and there are stairs to climb too.",
-        Client: "Huh, yeah! I didn't think of that. I'll try that.",
+		Client: "The first few weeks were okay, but it is getting a bit harder.",
       },
+      {
+		Client: "Remind me again my long term step goal.",
+      },
+      {
+		Client: "Is a 10,000 step goal or a 12,000 step goal every day?",
+      },
+      {
+		Therapist: "For your case, we encourage you to maintain a 10,000 steps per day every day, but we recommend a 12,000 step goal for people who want to lose weight.",
+      },
+      {
+		Client: "I think a 10,000-step goal is good for me.",
+      },
+      {
+		Therapist: "Great. You will need an extra 4000 steps per day which is equal to about 40 minutes of daily brisk walking.",
+      },
+      {
+		Therapist: "How do you feel about that?",
+      },
+      {
+		Client: "I am hitting almost 9000 steps per day.",
+      },
+      {
+		Client: "So I need to add another 1,000 steps.",
+      },
+      {
+		Therapist: "That's right.",
+      },
+      {
+		Therapist: "How about adding a 10 to 15 minute stroll during lunch break?",
+      },
+      {
+		Client: "My lunch break is only 30 minutes, but I think I can park my car at the bottom of hill at work.",
+      },
+      {
+		Client: "That's about a 10-minute walk each way.",
+      }
     ],
   },
-
   {
     name: "Dialog 17",
     data: [
       {
-        Client:
-          "I don't know, I'm just having a lot of hard trouble trying to lose the rest of the weight. Um, right now, it's like no matter how much I try to exercise, run, or whatever, it doesn't matter like nothing else is coming off.",
-        Therapist:
-          "Right, so you've hit a plateau in your weight and despite all the things that you're trying to do to increase your activity, it doesn't seem to be working on the scale?",
+        Therapist: "Hello! It's me again."
       },
       {
-        Client:
-          "No, and I don't know what I'm doing wrong because I keep trying the exercise but nothing's happening.",
-        Therapist:
-          "Right. So you feel like you're spinning your wheels, you're doing more exercising and it's not showing results on the scale?",
+		Client: "Hi, how are you?"
       },
       {
-        Client: "Yes.",
-        Therapist: " And you're not feeling so good about that?",
+		Therapist: "I'm good, keeping very busy with the study."
       },
       {
-        Client:
-          "No, and even when I'm coming home, like, I'll go to the gym and then I'm noticing nothing is happening and I'll come home and I try to talk to my mama about it or even my father, and no one even cares about it. Like no one wants to support in it anyway.",
-        Therapist: "Uh, so you feel like you're doing this all alone?",
+		Therapist: "So your baseline daily steps were about 6000."
       },
       {
-        Client: "Yes",
-        Therapist:
-          "At home or you think that they'll be supportive but they're not giving- they're not giving you what you need?",
+		Therapist: "How did you do with your short term step goal of increasing your daily steps by 20% each week?"
       },
       {
-        Client:
-          "No, and specifically my father, he just-- Not only does he not want to support me with it but at the same time, he feels like I need to be gaining my weight back.",
-        Therapist: "Oh, okay.",
+		Client: "The first few weeks were okay, but it is getting a bit harder."
       },
       {
-        Client: "So I—",
-        Therapist: "Tell me about that.",
+		Client: "Remind me again my long term step goal."
       },
       {
-        Client:
-          "It's as though by me losing weight, it's like I'm somehow disconnecting from my family, and he thinks that I'm trying to form myself to fit into like this perfect American picture and I just want to be healthy, I just want to have a good body and he doesn't think of it that way.",
-        Therapist: "I see",
+		Client: "Is a 10,000 step goal or a 12,000 step goal every day?"
       },
+      {
+		Therapist: "For your case, we encourage you to maintain a 10,000 steps per day every day, but we recommend a 12,000 step goal for people who want to lose weight."
+      },
+      {
+		Client: "I think a 10,000-step goal is good for me."
+      },
+      {
+		Therapist: "Great. You will need an extra 4000 steps per day which is equal to about 40 minutes of daily brisk walking."
+      },
+      {
+		Therapist: "How do you feel about that?"
+      },
+      {
+		Client: "I am hitting almost 9000 steps per day."
+      },
+      {
+		Client: "So I need to add another 1,000 steps."
+      },
+      {
+		Therapist: "That's right."
+      },
+      {
+		Therapist: "How about adding a 10 to 15 minute stroll during lunch break?"
+      },
+      {
+		Client: "My lunch break is only 30 minutes, but I think I can park my car at the bottom of hill at work."
+      },
+      {
+		Client: "That's about a 10-minute walk each way."
+      }
     ],
   },
-
   {
     name: "Dialog 18",
     data: [
       {
-        Therapist: "Well, Mr. Adam, that's your medication sorted out.",
-        Client: "Good.",
+        Therapist: "Thank you so much for taking the time to talk today!",
       },
       {
-        Therapist: "Blood pressure's a little on the high side.",
-        Client: "Yeah.",
+		Therapist: "I want to talk to you about setting a new, long-term goal for physical activity.",
       },
       {
-        Therapist:
-          "Okay. I wonder if I could raise the subject of your weight.",
-        Client: "What?",
+		Client: "Sure, that sounds good.",
       },
       {
-        Therapist:
-          "I wondered if we could spend just a couple of minutes talking about your weight.",
-        Client:
-          "ou are joking, aren't you? I mean, look, I've made time in my day to come here.",
+		Therapist: "Your long term goal is to reach 10,000 steps per day.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "I'm kept in your waiting room-",
+		Therapist: "Of course, this won't happen overnight.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "-for 45 minutes.",
+		Therapist: "Since it is a long term goal, the hope is that you will eventually reach it and then most importantly, be able to maintain it.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "It's not acceptable.",
+		Client: "Okay, that makes sense. But 10,000 steps is so much?",
       },
       {
-        Therapist: "Yeah.",
-        Client: "You know?",
+		Therapist: "I can absolutely see why it seems that way.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "If I make an appointment with a Client for 10:00-",
+		Therapist: "How confident are you that you can reach this goal?",
       },
       {
-        Therapist: "Yeah.",
-        Client: "-I expect them to start at 10:00, not 10:45.",
+		Client: "To be honest, not very.",
       },
       {
-        Therapist: "Right, and you-- so you're busy enough, and—",
-        Client: "Yeah, I've got other things to do. I've got accounts to do.",
+		Client: "I don't  know where I could possibly find the time to walk 10,000 steps per day.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "I've got Clients they're coming in.",
+		Client: "Maybe on the weekends, but every day?",
       },
       {
-        Therapist: "Yeah, yeah.",
-        Client: "You know?",
+		Therapist: "Well the first step is to identify your barriers, which you have already identified as being time.",
       },
       {
-        Therapist:
-          "And it wasn't essentially easy for you to make the time to come down, and you had to wait in the waiting room, and now I raised the subject of weight just when you're thinking of going.",
-        Client:
-          "Yeah  I mean, okay, fair enough, um, I've got to have my blood pressure-",
+		Therapist: "Luckily there are strategies you can use to overcome that barrier.",
       },
       {
-        Therapist: "Yea, yeah, yeah.",
-        Client:
-          "-medication changed, but I really haven't got time to talk about my weight. I mean, you know, I'm aware of my weight.",
+		Client: "I just don't  see how I will find the time before or after work to do that.",
       },
       {
-        Therapist: "Right.",
-        Client:
-          "I'm aware of the problems, and I'm also aware of the solutions.",
+		Therapist: "One strategy you could try is identifying small segments of time that you can work into your daily routine, and plan for ahead of time.",
       },
       {
-        Therapist: "Right",
-        Client:
-          "Um, so I don't really need a discussion, it's- it's just I've got too much to do at the moment, you know?",
+		Therapist: "For example, how do you commute to work?",
       },
       {
-        Therapist:
-          "Right. And so it-it-it's been a bit of a rush for you coming in.",
-        Client: "Yeah.",
+		Client: "I take the bus.",
       },
       {
-        Therapist: "And, I- I'm sorry about the wait in the waiting room.",
-        Client: "Well, it's b- it's bad form, you know?",
+		Therapist: "So, could you potentially walk to a further stop before getting on the bus?",
       },
       {
-        Therapist:
-          "Yeah, yeah, that's, um, and that- that's not easy for you, because you- you'd like to go really soon, and here I am asking you to spend just a couple of minutes with me.",
-        Client: "Yeah, but basically I've got things to do.",
+		Therapist: "If this adds 10 minutes of walking each way, that can add up to 2,000 steps already!",
       },
       {
-        Therapist: "Yeah.",
-        Client: "I gotta get back to the office.",
+		Client: "Oh, really?",
       },
       {
-        Therapist: "Yeah.",
-        Client: "I've got a pile of work-",
+		Therapist: "10 minutes of brisk walking is equal to about 1,000 steps.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "-that I've gotta deal with.",
+		Therapist: "20 minutes of brisk walking is equal to about 1 mile.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "And every time- every moment out of my day-",
+		Client: "I guess I could do that.",
       },
       {
-        Therapist: "Yeah.",
-        Client: "-means that I have to work in the evening-",
-      },
-      {
-        Therapist: "Yeah",
-        Client: "#NAME",
-      },
-      {
-        Therapist: "Yeah. It counts",
-        Client:
-          "Well, when you're self-employed, you haven't got a choice, you know?",
-      },
-      {
-        Therapist:
-          "Yeah, exactly. Exactly. It's up to you, just a couple of minutes.",
-        Client:
-          "Well, I'm here now, so yeah, okay, if it's a couple of minutes, yeah?",
-      },
-      {
-        Therapist: "I promise.",
-        Client: "Okay, because I really must get on.",
-      },
-      {
-        Therapist: "I want- I wanted to simply ask you how you feel about it?",
-        Client: "About what-what, losing weight? Well, obviously, I-I want to.",
-      },
-      {
-        Therapist: "Yep.",
-        Client:
-          "Um, yeah, I mean, who doesn't? I mean, I'm aware that I'm over my, uh, uh, b-b-b-balance weight, but I now know that it's causing problems. I mean, obviously, I get out of breath if I have to do something a bit howering, and I realize that I'm on this blood pressure-",
-      },
-      {
-        Therapist: "Right",
-        Client: "-um, and-and maybe that's probably contributing to it.",
-      },
-      {
-        Therapist:
-          "Right. So you can see the links between your weight and your health, and you'd like things to be a bit better.",
-        Client:
-          "Yeah, I mean, there are rather other things, but I mean, yeah, the weight is a- is a- is a- something I would like to get hold off.",
-      },
-      {
-        Therapist: "You'd like to, if you could?",
-        Client:
-          "Yeah, I mean, I know, um, th- the theories of bit of exercise on a regular basis, um, a balanced diet. Um, but unfortunately, because of my lifestyle, because of being self-employed as an accountant, it's finding the time, uh, to exercise, but also, finding the time to sort of think, Okay, I'm gonna go shopping for this, that, and the other",
-      },
-      {
-        Therapist: "Yeah.",
-        Client: "#VALUE!",
-      },
-      {
-        Therapist: "Yeah.",
-        Client: "With me, it's very often—",
-      },
-      {
-        Therapist: "Ready meals, and that sort of thing.",
-        Client: "Yeah, yeah. Food on the run, you know?",
-      },
-      {
-        Therapist: "Okay, yeah.",
-        Client: "Grazing",
-      },
-      {
-        Therapist:
-          "Let me see if I can summarize what you've said, um, and then we'll see what next. Um, you lead a busy life.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist: "Um, you run a business, and you've got a lot to do.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist:
-          "Yeah. Um, you're- you're- you're aware of the- of the links between your health and your weight, and you are concerned, to some extent, about that, and ideally it sounds like you'd like to do something about it, it's just that your life is busy and rushed, and you tend to use convenience foods in order to get the work done.",
-        Client:
-          "Yeah, I mean, I, to a certain extent, because of my lifestyle, food is just fuel.",
-      },
-      {
-        Therapist: "Yeah, yeah.",
-        Client:
-          "You know? Um, because I'm juggling all these balls, and I don't want to drop any.",
-      },
-      {
-        Therapist:
-          "I get it. I get it. And so, if you could fit it in, you would like things to be different, but that's not so easy.",
-        Client: " No.",
-      },
-      {
-        Therapist:
-          "Okay. Can I suggest that you come back and see me in a couple of weeks time just to chat about this?",
-        Client:
-          "Um, okay, I'm up for that, but it's gonna be the same problem of, A, finding time-",
-      },
-      {
-        Therapist: "Right.",
-        Client: "-and B, if I can make an appointment-",
-      },
-      {
-        Therapist: "Right, right.",
-        Client: "-I don't expect to be kept waiting for half an hour-",
-      },
-      {
-        Therapist: "Exactly.",
-        Client: "-or whatever, 'cause it's—",
-      },
-      {
-        Therapist:
-          "Exactly. I'll tell you what might be a nice solution, is if you come down first appointment, and I give you an appointment at 8:30-",
-        Client: "",
-      },
-      {
-        Therapist: "",
-        Client: "That'd be good",
-      },
-      {
-        Therapist:
-          " and then there'll be absolutely no waiting. And, the purpose of that- of that visit will be to have a look at how you really feel about how you could move forward, and somehow fit in a more healthier lifestyle into the busy work life that you've got.",
-        Client: "I'll maybe have a look at my schedule, see whether anything-",
-      },
-      {
-        Therapist: " Yeah.",
-        Client: "-can be arranged, or I can pass something on-",
-      },
-      {
-        Therapist: " Yeah.",
-        Client:
-          "to something on to some-- and-and so it's not a wasted interview. So I can come here and say, okay, I've looked at my schedules, I've looked at things-",
-      },
-      {
-        Therapist: "Good",
-        Client: "#NAME?",
-      },
-      {
-        Therapist:
-          "Good. And see if you can fix it up, and also give some thought to what we've talked about.",
-        Client: "Yeah, of course.",
-      },
-      {
-        Therapist: "Good stuff. Okay.",
-        Client: "Okay, thanks. Sorry, I went off a bit.",
-      },
+		Client: "And then maybe I can walk to and from the store as well.",
+      }
     ],
   },
-
   {
     name: "Dialog 19",
     data: [
       {
-        Therapist: "Oh, hello Scott.",
-        Client: "Hi.",
+       
+		Therapist: "Hello, how are you today?",
       },
       {
-        Therapist:
-          "Um, we were talking a little bit earlier, and you said you wanted to talk about exercising.",
-        Client: "I do.",
+		Client: "I'm doing fine.",
       },
       {
-        Therapist: "What's going on with that?",
-        Client:
-          "Well, I just can't seem to get back in the gym. I don't wanna-- I-I used to work out quite a bit, and in the last, I dunno, couple of years I've just-- I stopped going. I got busy, and now I'm out of the habit, and I-I really, I dunno, I feel like I need to get back.",
+		Therapist: "How has your physical activity been going?",
       },
       {
-        Therapist:
-          "Well, I mean, I think you just need to maybe sit down and write down a list of reasons why you need to get back to the gym, and then on the other side of the list, put down, you know, um, ideas about what's going to help you get there.",
-        Client: "Okay. Um. All right. Um—",
+		Therapist: "Do you have any questions for me?",
       },
       {
-        Therapist: "What gym do you belong to?",
-        Client: "Uh, I belong to the-the Sport Fitness Center.",
+		Client: "Why is a 10,000 step goal recommended?",
       },
       {
-        Therapist: "Okay. And-and how far away is it from your house?",
-        Client: "Just a couple of miles.",
+		Client: "People talk about a 10,000 step goal a lot.",
       },
       {
-        Therapist:
-          "Just a couple of miles. Mm. So you-- you know, you could, like, ride your bike or walk there, and it would be [unintelligible 00:01:12] too.",
-        Client:
-          "If I walked that far, I probably wouldn't even need to go to the gym, right?",
+		Therapist: "U.S adults take about 5,000 to 6,000 steps per day.",
       },
       {
-        Therapist:
-          "Well, I don't know about that. Um. That-- you know, it's really important that you get your, um, not just your cardiovascular-- that's a good idea for the cardiovascular, but also, you know, your, um, weightlifting, the [inaudible 00:01:32] [crosstalk]",
-        Client: "[inaudible 00:01:33] training.",
+		Therapist: "To reach a 10,000 step goal, they have to take about a 40 to 50 minutes brisk walk or other activities.",
       },
       {
-        Therapist: "Yeah, yeah.",
-        Client: " It-it-it would be important.",
+		Client: "Oh, I see. A 10,000 step goal works for most of American adults.",
       },
       {
-        Therapist:
-          "Yeah. So why-why do you want to-- what do you wanna do with that? You want to look different, or--?",
-        Client:
-          "Well, I-I-I-I would feel better. My-- I'd-I'd be able to wear more my clothes. I've been growing around the middle and I'd like to, uh, you know, go back to where I was, you know, get into a 34, 36 waist, you know.",
+		Therapist: "That goal could be less or more, depending on persons and their health conditions.",
       },
       {
-        Therapist: "Okay.",
-        Client:
-          "I-I'm more comfortable-- I feel better. I think that's the main thing.",
-      },
-      {
-        Therapist:
-          "Okay. Yeah, because your-your health really, to me, it's more important than your-your looks. I mean, don't get me wrong, I understand what you're saying, but, you know, it'd be great to get back in those jeans, but—",
-        Client:
-          "Yeah, yeah. It-it-it-- I-I am- I'm not getting any younger than I [unintelligible 00:02:18]",
-      },
-      {
-        Therapist:
-          "Mm-hmm. Well, I think you know what to do. You've done it before.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist: "Yeah. Just a matter-- You just gotta do it.",
-        Client: "I've gotta make time.",
-      },
-      {
-        Therapist: "Yeah.",
-        Client: "I've gotta make time.",
-      },
-      {
-        Therapist:
-          "Yeah. And so that might mean, you know, like giving up an hour's sleep, getting up an hour earlier in the day, and going there and getting it done then. That's what I do.",
-        Client: "Yeah. Okay",
-      },
-      {
-        Therapist: "Yeah.",
-        Client: "All right.",
-      },
-      {
-        Therapist:
-          "So when I see you next time, you know, that's what I'd like you to do is to, uh, experiment with getting up an hour earlier and, um-- You know, 'cause, uh, getting healthier is more important than sleep, you know. I mean, I know sleep is important, but-- And then bring that list back that we talked about.",
-        Client: "Okay.",
-      },
-      {
-        Therapist: "Okay?",
-        Client: "Okay.",
-      },
-      {
-        Therapist: "All right, so I'll see you next week.",
-        Client: " Okay. Very good. Thanks",
-      },
-      {
-        Therapist: "All right. All right. Bye.",
-        Client: "Thanks, Bye",
-      },
+		Therapist: "But a 10,000 step goal usually works.",
+      }
     ],
   },
-
   {
     name: "Dialog 20",
     data: [
       {
-        Therapist: "Hi Anna! How are you doing today?",
-        Client: "I'm fine, thanks.",
+        Therapist: "Hello, how are you doing?",
       },
       {
-        Client: "How are you?",
+		Client: "I'm fine, thanks.",
       },
       {
-        Therapist: "I'm great",
+		Client: "How are you?",
       },
       {
-        Therapist: "Thank you for taking the time to talk to me today!",
+		Therapist: "I'm great.",
       },
       {
-        Client: "No problem, I'm excited to learn something new.",
-        Therapist: "Great! That's what we like to hear.",
+		Therapist: "Thank you for taking the time to talk to me today!",
       },
       {
-        Therapist:
-          "Today we'll talk about the current physical activity guidelines in place for adults.",
+		Client: "No problem, I'm excited to learn something new.",
       },
       {
-        Client: "Okay, sure.",
-        Therapist:
-          "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
+		Therapist: "Great! That's what we like to hear.",
       },
       {
-        Client: "Wow, I think I only get about an hour right now.",
+		Therapist: "Today we'll talk about the current physical activity guidelines in place for adults.",
       },
       {
-        Client: "I try to walk once or twice per week, for about 30 minutes.",
-        Therapist:
-          "Well that's a great start, it sounds like you already found an activity you enjoy.",
+		Client: "Okay, sure.",
       },
       {
-        Therapist: "Maybe you can work on increasing the time spent jogging?",
-        Client: "Yeah, I think I can do that.",
+		Therapist: "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
       },
+      {
+		Client: "Wow, I think I only get about an hour right now.",
+      },
+      {
+		Client: "I try to walk once or twice per week, for about 30 minutes.",
+      },
+      {
+		Therapist: "Well, that's a great start; it sounds like you already found an activity you enjoy.",
+      },
+      {
+		Therapist: "Maybe you can work on increasing the time spent jogging?",
+      },
+      {
+		Client: "Yeah, I think I can do that.",
+      }
     ],
   },
-  // 20 to 40
+  
+  // 20 to 30
+  
   {
     name: "Dialog 21",
     data: [
       {
-        Therapist: "Hi, Scott.",
-        Client: "Hi",
+		Therapist: "Hello, how are you today?",
+		Client: "I'm doing well, thank you.",
       },
       {
-        Therapist:
-          "Hi. You were saying over the phone, uh, you want to talk about exercise?",
-        Client: "Yeah",
+		Therapist: "Glad to hear it! How have you been doing with your physical activity goals?",
+		Client: "Okay, I think. It's been a bit challenging lately.",
       },
       {
-        Therapist: "Okay, alright. Where would you like to start with that?",
-        Client:
-          "Well, I'm, uh, I-I used to work out pretty good. I-I would go to the gym several times a week. I had kind of a schedule, um—",
+		Therapist: "It's common to face challenges along the way. What do you think is holding you back?",
+		Client: "Well, I find it hard to make time for exercise amidst my busy schedule.",
       },
       {
-        Therapist: "That's really a lot. Very good",
-        Client:
-          "Yeah, well, you know, it really-- At-at one time, I was running-- I ran a half marathon. I was really into it, and, uh--",
+		Therapist: "Plus, I don't have any workout equipment at home.",
+		Client: "I understand. Have you considered incorporating short bursts of physical activity throughout your day?",
       },
       {
-        Therapist: "Wow",
-        Client:
-          "Well, and I-- But I was working at a different company, where I had a little bit different schedule, a little more free time than I have now, so I just don't have the time like I used to.",
+		Therapist: "You can try doing quick exercises during breaks or opting for active transportation, like walking or biking, whenever possible.",
+		Client: "That's a good idea! I'll give it a try and see if it helps me stay more active.",
       },
       {
-        Therapist: " Mm-hmm.",
-        Client:
-          "And I-- And really, it's kind of an excuse, I guess, cause I-I could probably make the time, but it's-it's easier to just keep working or-",
+		Therapist: "Hi there, how are you today?",
+		Client: "I'm fine, thanks.",
       },
       {
-        Therapist: "Mm-hmm",
-        Client: "#NAME?",
+		Therapist: "Sure!",
       },
       {
-        Therapist:
-          "But that goal of the half-marathon, you know, it's really important that you were willing to put all the time into getting ready for it, which, from what I've heard from other people, is almost like a job in and of itself.",
-        Client:
-          "I-it was. A-and it was huge for me cause I'd never really been a runner, you know, but it-it was very motivating, and-and—",
+		Therapist: "The goal of our conversation today is to talk about physical activity guidelines, so that you can make some goals for yourself to become more physically active.",
       },
       {
-        Therapist: "What'd you like about it?",
-        Client:
-          "I don't know. I guess there's kind of an adrenaline rush to it. Kinda almost like, you know, uh, kind of a high, I guess.",
+		Client: "Okay, that sounds good.",
       },
       {
-        Therapist: "Uh-huh",
-        Client:
-          "So yeah-- That's-- I-I really enjoyed it. And I-I liked the feeling that I was doing something good for myself. I liked that, too. I-it kind of-- It so-- It gave me a little bit of self-esteem, I guess.",
+		Therapist: "Do you consider yourself to be physically active now?",
+		Client: "Yeah, pretty much.",
       },
       {
-        Therapist:
-          "I-it a-almost, um, feels like you identified as being a runner, like an athlete?",
-        Client: "I-I subscribed to the magazine a while.",
+		Client: "I mean I don't get a ton of real exercise, but I am up and moving all day.",
       },
       {
-        Therapist: "Do you really?",
-        Client: "I did.",
+		Therapist: "It's great to have such an active lifestyle, but it is also important that you get some more moderate to vigorous physical activity, in order to experience certain health benefits.",
       },
       {
-        Therapist: "[unintelligible 00:01:40]",
-        Client: "I let-- I lit it on fire but I-",
+		Client: "Yeah, I guess I figured that, I just don't know where to start.",
       },
       {
-        Therapist: "Okay.",
-        Client: "#NAME?",
+		Therapist: "It's also recommended that all adults participate in muscle strengthening activities at least twice a week.",
       },
       {
-        Therapist: "Got into the culture?",
-        Client:
-          "I got into the whole culture. I was-- I-I felt as good as I've felt in many, many years. And now I've kind of let that all slide, and-- Well, I had a foot injury, too, which kind of started the whole problem.",
-      },
-      {
-        Therapist:
-          "Okay, alright. Cause it's tough, it's really, it is. I mean I've, um, I'm sure you've been told before by whomever, uh, diagnosed your foot injury, but if not, let me know if it gets so tough on your body [unintelligible 00:02:10] let me know. So--",
-        Client:
-          "It-it is. And I-- it-it may be why I can't really run again, but I can certainly, you know, ride a stationary bike-",
-      },
-      {
-        Therapist: "Okay.",
-        Client:
-          "-and do all the other things in a gym that you can do when you're not running, so, it just nakes you to [unintelligible 00:02:23]",
-      },
-      {
-        Therapist:
-          "Oh, and yet and at the same time you know your body well enough, and you-you're willing to pay attention to your doctor's advice about the running, right now, for you, not the best thing. Um, so, riding a stationary bike. Um, what else do you like to do that's cardiovascular?",
-        Client:
-          "Um, well, um, I like-- The bike is pretty good. Uh, even the uh, you know, the kind of a rolling machine is okay. And the uh, the elliptical. Any of that's fine. I-I really don't, uh-- I don't dislike any of it. Kind of once you get into the rhythm, yeah, it's fine",
-      },
-      {
-        Therapist:
-          "If you were to pick one of those, which one do you enjoy the most, um, would be most likely to do?",
-        Client: "Probably the elliptical.",
-      },
-      {
-        Therapist:
-          "The elliptical. Okay. Yeah. [unintelligible 00:03:07] like kind of almost like running.",
-        Client: "Well, it is.",
-      },
-      {
-        Therapist: "[chuckles].",
-        Client: "It is without any of the impact, so it is true.",
-      },
-      {
-        Therapist:
-          "Okay. And-and what do you- do you-- Some folks, you know, [unintelligible 00:03:18] put on music, kind of- kind of.",
-        Client: "Yeah, I do headphones.",
-      },
-      {
-        Therapist: "Yeah.",
-        Client:
-          "I got my headphones, and I got my, uh, kind of [unintelligible 00:03:24], if you know what I mean",
-      },
-      {
-        Therapist:
-          "Okay. Get your rocking out, running on the elliptical playlist.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist:
-          "And, um, so you were-- You said that you've been going several times a week, which is really an extraordinary number, I-I think it's four, five times a week?",
-        Client:
-          "eah. I was going literally every other day, you know. And then, some days I would, you know, I'd run, and I'd go to the gym the next day, so I would-- I was very-- I don't really feel it necessary to get back to that level, but I need to do something cause I'm doing nothing right now.",
-      },
-      {
-        Therapist: "Nothing. Okay.",
-        Client:
-          "I should-- Or next to nothing. I walk to the grocery store or whatever's handy when I have time, but yeah.",
-      },
-      {
-        Therapist:
-          "So what ideas do you have about initially just getting started, and what-what would you do [unintelligible 00:04:13] ?",
-        Client:
-          "Well, if I could just get myself over there once, 'cause usually that's the hardest thing. It's just going there. So I think that's-- You know, I've thought about it a little bit, I think I just need to make that first trip over there and just kind of to take it easy that first time. Just show up 'cause I think that's really what I need to do. I justt need to go over there.",
-      },
-      {
-        Therapist: "What would help you do that?",
-        Client:
-          "Um, knowing that my schedule isn't gonna be too crazy that day where I could spare an hour or so, and-and just go do it.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "And then I-- [unintelligible 00:04:41] kinda nice [unintelligible 00:4:42] gonna be troublesome.",
-      },
-      {
-        Therapist: " [unintelligible 00:04:45]?",
-        Client:
-          "Um, I don't know. I think- I think the time has just been the biggest thing, you know, and-and I-I guess the motivation really hasn't been there. I mean, you know, it's not like- I don't really have a goal. I don't really have a, you know I don't, other than maybe reducing my waistline, you know, I don't really have a-a set number like I'm gonna run a marathon and you know.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "You know, so I think the just running off the playlist. I-I guess maybe if I made a goal would helped too.",
-      },
-      {
-        Therapist:
-          "Mm-hmm- mm-hmm. So that-that-that half marathon was, uh, a very specific concrete thing and you could envision yourself, and you're ready for it and the day of and all that kinda stuff.",
-        Client: "Yeah.",
-      },
-      {
-        Therapist: "Um.",
-        Client:
-          "Plus there's people who have done that countless times and you can go read what their-",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "-regimen was so you get feedback too. And then [unintelligible 00:05:37] did this from this day and so on.",
-      },
-      {
-        Therapist:
-          "So sometimes-- almost sounds like, um, your feedback would be, uh, useful to you. Like some immediate feedback in terms of like, um, like [inaudible 00:05:53]",
-        Client: "Yeah. Maybe.",
-      },
-      {
-        Therapist: "[inaudible 00:05:55]",
-        Client: "That might not be be a bad idea. [inaudible 00:05:59]",
-      },
-      {
-        Therapist: " [inaudible 00:06:01] #NAME?",
-        Client:
-          " I think that'd be great. I-I never have really found anybody that like to exercise with the pace that I wanted to. They were all either going way too fast or not even moving at all.",
-      },
-      {
-        Therapist: "Okay.",
-        Client:
-          "So it's kinda hard to meet up with somebody that can kind of maybe kind of give you a push [unintelligible 00:06:38]-",
-      },
-      {
-        Therapist: "Okay.",
-        Client: "#NAME?",
-      },
-      {
-        Therapist:
-          "There might be something [unintelligible 00:06:43] because you're such a social guy. And so to be able to be exercising and be talking and enjoying yourself- you like the music too, right?",
-        Client: "Yeah, that's right, well I-",
-      },
-      {
-        Therapist:
-          "And if you arrange to meet somebody there, you're very good at, uh, you know, uh, keeping the agreement.",
-        Client:
-          "Okay, that's a great idea I hadn't thought of that-that's- I hadn't really, uh, I-I kinda dismissed that early on, I hadn't really even considered that, yeah.",
-      },
-      {
-        Therapist:
-          "And in for right now it just be, you'll be happy with getting there one time.",
-        Client:
-          "If I could get there-- I know if I could get there-- if I could pick, you know, uh, these are the days I'm going to go to the gym and I know these things last time.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "So if I- if I could-- I mean, I wanna get there three times a week.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "I wanna get there on Saturdays or Sundays and Tuesdays and Fridays, or something like that, then I could probably [unintelligible 00:07:34]",
-      },
-      {
-        Therapist:
-          "And days that you know of on your less rigorous schedule that you're more likely to succeed [unintelligible 00:07:40] I really like how you're picking like three days a week instead of some days a week",
-        Client: "Right, yeah. Well, it's just not-",
-      },
-      {
-        Therapist:
-          "Very clear you understand the whole idea of giving yourself a day off in between.",
-        Client:
-          "Oh yeah, yeah, it doesn't do any good to just try to injure your- injure yourself especially when you're a bit normal like me.",
-      },
-      {
-        Therapist:
-          "Okay, yeah, I know that, yeah, yeah. Okay, so. So, um, so are you sure you wanna try to start out with the- that initial [unintelligible 00:08:07]",
-        Client: "You gotta get over there",
-      },
-      {
-        Therapist:
-          "When you find someone to go with, great, if not, you get your own [unintelligible 00:08:12] your own music and uh, I'll be- I'll be trying just to-to see um, what is like for you, having actually done that [unintelligible 00:08:20]",
-        Client: "Very good.",
-      },
-      {
-        Therapist: "Yeah, okay.",
-        Client: "Thank you.",
-      },
-      {
-        Therapist: "Thanks.",
-        Client: "All right, bye-bye.",
-      },
+		Therapist: "So there are plenty of options for physical activity!",
+      }
     ],
   },
   {
     name: "Dialog 22",
     data: [
       {
-        Therapist: "Good afternoon Andrew! How have you been?",
-        Client: "Hi. I've been feeling quite restless lately.",
+        Therapist: "Hello, thanks for taking the time to talk to me today.",
       },
       {
-        Therapist:
-          "I understand. Prolonged sitting can have negative effects on our health.",
+		Therapist: "How has your day been so far?",
       },
       {
-        Therapist:
-          "Incorporating regular physical activity into your routine can counteract those effects.",
+		Client: "It's been good, thanks.",
       },
       {
-        Client: "That sounds promising. But I'm not a fan of intense workouts.",
+		Client: "I went for a walk this morning with my wife.",
       },
       {
-        Client: "Is there something less strenuous that I can do?",
+		Therapist: "That's great, I'm glad to hear you are getting some physical activity in.",
       },
       {
-        Therapist:
-          "Absolutely. You can try low-impact exercises like yoga, tai chi, or gentle stretching routines.",
+		Therapist: "Yeah, we try to make sure we go every weekend, just to get out and get some fresh air.",
       },
       {
-        Therapist:
-          "These activities improve flexibility, posture, and help relieve muscle tension.",
+		Therapist: "Is that the only physical activity you tend to get during the week?",
       },
       {
-        Client:
-          "That sounds more manageable. I'll look into incorporating these exercises into my daily routine.",
+		Client: "Yeah, pretty much.",
       },
+      {
+		Client: "I mean I'm active with work and stuff, but we really only have time to get out and exercise on the weekends.",
+      },
+      {
+		Therapist: "Finding time to exercise can definitely be difficult.",
+      },
+      {
+		Therapist: "That being said, it is recommended that adults get a minimum of 2.5 to 5 hours of moderate aerobic exercise every week, in order to prevent chronic illnesses.",
+      },
+      {
+		Client: "Yikes, yeah, I knew I wasn't getting enough.",
+      },
+      {
+		Client: "But I guess I didn't realize that I was supposed to be getting that much.",
+      },
+      {
+		Client: "Maybe I can try and go a couple of times during the week as well.",
+      },
+      {
+		Therapist: "That's a good idea.",
+      },
+      {
+		Therapist: "Try fitting in small amounts where you can and seeing how they add up!",
+      }
     ],
   },
   {
     name: "Dialog 23",
     data: [
       {
-        Therapist:
-          "Hi, Mrs. Smith. It's really nice to see you again. I see you're back to follow up on the stroke you had. How are things going for you at the rehab facility?",
-        Client: "[signs] Kind of slow.",
+        Therapist: "Hello, how are you doing?",
       },
       {
-        Therapist: "Kind of slow?",
-        Client: "Yeah.",
+		Client: "I am well, thanks.",
       },
       {
-        Therapist: "What kind of things have you been in your rehab?",
-        Client:
-          "Oh, they have me doing all kinds of things in different machines and stuff. Yeah, it hurts",
+		Client: "It's really nice out today so I went for a walk this morning.",
       },
       {
-        Therapist:
-          "It hurts? Oh, I'm sorry to hear that. Where are you having pain?",
-        Client:
-          "Well, just about every joint like especially my knees. They're really-- They have me doing some leg things that-that-that is it really necessary?",
+		Therapist: "That's great!",
       },
       {
-        Therapist:
-          "Well, you know, I-I understand that pain is hard to work through but a lot of time when you're having rehab after a stroke, that pain is telling you that your muscles and joints are starting to work again. So you can kind of think of it as a positive way to, you know, know that your-your body's getting back to normal.",
-        Client: "Okay.",
+		Therapist: "How have you been doing with your physical activity?",
       },
       {
-        Therapist: "But what are your goals for the long term?",
-        Client: "I wanna go home.",
+		Client: "I'm doing okay, definitely walking more than I used to.",
       },
       {
-        Therapist:
-          "Oh, of course, of course. And what are the things that you'd like to be able to do once you get home?",
-        Client:
-          "Everything. I wanna- I wanna, play with my dog. I miss my dog. I wanna cook for myself. I'm a very independent person and I wanna do things for myself.",
+		Client: "But it's hard.",
       },
       {
-        Therapist:
-          "Yeah, yeah. And so that's a very important goal to be able to get back home, to be able to get back to your independence. Have you thought about what it might take to get there?",
-        Client: "Um, I guess the rehab.",
+		Client: "They say you're supposed to walk so much, but I get so tired easily!",
       },
       {
-        Therapist:
-          "Mm-hmm. Yeah, you're absolutely right. And it's also going to be very important that once you're home, you're able to continue on a regular activity program. Have you thought about what that might look like?",
-        Client: "Not really",
+		Therapist: "It is important to remember that as you get older, the recommended amount of physical activity is relative to your condition and how you are feeling.",
       },
       {
-        Therapist:
-          "Not really, okay. Well, have you ever heard of something called Tai Chi? Is that a familiar term to you?",
-        Client: "Oh, yeah.",
+		Client: "Oh, really?",
       },
       {
-        Therapist: "You've heard of it?",
-        Client: "Uh, I have.",
+		Client: "Okay, that makes sense.",
       },
       {
-        Therapist: "Okay.",
-        Client:
-          "I have a friend who, uh, does it and she just raves about it. She loves it.",
+		Therapist: "Yes, definitely. Once you get really tired, it is probably time to rest.",
       },
       {
-        Therapist:
-          "Well, you know, Tai Chi is one of the best ways to get your balance back after you've had something like a stroke. And it's also really good for preventing falls. And if you wanna be home and you wanna be doing the things you wanna do and going for walks with your dog, it's very important to make sure that you don't fall 'cause that would cause more problems down the road.",
-        Client: "Absolutely. I do not want to fall, for sure.",
+		Therapist: "It's great to hear that you are walking more and pushing yourself, but you want to listen to your body.",
       },
       {
-        Therapist:
-          "So what do you think about Tai Chi? Is that something you think you might be able to try sometime?",
-        Client:
-          "Well, I-I hadn't really thought about it, but yeah I guess, I guess.",
-      },
-      {
-        Therapist: "Mm-hmm.",
-        Client:
-          "Like I said, my friend talks about it and-and it's very pretty. I've seen pictures, you know.",
-      },
-      {
-        Therapist:
-          "Yeah, yeah, yeah. Well, it's not that easy to get started. You do certainly have to have some motivation to want to do it. Um, and when you first start, oftentimes you do feel a little wobbly or a little insecure.",
-        Client:
-          "Well, I don't see how I could do it. I-I'm still in a walker, you know.",
-      },
-      {
-        Therapist:
-          "Yeah, yeah, I understand. So there are lots of places around that have it. Your local senior center would have it. And what I recommend is that you start by doing it in a chair. Just sitting in the chair.",
-        Client: "I could?",
-      },
-      {
-        Therapist:
-          "You could. You can talk to the instructor and that way you won't fall, you'll feel confident and you'll start to learn some of the moves. And then gradually over time, as you get a little bit better at doing the moves in a chair, you can start to stand up, use the chair to lean on, and then eventually, you'll be able to get to the point where you can do it on your own.",
-        Client: "And you really recommend this?",
-      },
-      {
-        Therapist:
-          "You know, it cuts your risk of falls in half. It also helps to reduce pain although that's not a short-term benefit, you do have to stick with it for at least three to six months to start have it help reduce your pain. But it does have a number of things that I think would get you to your goals of being home and able to play with your dog and doing your own cooking and things like that.",
-        Client: "You do Tai Chi",
-      },
-      {
-        Therapist:
-          "I do Tai Chi. I do it three days a week and it's really helped my balance as well",
-        Client:
-          "Oh, okay. Well, yeah. Um, listen, anything that's going to get me home and if you do it and you recommend it, I'll try it.",
-      },
-      {
-        Therapist:
-          "All right. Well, I'm delighted. It's a pleasure to see you again. I hope your rehab continues to go well and we can talk some more about this at our next visit.",
-        Client: "Okay, okay.",
-      },
-      {
-        Therapist: " All right. Thank you for coming in.",
-        Client: " You are very Welcome",
-      },
+		Client: "Okay, that sounds good.",
+      }
     ],
   },
-
   {
     name: "Dialog 24",
     data: [
       {
-        Therapist: "Good day Adam! How are you feeling today?",
-        Client: "I'm fine, thanks.",
+        Therapist: "Hello, how are you today?",
       },
       {
-        Therapist: "Sure!",
+		Client: "I'm okay, can't complain.",
       },
       {
-        Therapist:
-          "The goal of our conversation today is to talk about physical activity guidelines, so that you can make some goals for yourself to become more physically active.",
+		Client: "I'm taking care of my grandkids tonight, so I'm excited for that.",
       },
       {
-        Client: "Okay, that sounds good.",
-        Therapist: "Do you consider yourself to be physically active now?",
+		Therapist: "That's great!",
       },
       {
-        Client: "Yeah, pretty much.",
+		Therapist: "Enjoy your time with them.",
       },
       {
-        Client:
-          "I mean I don't get a ton of real exercise, but I am up and moving all day.",
+		Therapist: "I'm sure they keep you busy.",
       },
       {
-        Therapist:
-          "It's great to have such an active lifestyle, but it is also important that you get some more moderate to vigorous physical activity, in order to experience certain health benefits.",
-        Client:
-          "Yeah, I guess I figured that, I just don't know where to start.",
+		Client: "Oh yes, it's great, chasing after them keeps me young!",
       },
       {
-        Therapist:
-          "It's also recommended that all adults participate in muscle strengthening activities at least twice a week.",
+		Therapist: "Sounds like it, staying active is definitely important.",
       },
       {
-        Therapist: "So there are plenty of options for physical activity!.",
+		Therapist: "Do you get any other routine physical activity?",
       },
+      {
+		Client: "Not really, after a day of hanging out with them I'm exhausted.",
+      },
+      {
+		Client: "It's more than enough for me.",
+      },
+      {
+		Therapist: "What about on the days you don't see your grandkids?",
+      },
+      {
+		Client: "I tend to just stay home on those days and relax.",
+      },
+      {
+		Therapist: "While it's definitely important to get your rest and relaxation in, it is also important for your health that you try and get some regular aerobic exercise.",
+      },
+      {
+		Client: "At my age?",
+      },
+      {
+		Client: "What's the point!",
+      },
+      {
+		Therapist: "Physical activity has a wide range of health benefits for older adults, regardless of age.",
+      },
+      {
+		Therapist: "In fact, it is recommended that even older adults get at least two and a half hours of aerobic exercise per week.",
+      },
+      {
+		Client: "Huh, I guess I can do that.",
+      },
+      {
+		Client: "I can ask my neighbors if they want to go for walks with me.",
+      },
+      {
+		Therapist: "Perfect!",
+      }
     ],
   },
-
   {
     name: "Dialog 25",
     data: [
       {
-        Therapist: "Hi Jack! How have you been?",
-        Client: "I'm doing alright, thanks for asking.",
+        Therapist: "Hi there, how are you doing?",
       },
       {
-        Therapist:
-          "Finding activities you enjoy is crucial for long-term adherence to a physical activity routine.",
+		Client: "Oh, I'm well, just another day in paradise.",
       },
       {
-        Therapist:
-          "Have you explored different options? Maybe there's something you haven't tried yet.",
+		Therapist: "Glad to hear it.",
       },
       {
-        Therapist:
-          "I've mostly focused on traditional workouts, like running and lifting weights.",
-        Client: "But I find them repetitive and not very enjoyable.",
+		Therapist: "Have you been getting any physical activity in?",
       },
       {
-        Therapist:
-          "It's important to experiment with different activities until you find what resonates with you.",
+		Client: "Oh, yes.",
       },
       {
-        Therapist:
-          "Have you considered trying dance classes, martial arts, or even outdoor activities like hiking or swimming?",
+		Client: "I've been going for walks almost every day, and doing water aerobics once per week at my gym.",
       },
       {
-        Client:
-          "Those sound more appealing. I'll give them a try and see if I find something that sparks my interest.",
+		Therapist: "That's awesome!",
       },
+      {
+		Therapist: "I'm happy to hear you've found a routine that works for you.",
+      },
+      {
+		Client: "It's a really fun class!",
+      },
+      {
+		Client: "I enjoy it.",
+      },
+      {
+		Therapist: "Wonderful.",
+      },
+      {
+		Therapist: "One thing to keep in mind is that in addition to aerobic exercise, it's important that older adults do some balance and muscle training as well.",
+      },
+      {
+		Client: "Balance training?",
+      },
+      {
+		Client: "What does that mean?",
+      },
+      {
+		Therapist: "To help with mobility as you age, and reduce fall risk or other injuries, it is recommended that older adults do some sort of balance and strength exercise such as yoga, tai chi, or body-weight exercises.",
+      },
+      {
+		Client: "My gym also offers yoga classes, maybe I can do that once a week in addition to the water aerobics?",
+      },
+      {
+		Therapist: "That sounds like a great idea.",
+      }
     ],
   },
   {
     name: "Dialog 26",
     data: [
       {
-        Therapist: "you Rachel it hurt coming today what brings you in",
-        Client:
-          "well so I've been working with the weight management clinic and I just when I found out that this was an opportunity I thought why not use this as another resource to help me lose weight",
+		Therapist: "Hello, how are you doing?",
       },
       {
-        Therapist: "and why why do you want to lose weight",
-        Client:
-          "well so really recently actually my older sister has had a lot of health concerns relate to her weight and it just sort of jostled me a little bit because we're so similar",
+		Client: "I'm fine, thanks. How are you?",
       },
       {
-        Therapist: "really related to your sister",
-        Client:
-          "yeah so I've been this weight for a while but like now I feel like this is really the time for me to start making some changes",
+		Therapist: "I'm great. Thank you for taking the time to talk to me today!",
       },
       {
-        Therapist: "what kind of problems sister experience?",
-        Client:
-          "well so she has some high cholesterol and high blood pressure and I guess those are things that were running my family but I'm really worried because my grandmother has suffered from a stroke and I definitely don't want to do that.",
+		Client: "No problem, I'm excited to learn something new.",
       },
       {
-        Therapist: "there's big change gears to get healthy.",
-        Client:
-          "yeah I mean another birthday rolled around and I just realized that I'm not getting any younger thank you thank you but yeah so there's some pressure there too.",
+		Therapist: "Great! That's what we like to hear.",
       },
       {
-        Therapist:
-          "so there's been some big things going on your life that's really prompted your push for weight loss so I just want to check it really quick and so on a scale of one to ten with one being really super important and have to do it starting today where are you in turn taken away.",
-        Client: "oh I would definitely say a ten.",
+		Therapist: "Today we'll talk about the current physical activity guidelines in place for adults.",
       },
       {
-        Therapist: "okay",
-        Client: "we want right now for me is really really important",
+		Client: "Okay, sure.",
       },
       {
-        Therapist: "and what puts you out of 10",
-        Client:
-          "just kind of all these reminders in the last year and then I'm getting a little bit older all of those things together make it a 10",
+		Therapist: "The guidelines recommend that adults get a minimum of 150 to 300 minutes of moderate-intensity aerobic physical activity per week or 75 minutes to 150 minutes a week of vigorous-intensity aerobic physical activity.",
       },
       {
-        Therapist:
-          "okay bad idea on in that same scale with one being not confident at all to 10 being super super confident where would you say your are in terms of your confidence to actually lose the way",
-        Client:
-          "Oh honestly I would probably say that I'm like a five or six with confidence.",
+		Client: "Wow, I think I only get about an hour right now.",
       },
       {
-        Therapist: "and what what promise you to pick a five or six",
-        Client:
-          "I just like been tried to lose weight before and those things certainly have failed as I still I'm the same way.",
+		Client: "I try to walk once or twice per week, for about 30 minutes.",
       },
       {
-        Therapist: "okay",
-        Client: "that's what really only leaves me at five or six",
+		Therapist: "Well, that's a great start, it sounds like you already found an activity you enjoy.",
       },
       {
-        Therapist:
-          "okay so what can we do to get you at say like a nine or ten level of confidence",
-        Client:
-          "I think I would be more confident if I understood like how do you use some of the gym equipment a little bit more so it's not something that I feel really comfortable doing I just don't I know feel very confident when I'm in there except to use the bike and there are elliptical so some of that could be I would really like to do some strength training but I just don't know how",
+		Therapist: "Maybe you can work on increasing the time spent jogging?",
       },
       {
-        Therapist: "okay that sounds really interesting",
-        Client: "Yeah",
-      },
+		Client: "Yeah, I think I can do that.",
+      }
     ],
   },
   {
     name: "Dialog 27",
     data: [
       {
-        Therapist: "Hi Robert! How are you today?",
-        Client: "Oh I'm well, just another day in paradise.",
+        Therapist: "Hi there, how are you today?",
       },
       {
-        Therapist: "Glad to hear it.",
+		Client: "I'm fine, thanks.",
       },
       {
-        Therapist: "Have you been getting any physical activity in?",
+		Therapist: "Sure! The goal of our conversation today is to talk about physical activity guidelines, so that you can make some goals for yourself to become more physically active.",
       },
       {
-        Client: "Oh, yes.",
+      Client: "Okay, that sounds good.",
       },
       {
-        Client:
-          "I've been going for walks almost every day, and doing water aerobics once per week at my gym.",
+		Therapist: "Do you consider yourself to be physically active now?",
       },
       {
-        Therapist: "That's awesome!",
+		Client: "Yeah, pretty much.",
       },
       {
-        Therapist:
-          "I'm happy to hear you've found a routine that works for you.",
+		Client: "I mean I don't get a ton of real exercise, but I am up and moving all day.",
       },
       {
-        Client: "It's a really fun class!",
+		Therapist: "It's great to have such an active lifestyle, but it is also important that you get some more moderate to vigorous physical activity, in order to experience certain health benefits.",
       },
       {
-        Client: "I enjoy it.",
+		Client: "Yeah, I guess I figured that, I just don't know where to start.",
       },
       {
-        Therapist: "Wonderful.",
+		Therapist: "It's also recommended that all adults participate in muscle strengthening activities at least twice a week.",
       },
       {
-        Therapist:
-          "One thing to keep in mind is that in addition to aerobic exercise, it's important that older adults do some balance and muscle training as well.",
-      },
-      {
-        Client: "Balance training?",
-      },
-      {
-        Client: "What does that mean?",
-      },
-      {
-        Therapist:
-          "To help with mobility as you age, and reduce fall risk or other injuries, it is recommended that older adults do some sort of balance and strength exercise such as yoga, tai chi, or body-weight exercises.",
-        Client:
-          "My gym also offers yoga classes, maybe I can do that once a week in addition to the water aerobics?",
-      },
-      {
-        Therapist: "That sounds like a great idea.",
-      },
+		Therapist: "So there are plenty of options for physical activity!",
+      }
     ],
   },
   {
     name: "Dialog 28",
     data: [
       {
-        Therapist:
-          "I wonder if I could raise the subject of your weight what I wondered if we could spend just a couple of minutes talking about your weight you are joking Arnie",
-        Client: "I mean look I've made time in my day to come here.",
+        Therapist: "Hello, thanks for taking the time to talk to me today.",
       },
       {
-        Therapist: "yeah I'm kept in your waiting room for  minutes",
-        Client:
-          "yeah it's not acceptable you know that I'm making a point where I'm  I expect them to sit down at  not quarter to ",
+		Therapist: "How has your day been so far?",
       },
       {
-        Therapist: "right and you so you're busy enough ",
-        Client: "yeah I've got other things to do I got pants to do",
+		Client: "It's been good, thanks. I went for a walk this morning with my wife.",
       },
       {
-        Therapist: "I've got Clients to coming in ",
-        Client:
-          "yeah you know and it wasn't necessarily easy for you to make the time to come down and you had to wait in the waiting room and now I raise the subject of wait ",
+		Therapist: "That's great, I'm glad to hear you are getting some physical activity in.",
       },
       {
-        Therapist: "yeah I mean okay fair enough ",
-        Client:
-          "I've got to have my blood pressure the Oh medication change but I really haven't got time to talk about my weight I mean you know I'm aware of my weight I'm aware of the problems and I'm also aware of the solutions so I don't really need a discussion it's it's just I've got too much to do at the moment you know ",
+		Client: "Yeah, we try to make sure we go every weekend, just to get out and get some fresh air.",
       },
       {
-        Therapist:
-          "right and so it's it's it's been a bit of a rush for you coming in ",
-        Client: "yeah",
+		Therapist: "Is that the only physical activity you tend to get during the week?",
       },
       {
-        Therapist:
-          "and I'm sorry about the wait in the waiting well it's been it's bad form you know yeah yeah that's and that that's not easy for you because you you'd like to go really soon and Here I am asking you to spend just a couple of minutes with me ",
-        Client:
-          "yeah but basically I've got things to do I'll go back to the office I've got a pile of work that I've got to deal with yeah and every time every moment out of my day yeah means I have to work in the evening against ",
+		Client: "Yeah, pretty much.",
       },
       {
-        Therapist: "it counts when you're self-employed you ain't got a choice",
-        Client: "exactly exactly",
+		Client: "I mean I'm active with work and stuff, but we really only have time to get out and exercise on the weekends.",
       },
       {
-        Therapist: "it's up to you just a couple of minutes",
-        Client: "well I'm here now so yeah okay if it's a couple of minutes",
+		Therapist: "Finding time to exercise can definitely be difficult.",
       },
       {
-        Therapist:
-          "yeah I promise okay because I really must get on I want I want to simply ask you how you feel about it about what what losing weight",
-        Client:
-          "well obviously I want to UM yeah I mean who doesn't I mean I'm aware that I'm over my balance weight but I know that it's causing problems I mean obviously I get out of breath if I have to do something about Harry and I realize that I'm on this blood pressure right and maybe that's probably contributing to it",
+		Therapist: "That being said, it is recommended that adults get a minimum of 2.5 to 5 hours of moderate aerobic exercise every week, in order to prevent chronic illnesses.",
       },
       {
-        Therapist:
-          "right you can see the links between your weight and your health and you'd like things to be ",
-        Client:
-          "yeah I mean there are other things but I mean yeah the weight is a something I would like to get hold of",
+		Client: "Yikes, yeah, I knew I wasn't getting enough.",
       },
       {
-        Therapist: "you get on going to handle you'd like to if you could ",
-        Client:
-          "yeah I mean I know that the theories of a bit of exercise on a regular basis a balanced diet but unfortunately because of my lifestyle because of being self-employed as an accountant it's finding the time to exercise but also finding the time to sort of think okay I'm going to go shopping for this that in the other yeah prepare a meal yeah with me it's very often ready meals and that sort of thing yeah yeah food on the run you know grazing let me see if I can",
+		Client: "But I guess I didn't realize that I was supposed to be getting that much.",
       },
       {
-        Therapist:
-          "summarize what you've said and then we'll see what next and you lead a busy life yeah you run a business and you've got a lot to do yeah and you you're aware of that of the links between your health and your weight and you are concerned to some extent about that and ideally it sounds like you'd like to do something about it it's just that your life is busy and rushed and you tend to use convenience foods in order to get the work done",
-        Client:
-          "yeah I mean I to a certain extent because of my lifestyle food is just fuel yeah yeah you know because I'm juggling all these balls and I don't want to drop any I get it I get it",
+		Client: "Maybe I can try and go a couple of times during the week as well.",
       },
       {
-        Therapist:
-          "and so if you could fit it in you would like things to be different but that's not so easy no okay can I suggest that you come back and see me in a couple of weeks time just to chat about this okay I'm up for that but it's going to be the same problem of a finding time and B if I make an appointment",
-        Client:
-          "I don't expect to be kept waiting for half an hour there whatever because it's exactly ",
+		Therapist: "That's a good idea.",
       },
       {
-        Therapist:
-          "I tell you what might be a nice solution is if you come down first appointment and I give you an appointment at  and anger then they'll be absolutely no waiting and the purpose of that of that visit will be to have a look at how you really feel about how you could move forward and somehow fit in a more healthier lifestyle into the busy work life that you've got I'll maybe have a look at my schedules see whether anything can be arranged or I can pass something on to some and and so right so it's not a wasted interview so I come here so I've looked at my schedules I've looked at things good whatever good and see if you can fix it up and also give some thought to what we've talked about yeah of course good stuff ",
-        Client: "okay okay thanks sorry I went up a bit.",
-      },
+		Therapist: "Try fitting in small amounts where you can and seeing how they add up!",
+      }
     ],
   },
   {
     name: "Dialog 29",
     data: [
       {
-        Therapist: "Hello Elizabeth! Welcome back.",
-        Client: "Thank you, it's good to be here. How are you?",
+        Therapist: "Hi there, how are you today?",
       },
       {
-        Therapist:
-          "I'm doing well, thank you. I'm glad to hear that you're keeping busy with your studies.",
-        Client: "Yes, staying engaged in my studies has been quite fulfilling.",
+		Client: "I'm fine, what are we going to talk about today?",
       },
       {
-        Therapist:
-          "Speaking of which, today we're going to discuss your short-term physical activity goals.",
-        Client: "Sure, I'm ready to talk about that.",
+		Therapist: "Today we're going to talk about physical activity, and more specifically, the guidelines for how much activity you should be aiming to get.",
       },
       {
-        Therapist: "These are the goals you'll aim to achieve each week.",
-        Client: "Got it. I'm ready to learn about setting these goals.",
+		Client: "Sure.",
       },
       {
-        Therapist:
-          "Each week, we want you to increase your daily step count goal by 20%.",
-        Client: "Alright, so it's about gradual increments.",
+		Client: "Well, I'm pretty active, I walk pretty much every day after work.",
       },
       {
-        Therapist:
-          "So, if your baseline is 5,000 steps per day, your short-term goal for week one is to walk 6,000 steps per day.",
-        Client: "I understand. Starting modestly and building up from there.",
+		Therapist: "That's great!",
       },
       {
-        Therapist:
-          "Why only 20%? If I feel really motivated, can't I walk more than that?",
-        Client:
-          "That's a valid question. Can I push myself further if I'm up to it?",
+		Therapist: "It seems like you've found a routine where you can fit that physical activity in on a regular basis, which is so important.",
       },
       {
-        Therapist:
-          "While feeling motivated is great, we want to emphasize gradual increases in physical activity for safety purposes.",
-        Client: "I see. Safety first and steady progress.",
+		Client: "Yes, definitely, my wife is pretty good about reminding me to go, too.",
       },
       {
-        Therapist: "For now, let's focus on reaching each week's goal.",
-        Client: "Okay, I'll stick to the incremental goals for now.",
+		Therapist: "When you do walk, how hard do you tend to feel like you're working?",
       },
       {
-        Therapist: "That makes sense. I'll do my best to meet the goals.",
-        Client: "I appreciate your guidance. I'll give it my all.",
+		Therapist: "Is it a leisurely pace, or are you exerting yourself?",
       },
       {
-        Therapist:
-          "That's great to hear. We can also discuss strategies for staying motivated along the way.",
+		Client: "Well, sometimes I walk up hills that are pretty tough.",
       },
+      {
+		Client: "But for the most part, it's fairly leisurely.",
+      },
+      {
+		Therapist: "Right.",
+      },
+      {
+		Therapist: "Keep in mind that the majority of health benefits come from moderate or vigorous aerobic activity, meaning that you should be getting your heart rate up.",
+      },
+      {
+		Client: "So is just walking slowly not actually helping my health?",
+      },
+      {
+		Therapist: "Any physical activity is better than no physical activity, but if you try slowly increasing the intensity of your exercise, you'll be getting many more of those health benefits.",
+      },
+      {
+		Client: "Oh okay, maybe I'll try and time my walks and plan for more hilly routes.",
+      },
+      {
+		Therapist: "That sounds great!",
+      }
     ],
   },
   {
     name: "Dialog 30",
     data: [
       {
-        Therapist:
-          "hi John nice to see you again so tell me how are things going.",
-        Client:
-          "well !  I know you told me that I need to lose weight and even though the scale didn't show today I was able to lose about  pounds but then I gained it right back",
+        Therapist: "Hello, thank you for taking the time to talk to me today.",
       },
       {
-        Therapist:
-          "well I appreciate you bringing your weight to the forefront do you mind if we explore this issue further? ",
-        Client: "	no by all means I know we have to discuss it all right.",
+		Therapist: "How are you?",
       },
       {
-        Therapist:
-          "well it sounds like you've been struggling with your weight recently and I understand how difficult it is to lose the weight and then have to come back again so tell me what you did to lose that initial  pounds.",
-        Client:
-          "I started watching what I ate I ate less I've been eating more fruits and vegetables I've also been walking I'm walking up to  minutes a day now I saw the way come slowly off and I felt better but then I watched it come back on again I gave up.",
+		Client: "I'm doing well, I just got over a cold but am feeling much better now.",
       },
       {
-        Therapist:
-          "but you did have some success tell me how you felt when you lost the weight",
-        Client:
-          "I felt great I felt really proud of myself I thought that this was something that I could do okay.",
+		Therapist: "That's good to hear, I'm glad you are feeling better!",
       },
       {
-        Therapist:
-          "well it sounds like you realize that when you lost the weight you feel better and that it's going to affect your overall health so tell me what you think changed that caused you to gain the weight back well.",
-        Client:
-          "I think it's because I've been eating more fruits and vegetables that's it.",
+		Client: "Me too.",
       },
       {
-        Therapist:
-          "and how many servings are fruits and vegetables on average per day would you?",
-        Client:
-          "I have to be honest I have four five forty six glass of orange juice a day I have fruit for lunch and breakfast I have usually one to two servings of a vegetable my close your broccoli with thinner",
+		Therapist: "I wanted to check in today to talk about how you have been doing since we last spoke.",
       },
       {
-        Therapist:
-          "John is very important that you recognize that some fruits but especially fruit juice can contain a huge amount of calories did you know that a glass of orange juice has almost as many calories as a can of cola ",
-        Client:
-          "no I didn't know umm but doesn't the food pyramid classify fruit juice as a serving ",
+		Therapist: "Have you been able to reach some of your short-term goals?",
       },
       {
-        Therapist:
-          "you're absolutely right but keep in mind that the food pyramid is to be used as a guideline only when it comes to nutrition we have to have a more personalized approach so I have a hunch and that is the excess fruit that you are consuming probably caused your weight rebound what's your impression.",
-        Client:
-          "well this changes quite a bit I mean here I'm thinking that my fruit intake is making me healthier and actually it's making me fatter indeed.",
+		Client: "It's been pretty difficult.",
       },
       {
-        Therapist:
-          "let me ask you something knowing what you know now how important is it to to lose the weight by decreasing the amount of juice that you're currently taking.",
-        Client:
-          "it obviously I need to cut back on the fruit juice but boy do I love that OJ oh",
+		Client: "I think I'm struggling with remembering to do things and staying motivated.",
       },
       {
-        Therapist:
-          "I understand let me ask you this on a scale from zero to ten zero mean that there's no way you can do it and ten meaning that you're % confidence that you can do it how confident are you that you'll be able to reduce the amount of juice you're currently taking.",
-        Client: "in six or seven ",
+		Client: "Sometimes a few days go by and I realize that I haven't exercised at all.",
       },
       {
-        Therapist:
-          "all right so you're not a zero so that tells me that you've got some confidence that this is doable this is something you certainly can do why are you not a zero.",
-        Client:
-          "I guess is because I know that I need to do it to lose the weight",
+		Therapist: "Yeah, holding yourself accountable can be difficult.",
       },
       {
-        Therapist:
-          "so you realize again that if you decrease the amount of juice you're taking in you're going to decrease your weight you're going to feel better and you're going to impact your health positively.",
-        Client: "yes",
+		Therapist: "Luckily, there are strategies that you can use to keep yourself on track.",
       },
       {
-        Therapist:
-          "but you're also not a ten and that tells me that there may be some obstacles to your success what would it take for you to be a ten or even an eight or nine.",
-        Client:
-          "getting the fruit juice of the house because I know if it's there I'll drink it my wife does the shopping for us so maybe if I ask her not to get the juice that would solve it.",
+		Client: "Like what?",
       },
       {
-        Therapist:
-          "okay now if the juice was still there can you think of anything else you could do I suppose I could replace it with low-calorie drink or drink more water excellent, John I get the impression that you want to stay in course with weight reduction and the best way to do this will be to decrease the amount of juice that you're currently taking in so if I saw you in two weeks and I asked you how much juice you're drinking and how you did it what would you tell me ",
-        Client:
-          "I'd say I didn't have any and I substituted it with sugar free drinks.",
+		Therapist: "It might be helpful to create a visual reminder to reach your goal for the day.",
       },
       {
-        Therapist:
-          "excellent well it sounds like you have a plan same scale zero to ten how confident are you that you can make this happen okay I agree all right well you know what I'm not going to start any medications today your labs were a little bit off but I think we can handle this from a purely lifestyle standpoint what do you think great sounds good to me excellent I'll see you in two weeks you.",
-        Client: "Allright",
+		Therapist: "For example, you could make a calendar with space to record your exercise goal, and physical activity, each day.",
       },
+      {
+		Client: "Oh, yeah, that's a good idea.",
+      },
+      {
+		Therapist: "Keep it somewhere you will see it every day, and that way you will remember no matter what!",
+      },
+      {
+		Client: "Yeah, I can hang it in my bathroom so I see it first thing each morning. Or maybe on my fridge.",
+      },
+      {
+		Therapist: "Great!",
+      }
     ],
   },
+  
+  // 30 to 40
+  
   {
     name: "Dialog 31",
     data: [
       {
-        Therapist:
-          "Hi Liz will thanks for meeting with me today so what's something that you'd like to change or work towards.",
-        Client:
-          "well, I've really been thinking about working out lately, I really want to start working out again, It's been on my mind, and I know I need to do it. It's just getting the motivation to do it.",
+		Therapist: "Hi there, how are you today?",
       },
       {
-        Therapist:
-          "and you've been talking about that a lot lately, So I really feel like this is something you need to do soon, because a lot of time there's just a lot of talk, but there's no action. And if you really want to see results, I guess it's something that needs to be done and stop being lazy about it and just do it. ",
-        Client:
-          "Well I don't know if I'm really being lazy about it I think it's just that I have a busy schedule yeah I just need to find the time to do it and yes I might be laughing a little bit of motivation but I think it's more time again trying to fit it in.",
+		Client: "I'm good, looking forward to the weekend.",
       },
       {
-        Therapist:
-          "and it sounds like a lot of excuses to me, and you have shared with me before that you do have a gym membership so that's just something you need to fit in your schedule. So for you to see results you want, my guess is that you need to go about  to  times a week and really fit in that hour workout on a daily basis. ",
-        Client:
-          "But it is part of the problem is that I don't have  to  times a week to do it or an hour or even I mean hours the long time cuz if I'm working out for an hour that means I'm leaving home to get there time there time back I mean it's not just an hour it's the two hours realistically and. ",
+		Therapist: "Me too.",
       },
       {
-        Therapist:
-          "and it seems like if you really want to see the results you have to put the time in and if it's gonna take you two hours it's gonna take you two hours. And again, if you want the results you need to start and you need to start now. ",
-        Client: "well, Okay.",
+		Therapist: "Today I want to talk to you about how to keep on track for your goals, even when you go a while without hearing from me.",
       },
       {
-        Therapist:
-          "I;m looking forward you see you tomorrow, and I'm hoping that you are going to be able to tell me that you went to the gym.",
-        Client: "Allright",
+		Client: "Okay, that sounds good.",
       },
+      {
+		Client: "I think the biggest problem is that I often forget to wear my activity tracker when I get out of bed.",
+      },
+      {
+		Therapist: "Absolutely. Can you think of a strategy to help you remember?",
+      },
+      {
+		Client: "Well, I could set an alarm at 9 am, so that I would not start my day without my activity tracker.",
+      },
+      {
+		Therapist: "That's a great idea!",
+      },
+      {
+		Therapist: "Anything else you can think of?",
+      },
+      {
+		Client: "I make coffee every morning, and I'm supposed to wear my activity tracker as soon as I get up.",
+      },
+      {
+		Client: "Maybe I can tape a reminder to my coffee maker.",
+      },
+      {
+		Therapist: "That sounds good, too.",
+      },
+      {
+		Therapist: "I think if you do both of those things you should have an easier time remembering to wear your activity tracker.",
+      },
+      {
+		Client: "Okay, I can do that then.",
+      }
     ],
   },
   {
     name: "Dialog 32",
     data: [
       {
-        Therapist: "Hello Joseph! It's me again.",
-        Client: "Hi there, how are you?",
+        Therapist: "Hello, how are you today?",
       },
       {
-        Therapist: "I'm doing well, thank you. How about you?",
-        Client: "I've been busy with work, but overall I'm doing alright.",
+		Client: "I'm doing fine.",
       },
       {
-        Therapist:
-          "That's good to hear. Let's talk about your short-term step goals. Your baseline daily steps were around 8,000.",
+		Therapist: "How has your physical activity been going?",
       },
       {
-        Therapist:
-          "How did you do with your goal of increasing your daily steps by 15% each week?",
+		Client: "It's been going pretty well, I have been going out and exercising every day.",
       },
       {
-        Client:
-          "I started off strong, but I've been struggling to keep up with the increases.",
+		Client: "But I've only been walking.",
       },
       {
-        Client: "By the way, what's my long-term step goal?",
+		Therapist: "Walking can be a great source of physical activity!",
       },
       {
-        Therapist:
-          "Your long-term goal is to reach 12,000 steps per day consistently.",
-        Client: "Wow, that's quite a jump from my current steps.",
+		Client: "Yeah, I guess I just don't know if I'm exerting myself enough for it to count.",
       },
       {
-        Therapist:
-          "It may seem challenging, but let's break it down. You'll need to add around 4,000 more steps per day.",
+		Therapist: "There are a couple of ways to know if you are getting intense enough exercise.",
       },
       {
-        Therapist: "How do you feel about that?",
+		Therapist: "One simple trick is called the 'talk test'.",
       },
       {
-        Client:
-          "It's definitely going to require some effort, but I'm up for the challenge.",
-        Therapist:
-          "That's the spirit! We can brainstorm some ideas to help you reach your goal. Any thoughts on how you can incorporate more steps into your daily routine?",
+		Therapist: "When getting moderately vigorous exercise, you should be able to talk, but not sing.",
       },
       {
-        Client:
-          "I've been considering taking the stairs instead of the elevator and going for short walks during my breaks.",
-        Therapist:
-          "Those are great ideas! Small changes like that can make a big difference.",
+		Client: "Oh okay, that makes sense.",
       },
+      {
+		Therapist: "You could also try monitoring your heart rate.",
+      },
+      {
+		Therapist: "Using two fingers on the outer part of the inside of your wrist, count the number of heart beats in 30 seconds, and multiply that by two to get your resting heart rate.",
+      },
+      {
+		Therapist: "Your heart rate should increase during exercise.",
+      },
+      {
+		Client: "Oh, okay.",
+      },
+      {
+		Client: "But how do I know how fast my heart rate should be?",
+      },
+      {
+		Therapist: "Target heart rate depends on age.",
+      },
+      {
+		Therapist: "A person in their 40s may have a target heart rate as high as 150 beats per minute, whereas a person in their 70s may have a target heart rate closer to 120 beats per minute.",
+      },
+      {
+		Client: "Okay, that makes sense.",
+      },
+      {
+		Client: "I'll try that!",
+      }
     ],
   },
   {
     name: "Dialog 33",
     data: [
       {
-        Therapist:
-          "Thank you so much for taking the time to talk today Samuel! I want to discuss setting a new long-term goal for your physical activity.",
-        Client: "Sure, that sounds good.",
+        Therapist: "Hi there, thanks for taking the time to talk to me today!",
       },
       {
-        Therapist:
-          "Your long-term goal is to complete a 5K run. It won't happen overnight, but the aim is for you to eventually achieve it and maintain your running routine.",
-        Client: "That sounds challenging. I'm not sure if I can do it.",
+		Client: "No problem.",
       },
       {
-        Therapist:
-          "I understand your concerns. How confident are you that you can reach this goal?",
-        Client:
-          "Honestly, I'm not very confident. I'm not used to running regularly.",
+		Therapist: "How are you feeling about your physical activity progress so far?",
       },
       {
-        Therapist:
-          "That's alright. The first step is to identify your barriers. Are there any specific challenges you foresee?",
-        Client:
-          "Time is a big challenge for me. I have a busy schedule and finding time to run consistently seems difficult.",
+		Client: "Well, I've been exercising a lot, but I'm not sure exactly how much or if it is enough.",
       },
       {
-        Therapist:
-          "I understand. Let's explore some strategies to overcome this. Have you considered incorporating short runs during your lunch break or after work?",
-        Client: "I hadn't thought about that. It could be a possibility.",
+		Therapist: "Tracking your physical activity is important to successfully reaching your long-term goals.",
       },
       {
-        Therapist:
-          "Great! Even a 15-minute run can make a difference. Small steps will gradually build up to your goal.",
+		Therapist: "There are a lot of ways to track your physical activity.",
       },
+      {
+		Therapist: "It can be as simple as writing down your daily activity in a spiral notebook, or using a voice recorder if you have trouble reading or writing.",
+      },
+      {
+		Client: "I could do that, but that seems like a lot of work.",
+      },
+      {
+		Therapist: "There are also a lot of useful ways that technology can help us track physical activity.",
+      },
+      {
+		Therapist: "Did you know that 1 in 5 Americans uses a personal physical activity tracker like a Fitbit, Apple Watch, or other pedometer?",
+      },
+      {
+		Client: "No, I didn't realize they were that popular.",
+      },
+      {
+		Client: "Maybe I'll look into it.",
+      },
+      {
+		Therapist: "That sounds like a good idea.",
+      },
+      {
+		Therapist: "A lot of these devices also connect to smartphone applications, so that you can track your progress and keep all of your activity data in one location.",
+      },
+      {
+		Therapist: "Some of them have fun features like mapping your walking routes, and tracking elevation changes, too.",
+      },
+      {
+		Client: "Cool!",
+      },
+      {
+		Client: "I'll check it out.",
+      },
+      {
+		Client: "Thanks.",
+      }
     ],
   },
+
   {
     name: "Dialog 34",
     data: [
       {
-        Therapist: "so brings you here today ",
-        Client:
-          "well my doctor made me come said of my diet is bad and my cholesterol level is up so high that I've got to change the way I eat and honestly I don't really feel like doing that so he said I had to come talk to you and hopes that that's going to help",
+        Therapist: "Hi there, welcome back!",
       },
       {
-        Therapist:
-          "ok so what's nothing to me is that your doctor saying you have an issue a health issue at your cholesterol and nearly an allison issue of this present time cycle",
-        Client:
-          "right right it was actually I feel pretty good they do a test on me and says mom not healthy because what I eat them I don't know it doesn't bother me",
+		Therapist: "Thanks for joining me.",
       },
       {
-        Therapist: "ok so you sound a little we're very resistant to change",
-        Client:
-          "I like french fries I like fast food I don't want of time to cook you know this is the food I eat his burgers it's what's my lifestyle and he says I got to stop eating french fries sometimes pizza I like sausage and a breakfast I eat almost the whole pound of bacon log bacon bacon on my eggs bacon on the sandwiches I like bacon on the cheeseburgers the doctors like mr. Hendricks you have to stop eating bacon wait a minute I don't know about that french fries.",
+		Client: "No problem, it's good to be back.",
       },
       {
-        Therapist:
-          "so this is the first time you went to the doctor he makes an account with your high cholesterol okay so how long?",
-        Client:
-          "it's been going on for a while I mean every time he was like yeah I think you how to change the way ye na ma alright and then I keep eating it the this time he's dropped the heavy on me and he said you're gonna have to do this and he showed me pictures of cholesterol problems and told me facts and stories about people that's didn't stop eating the bad foods and cholesterol levels where they ended up not so I don't want to die.",
+		Therapist: "Great!",
       },
       {
-        Therapist: "okay so what do you thing to do to help resolve the issue.",
-        Client: "I'm kind of hoping some other options i'm changing my food ",
+		Therapist: "Well today we are going to talk about how to stay motivated over time, and what to do if you start to lose motivation.",
       },
       {
-        Therapist: "have you considered exercise",
-        Client:
-          "we didn't talk so much about that he was so focused on the food but I'd be willing to exercise if I can still eat my fries",
+		Client: "Okay, yeah that sounds good.",
       },
       {
-        Therapist:
-          "okay will sound like you have it this semester issue the food thing you are not great to give up but exercising to be a possible Avenue just to lower your cholesterol levels ok so how motivated are you today start like a rigorous exercise routine",
-        Client: "the lord I kept glycerol was six maybe a seven even okay",
+		Client: "I feel like I go through periods of being really motivated, but then I always stop at some point.",
       },
       {
-        Therapist:
-          "so what could you do this week to start now once you've in this office today to have lower your cholesterol",
-        Client:
-          "follow the hunger but how odd probably willing to talk to somebody about an exercise program",
+		Therapist: "That is a really common problem, which is why it's important to think of strategies ahead of time.",
       },
       {
-        Therapist:
-          "okay have you know participant in an exercise program before",
-        Client: "no",
+		Therapist: "Why do you think you usually lose motivation?",
       },
       {
-        Therapist:
-          "okay knows me a lot of work and I respect your decision that you are not ready to give the food but you have a decision to make good choices it is your choice to do with you, is it D but this is too much for you like you're incapable of this this is beyond you you can now show your dad",
-        Client: "I can do it but I don't know if I'd be happy ",
+		Client: "Well, a lot of time I just get bored from doing the same routine over and over again.",
       },
       {
-        Therapist:
-          "so how would you know if you're not happy until you try it ",
-        Client: "I got a feeling I wouldn't be happy but I'm wrong",
+		Therapist: "Yeah, absolutely.",
       },
       {
-        Therapist:
-          "okay so you say motivated like a  or a  mm is that the highest like today that you've been or wish your motivation",
-        Client: "I'm lowering operators after my last doctor appointment ",
+		Therapist: "So one strategy to try would be to mix things up by introducing new activities and places.",
       },
       {
-        Therapist: "okay it is promised been going on for how many watts or ",
-        Client:
-          "yeah probably three to four years three or four years okay he's noticed it's been a while since my cholesterol hasn't started to come down",
+		Client: "Okay, yeah I can try doing that.",
       },
       {
-        Therapist:
-          "okay so this is like neglect for the three or four years pretty much but you are little motivated now ",
-        Client:
-          "yeah he scared me all about with the health reports he was giving me",
+		Therapist: "For example, if your goal is to walk every day, but you get bored of walking the same route, are there new places you can try walking?",
       },
       {
-        Therapist: "okay when's next time you go to the doctor",
-        Client: "he wants me back in a month ",
+		Client: "Yeah, actually there's a really pretty park about a mile away from my house that I can walk through.",
       },
       {
-        Therapist:
-          "okay so cuz you're a little motivated he said I'm six or seven we can maybe establish a pan for you so we listen good a doctor your clothes will be lower than what it was just this present month that'd be good sorry the plan sorry your plan",
-        Client: "Cool",
-      },
+		Therapist: "Great!",
+      }
     ],
   },
   {
     name: "Dialog 35",
     data: [
       {
-        Therapist: "Hi Paul, welcome back! ",
+        Therapist: "Thank you so much for taking the time to talk to me today, this call should be brief.",
       },
       {
-        Therapist: "Thanks for joining me.",
+		Client: "No problem, I have plenty of time.",
       },
       {
-        Client: "No problem, it's good to be back.",
-        Therapist:
-          "Great! Well today we are going to talk about how to stay motivated over time, and what to do if you start to lose motivation.",
+		Therapist: "Okay great.",
       },
       {
-        Client: "Okay, yeah that sounds good.",
+		Client: "I wanted to talk to you about staying motivated over time, since it can be easy to lose motivation after a while.",
       },
       {
-        Client:
-          " I feel like I go through periods of being really motivated, but then I always stop at some point.",
+		Therapist: "Yeah, definitely.",
       },
       {
-        Therapist:
-          "That is a really common problem, which is why it's important to think of strategies ahead of time.",
+		Client: "Sometimes I get these ideas in my head of big changes I want to make.",
       },
       {
-        Therapist: "Why do you think you usually lose motivation?",
+		Client: "And I do, for a week or so, but then I fall back into bad habits.",
       },
       {
-        Client:
-          "Well, a lot of time I just get bored from doing the same routine over and over again.",
-        Therapist: "Yeah, absolutely.",
+		Therapist: "The best way to combat that is to identify some ways that you can get back on track and re-motivate yourself.",
       },
       {
-        Therapist:
-          "So one strategy to try would be to mix things up by introducing new activities and places.",
-        Client: "Okay, yeah I can try doing that.",
+		Client: "That makes sense.",
       },
       {
-        Therapist:
-          "For example, if your goal is to walk every day, but you get bored of walking the same route, are there new places you can try walking?",
-        Client:
-          "Yeah, actually there's a really pretty park about a mile away from my house that I can walk through.",
+		Client: "Weight loss is just such a slow process, and sometimes when I don't see any new results I feel like there's no point in sticking to my goals, even though I know I should.",
       },
       {
-        Therapist: "Great!",
+		Therapist: "What are some strategies you think you could use to stay motivated?",
       },
+      {
+		Client: "Well, I think I need a way to hold myself accountable, so that it's harder for me to just give up.",
+      },
+      {
+		Therapist: "What about keeping a record of your daily diet and physical activity?",
+      },
+      {
+		Therapist: "That way you can visualize your progress with your goals, and keep yourself accountable.",
+      },
+      {
+		Client: "Yeah, I think I can do that!",
+      }
     ],
   },
-
   {
     name: "Dialog 36",
     data: [
       {
-        Therapist: "Hi James! Hello again.",
+        Therapist: "Hello, how are you doing today?",
       },
       {
-        Therapist: "How's everything?",
+		Client: "I'm pretty good.",
       },
       {
-        Client: "I'm doing great.",
+		Therapist: "Great!",
       },
       {
-        Client:
-          "You know I am taking a walk almost every day since I joined this program.",
+		Therapist: "How has your physical activity been going?",
       },
       {
-        Therapist: "That's wonderful. ",
+		Client: "it's okay, but I guess I'm getting pretty bored with walking.",
       },
       {
-        Therapist: "Congratulations on your progress.",
+		Client: "it's been nice, but I find myself getting sick of it.",
       },
       {
-        Client: "Thanks.",
+		Client: "And my friends and family are tired of going with me as well.",
       },
       {
-        Client: " This program makes me more aware of my daily exercise. ",
+		Therapist: "It sounds like you might be able to stay more motivated if you shake up your routine a little bit.",
       },
       {
-        Client: "I pay attention to my daily activity goal.",
+		Therapist: "Have you considered trying a new activity such as dancing, or playing tennis?",
       },
       {
-        Client:
-          "I used to go to the gym every other day, but it did not last more than 2 months.",
-        Therapist: "So what's happened?",
+		Client: "No, but I guess I could do that.",
       },
       {
-        Client: "I changed jobs last March.",
+		Client: "I just don't  know where I would start.",
       },
       {
-        Client:
-          " I was so busy and I was too tired to go to the gym after work.",
+		Client: "Dancing sounds fun, but I don't  know anyone who dances and I don't  have a gym membership.",
       },
       {
-        Therapist: "I understand. ",
+		Therapist: "Try looking up dance studios in your area, they may have a special deal for people who want to try it out.",
       },
       {
-        Therapist:
-          "To avoid an exercise relapse, it's helpful to recognize possible roadblocks to exercising and develop plans to overcome them.",
+		Therapist: "If not, a lot of restaurants and clubs host dance nights for salsa, ballroom dancing, and other types of dance.",
       },
       {
-        Client: "Yeah, I had my lesson.",
+		Client: "Okay, yeah maybe I'll do that.",
       },
       {
-        Client: "Now I do exercise before I start my work.",
-      },
-      {
-        Therapist:
-          "I am glad to hear that you have a strategy to overcome relapsing. ",
-      },
-      {
-        Therapist: "Keep up with the great work.",
-      },
-      {
-        Client: "Will do. Thanks",
-      },
+		Therapist: "That sounds pretty fun.",
+      }
     ],
   },
   {
     name: "Dialog 37",
     data: [
       {
-        Therapist: "hi I'm Jacob",
-        Client: "hey I'm Dan Michi.",
+        Therapist: "Hello. How have you been?",
       },
       {
-        Therapist: "I see been referred to me what brings you in today?",
-        Client:
-          "yeah well just recently I've actually gained lots of weight and I'm trying to lose that weight I see I'm going into bariatric surgery soon so about  pounds again that I'm just trying to find the best option that could work for me I've tried some commercial programs that didn't really work out for me I even had my own trainer and doing the exercise that I didn't really enjoy doing ",
+		Client: "Oh well. My husband was diagnosed with colon cancer.",
       },
       {
-        Therapist: "do you understand all that?",
-        Client:
-          "nothing helping me lose the weight and I think it's just got to be a way right",
+		Client: "I'm feeling overwhelmed and have not done much exercise over the past 2 weeks.",
       },
       {
-        Therapist:
-          "well you clearly have a lot of weight to lose cuz that feeling your main goal to lose weight",
-        Client: "yeah I need to lose the weight in order to get the surgery ",
+		Client: "I feel like that I should be with my husband rather taking a walk by myself.",
       },
       {
-        Therapist: "have you tried any weight loss programs in the past?",
-        Client:
-          "ah yeah well like I was saying I was doing for me some of the commercial programs they just weren't working out",
+		Therapist: "I am sorry to hear that you are going through a difficult time.",
       },
       {
-        Therapist: "what kind of programs?",
-        Client: "um you know just some lifting the ",
+		Therapist: "Sounds like you have a lot of stress.",
       },
       {
-        Therapist: "Did you like those programs? ",
-        Client:
-          "well uh no I didn't either like it I had some pain especially my ankles so it wasn't really working out for me ",
+		Therapist: "How's your own overall health?",
       },
       {
-        Therapist: "what kind of activities do you like doing?",
-        Client: "I like to walk around outside I guess it with my dog",
+		Client: "Not so great..",
       },
       {
-        Therapist: "What kind of dog do you have?",
-        Client: "oh it's a golden retriever",
+		Client: "I am so stressed out and cannot sleep at night",
       },
       {
-        Therapist: "yeah say like walking your dog ",
-        Client:
-          "yeah yeah it's only for a little bit before my ankles start hurting ",
+		Therapist: "You know, regular physical activity can improve your sleep and reduce your anxiety and stress.",
       },
       {
-        Therapist: "how long do you walk?",
-        Client: "like three blocks I don't have too much dump for the day",
+		Therapist: "Even 10 to 15 minutes per day is better than not exercising at all.",
       },
       {
-        Therapist:
-          "all right well we'll have you do fire blocks done a couple of last couple blocks might hurt like something you have to push through and we'll have you do that six seven days a week don't you'll really get on and we'll see how that goes",
-        Client: "all right sounds good",
+		Therapist: "Or just walking around a few blocks around your house.",
       },
+      {
+		Therapist: "How about starting a little exercise to see how you feel?",
+      },
+      {
+		Client: "Ok, I guess I can try.",
+      },
+      {
+		Therapist: "Great. Talk to you soon.",
+      }
     ],
   },
   {
     name: "Dialog 38",
     data: [
       {
-        Therapist:
-          "Thank you so much for taking the time to talk to me today, this call should be brief.",
-        Client: "No problem, I have plenty of time.",
+        Therapist: "Hello again.",
       },
       {
-        Therapist: "Okay great.",
-        Client:
-          "I wanted to talk to you about staying motivated over time, since it can be easy to lose motivation after a while.",
+		Client: "How's everything?",
       },
       {
-        Therapist: "Yeah, definitely.",
-        Client:
-          "Sometimes I get these ideas in my head of big changes I want to make And I do, for a week or so, but then I fall back into bad habits.",
+		Client: "I'm doing great.",
       },
       {
-        Therapist:
-          " The best way to combat that is to identify some ways that you can get back on track and re-motivate yourself.",
-        Client: "That makes sense.",
+		Client: "You know I am taking a walk almost every day since I joined this program.",
       },
       {
-        Client:
-          " Weight loss is just such a slow process, and sometimes when I don't see any new results I feel like there's no point in sticking to my goals, even though I know I should.",
+		Therapist: "That's wonderful.",
       },
       {
-        Client:
-          "What are some strategies you think you could use to stay motivated?",
+		Therapist: "Congratulations on your progress.",
       },
       {
-        Client:
-          "Well, I think I need a way to hold myself accountable, so that it's harder for me to just give up.",
-        Therapist:
-          "What about keeping a journal of your daily diet and physical activity? ",
+		Client: "Thanks.",
       },
       {
-        Therapist:
-          "That way you can visualize your progress with your goals, and keep yourself accountable.",
-        Client: "Yeah, I think I can do that!",
+		Client: "This program makes me more aware of my daily exercise.",
       },
+      {
+		Client: "I pay attention to my daily activity goal.",
+      },
+      {
+		Client: "I used to go to the gym every other day, but it did not last more than 2 months.",
+      },
+      {
+		Therapist: "So what'shappened?",
+      },
+      {
+		Client: "I changed jobs last March.",
+      },
+      {
+		Client: "I was so busy and I was too tired to go to the gym after work.",
+      },
+      {
+		Therapist: "I understand.",
+      },
+      {
+		Therapist: "To avoid an exercise relapse, it's helpful to recognize possible roadblocks to exercising and develop plans to overcome them.",
+      },
+      {
+		Client: "Yeah, I had my lesson.",
+      },
+      {
+		Client: "Now I do exercise before I start my work.",
+      },
+      {
+		Therapist: "I am glad to hear that you have a strategy to overcome relapsing.",
+      },
+      {
+		Therapist: "Keep up with the great work.",
+      },
+      {
+		Client: "Will do. Thanks",
+      }
     ],
   },
   {
     name: "Dialog 39",
     data: [
       {
-        Therapist: "Hello Peter",
-        Client:
-          "I did it it, I've been doing all right work was a little rough but uh I've been doing fine overall",
+        Therapist: "Hi, how are you?",
       },
       {
-        Therapist:
-          "okay I mean it's too bad to hear but you know what brings you in today?",
-        Client:
-          "well I want to have bariatric surgery but my doctor says that I need to lose at least  pounds in order to be eligible",
+		Client: "Ok, but I am a bit embarrassed.",
       },
       {
-        Therapist:
-          "okay sounds like you're concerned by your weight and you want to start to make positive changes so that's good to hear ",
-        Client: "yeah you know I just really don't know where to start",
+		Client: "I know you want to talk to me about my physical activity today.",
       },
       {
-        Therapist:
-          "hmm well I mean how confident would you say that you are right?",
-        Client:
-          "I wouldn't say that I'm very confident I'm going to lose weight",
+		Therapist: "Thank you for sharing your feelings with me.",
       },
       {
-        Therapist: "okay well what have you tried doing to lose the weight?",
-        Client:
-          "I've tried a few different diet programs and I've had decent success but I always seem to taper off and just lose like a game back away at last.",
+		Therapist: "Why are you embarrassed?",
       },
       {
-        Therapist:
-          "okay what activities specifically we have you tried to learn?",
-        Client:
-          "I enjoy weightlifting I used to do that a lot of my friends but I kind of stopped doing that at I didn't see any results as far as weight loss and doing any kind of running always just seems to aggravate my ankle.",
+		Client: "I have not done much walking lately.",
       },
       {
-        Therapist:
-          "Oh didn't know you had an ankle pain but we can look at it later anyway um you know you're still going to need to do aerobic activities in order to lose the weight. it's proven to be the best way to.",
-        Client: "okay what kind of aerobic activities do you want me to do?",
+		Therapist: "That's okay.",
       },
       {
-        Therapist:
-          "well i'd say if your ankle pain doing brief walks every day maybe three or four and like take about  minutes at a time that should help you",
-        Client:
-          "all right back but what about my diet? program problems I just haven't even get anything to work.",
+		Therapist: "Most of people slip away from their regular exercise once in a while.",
       },
       {
-        Therapist:
-          "well you know you should eat more fruits and vegetables you know green anything green and stick with short walks and the resistance training like you said it's going to help you with the weight loss okay well do any other questions for me today?",
-        Client: "no I guess I'm good ",
+		Therapist: "A key is to going back to your activity routine.",
       },
       {
-        Therapist:
-          "all right well I'll see you to follow up in two weeks thanks",
-        Client: "Perfect, I,ll do it",
+		Therapist: "there any specific reasons you stopped being active?",
       },
+      {
+		Client: "Not really.",
+      },
+      {
+		Client: "I know physical activity is good for me, but I am just not motivated.",
+      },
+      {
+		Therapist: "Have you shared your feelings and struggles with your family and friends?",
+      },
+      {
+		Client: "No.",
+      },
+      {
+		Client: "But I can talk to my wife.",
+      },
+      {
+		Therapist: "Great, knowing your feeling and struggles is the first step to going back to your activity routine.",
+      },
+      {
+		Therapist: "You have done such a great job in the past.",
+      },
+      {
+		Therapist: "I know you can do it.",
+      },
+      {
+		Therapist: "How do you feel?",
+      },
+      {
+		Client: "I will try.",
+      }
     ],
   },
   {
     name: "Dialog 40",
     data: [
       {
-        Therapist: "Hi Donald, how are you today?",
-        Client: "I'm pretty good.",
+        Therapist: "Hello, thanks for joining me today!",
       },
       {
-        Therapist: "Great!",
+		Client: "Hi, no problem.",
       },
       {
-        Therapist: "How has your physical activity been going?",
+		Therapist: "I want to talk to you a bit about staying on track with your health goals.",
       },
       {
-        Client: "it's okay, but I guess I'm getting pretty bored with walking.",
+		Therapist: "Last time we spoke, we talked about how you can stay motivated.",
       },
       {
-        Client: "It's been nice, but I find myself getting sick of it.",
+		Therapist: "Do you feel like this has been working?",
       },
       {
-        Client: "And my friends and family are tired of going with me as well.",
+		Client: "Pretty much, but the problem is that once I get off track even a little bit, before I know it three days have gone by and I'm back to where I started.",
       },
       {
-        Therapist:
-          "It sounds like you might be able to stay more motivated if you shake up your routine a little bit.",
+		Therapist: "I can see why that would be frustrating.",
       },
       {
-        Therapist:
-          "Have you considered trying a new activity such as dancing, or playing tennis?",
+		Therapist: "Why do you think this happens?",
       },
       {
-        Client: "No, but I guess I could do that.",
+		Client: "Well, once I screw up I feel really guilty, and then I give up.",
       },
       {
-        Client: "I just don't know where I would start.",
+		Client: "So for example if I eat an unhealthy breakfast, I feel like the whole day is ruined anyway, so then I binge on unhealthy food all day.",
       },
       {
-        Client:
-          "Dancing sounds fun, but I don't know anyone who dances and I don't have a gym membership.",
-        Therapist:
-          "Try looking up dance studios in your area, they may have a special deal for people who want to try it out.",
+		Therapist: "It's important to keep in mind that you don't have to give up everything completely.",
       },
       {
-        Therapist:
-          "If not, a lot of restaurants and clubs host dance nights for salsa, ballroom dancing, and other types of dance.",
-        Client: "Okay, yeah maybe I'll do that.",
+		Therapist: "And if you get off track, it's okay!",
       },
       {
-        Client: "That sounds pretty fun.",
+		Therapist: "So, if you treat yourself to an unhealthy breakfast every once in a while, you can still have a good day by focusing on eating healthy, balanced meals later on.",
       },
+      {
+		Client: "That's true, I guess.",
+      },
+      {
+		Therapist: "If you enjoy treats in moderation while craving them, it might help you be successful in the long run.",
+      },
+      {
+		Therapist: "So don't be too hard on yourself!",
+      },
+      {
+		Therapist: "Small changes can make a big difference.",
+      }
     ],
   },
+  
+  // 40 to 50 
+  
   {
     name: "Dialog 41",
     data: [
       {
-        Therapist: "Hi Paul, it's great to see you again.",
-        Client: "Thanks, it's good to be back.",
+        Therapist: "Hi there, how are you?",
       },
       {
-        Therapist:
-          "So, how have things been going with your running since our last session?",
-        Client:
-          "I've been struggling to stick with it, to be honest. I just don't feel very motivated.",
+		Client: "I'm good.",
       },
       {
-        Therapist:
-          "I understand. Running can be tough, especially when you're just starting out. Have you tried setting specific goals for yourself?",
-        Client:
-          "Not really, I guess I've just been trying to run as much as I can.",
+		Client: "it's so nice out today!",
       },
       {
-        Therapist:
-          "Setting specific, measurable goals can help give you something to work towards and help you stay motivated. For example, you could set a goal to run a certain distance or for a certain amount of time each week.",
-        Client: "That's a good idea. I think I'll try that.",
+		Therapist: "Yes, it's beautiful.",
       },
       {
-        Therapist:
-          "And remember, it's important to be kind to yourself and not beat yourself up if you have an off day or don't meet your goals right away.",
-        Client: "Yeah, that's definitely something I struggle with.",
+		Therapist: "I'm glad you are getting to take advantage of it.",
       },
       {
-        Therapist:
-          "It's okay, we all have those days. Just remember to be gentle with yourself and keep pushing forward.",
-        Client: "Thanks, I really appreciate your encouragement.",
+		Client: "Definitely.",
       },
       {
-        Therapist: "Of course, that's what I'm here for.",
+		Client: "I'm going to go for a walk as soon as I leave here.",
       },
+      {
+		Therapist: "Nice, have you been getting out for walks often?",
+      },
+      {
+		Client: "Yeah, actually.",
+      },
+      {
+		Client: "Although not when it rains.",
+      },
+      {
+		Client: "I don't  like walking in the rain because I am worried about cars not being able to see me.",
+      },
+      {
+		Therapist: "That's a great point.",
+      },
+      {
+		Therapist: "it's very important to keep safety in mind while being physically active.",
+      },
+      {
+		Therapist: "What else do you think you can you do to stay safe while exercising?",
+      },
+      {
+		Client: "Well if I walk at night I always walk with reflective clothes and a light.",
+      },
+      {
+		Therapist: "That's great!",
+      },
+      {
+		Therapist: "Other things to keep in mind are that you want to stay hydrated, make sure you stretch and warm up, and wear good, sturdy footwear.",
+      },
+      {
+		Client: "Oh, That's a good point.",
+      },
+      {
+		Client: "I didn'treally think about my shoes.",
+      },
+      {
+		Client: "Sometimes my feet hurt after walking, so maybe it is time to get a good pair of sneakers.",
+      },
+      {
+		Therapist: "That's a great idea.",
+      }
     ],
   },
   {
     name: "Dialog 42",
     data: [
       {
-        Therapist:
-          "Hello Kevin! Thank you for taking the time to talk to me today.",
-        Client: "No problem.",
+        Therapist: "Hello, welcome back.",
       },
       {
-        Therapist:
-          "How do you feel about your progress with physical activity so far?",
-        Client:
-          "I've been working out a lot, but I'm not sure if I'm doing enough or how much I've actually done.",
+		Therapist: "How are you doing today?",
       },
       {
-        Therapist:
-          "Tracking your physical activity is essential for achieving your long-term goals.",
+		Client: "I'm okay, a little tired.",
       },
       {
-        Therapist:
-          "There are various ways to track your activity. For example, you can simply write down your daily activity in a journal or use a voice recorder if writing is challenging for you.",
+		Client: "it's been a long week.",
       },
       {
-        Therapist: "It seems like a tedious process.",
-        Client:
-          "Technology can also be beneficial. Did you know that many people use personal physical activity trackers like Fitbit, Apple Watch, or other pedometers? They're quite popular.",
+		Therapist: "I'm sorry to hear that, hopefully you can rest a bit later on!",
       },
       {
-        Therapist: "I didn't realize they were that popular.",
-        Client: "I might consider looking into one.",
+		Client: "Yes, definitely.",
       },
       {
-        Therapist:
-          "That's a good idea. These devices often connect to smartphone apps, allowing you to track your progress and store all your activity data in one place. Some even offer additional features like mapping your walking routes and tracking elevation changes.",
-        Client: "Cool! I'll check it out. Thanks!",
+		Therapist: "Let'stalk about safety during exercise.",
       },
+      {
+		Therapist: "What do you do to stay safe while getting physical activity?",
+      },
+      {
+		Client: "Well, I don't  walk with headphones in, so that I can be more aware of my surroundings.",
+      },
+      {
+		Client: "And I try not to walk much at night.",
+      },
+      {
+		Therapist: "Those are both great ideas.",
+      },
+      {
+		Therapist: "In addition to being aware of your surroundings, it is important to stay hydrated, not exercise after large meals, and be sure to stretch before working out.",
+      },
+      {
+		Client: "Oh, yeah, I definitely should drink more water.",
+      },
+      {
+		Therapist: "Additionally, I know you mentioned that you don't  walk much at night, but if you do, be sure to wear reflective clothing or a light.",
+      },
+      {
+		Client: "Yes, I can do that.",
+      },
+      {
+		Therapist: "Great!",
+      },
+      {
+		Therapist: "Also, keep in mind to never use your phone or app while walking.",
+      },
+      {
+		Therapist: "That's another key to being aware of your surroundings.",
+      },
+      {
+		Client: "Good point.",
+      }
     ],
   },
-
   {
     name: "Dialog 43",
     data: [
       {
-        Therapist: "Hello Jason. Welcome back",
-        Client: "Thank you, you too. ",
+        Therapist: "Hi there, how are you?",
       },
       {
-        Therapist: "How are you?",
-        Client: "I'm good, keeping very busy with the study.",
+		Client: "I'm good, thanks.",
       },
       {
-        Therapist:
-          " Speaking of which, today we are going to discuss your short term physical activity goals.",
+		Therapist: "As you start becoming more physically active, are there any concerns you have?",
       },
       {
-        Therapist: "These are the goals you will try to reach each week.",
+		Client: "Well, I've never thought it possible for me to be more physically active because of my health.",
       },
       {
-        Client: "Okay, and how does that work?",
+		Client: "I am very overweight.",
       },
       {
-        Therapist:
-          " Each week, we want you to increase your daily step count goal by 20%.",
+		Therapist: "All in all, physical activity can be safe for almost everyone.",
       },
       {
-        Therapist:
-          "So, if your baseline is 5,000 steps per day, your short-term goal for week one is to walk 6,000 steps per day.",
+		Therapist: "It is important to start small, for example a 10-minute brisk walking twice a day.",
       },
       {
-        Client: " Okay. ",
+		Client: "I guess so.",
       },
       {
-        Client: "Why only 20%?.",
+		Client: "I can start walking more.",
       },
       {
-        Client:
-          " If I am feeling really motivated, can I walk much more than that?",
-        Therapist:
-          "For safety, we want to emphasize gradual increases in physical activity.",
+		Therapist: "That is a great place to start.",
       },
       {
-        Therapist: "Feeling motivated is great!",
+		Therapist: "And then once you begin to feel stronger, you can increase the length of your walks, and even begin to add more moderate or vigorous activity.",
       },
       {
-        Therapist: " But for now, please focus on reaching each week's goal.",
-        Client: "Okay, that makes sense.",
+		Client: "Yeah, maybe someday.",
       },
       {
-        Therapist:
-          " How confident are you that you can meet these short term goals?",
-        Client:
-          "Pretty confident, I feel like since they start out pretty small I should be fine.",
+		Client: "There are just days where I am in way too much pain to exercise.",
       },
       {
-        Therapist:
-          " Great, and we can go over some strategies for staying motivated as well.",
+		Therapist: "it's always a good idea to listen to your body and not push it while feeling pain, however, studies show that regular physical activity can alleviate chronic joint pain over time.",
       },
+      {
+		Client: "Yeah, my doctor has mentioned that.",
+      },
+      {
+		Client: "I will give it a try.",
+      }
     ],
   },
   {
     name: "Dialog 44",
     data: [
       {
-        Therapist: "Hello Kathleen! Hello. How have you been?",
-        Client: "Oh well. My husband was diagnosed with colon cancer.",
+        Therapist: "Hey there, how are you?",
       },
       {
-        Client:
-          " I'm feeling overwhelmed and have not done much exercise over the past 2 weeks.",
+		Client: "I'm doing okay, no complaints.",
       },
       {
-        Client:
-          " I feel like that I should be with my husband rather taking a walk by myself.",
+		Therapist: "Good to hear.",
       },
       {
-        Therapist:
-          "I am sorry to hear that you are going through a difficult time. ",
+		Therapist: "Well, now that we've discussed your physical activity goals, how are you feeling about them?",
       },
       {
-        Therapist: "Sounds like you have a lot of stress.",
+		Client: "Pretty good.",
       },
       {
-        Therapist: "How's your own overall health?",
-        Client: "Not so great",
+		Client: "I mean I'm really excited about the idea of being more fit, it's just a matter of getting there.",
       },
       {
-        Client: " I am so stressed out and cannot sleep at night",
-        Therapist:
-          "You know, regular physical activity can improve your sleep and reduce your anxiety and stress.",
+		Therapist: "It can certainly feel like a pretty daunting journey.",
       },
       {
-        Therapist:
-          "Even 10 to 15 minutes per day is better than not exercising at all.",
+		Therapist: "What are you most concerned about?",
       },
       {
-        Therapist: "Or just walking around a few blocks around your house.",
+		Client: "Well, it's just that when I see other fit people they're always doing crazy workouts that I've never even heard of before, so I don't  know where to start.",
       },
       {
-        Therapist: "How about starting a little exercise to see how you feel?",
+		Therapist: "I can see why that would be intimidating.",
       },
       {
-        Client: "Ok, I guess I can try.",
-        Therapist: "Great. Talk to you soon.",
+		Therapist: "The good news is that physical activity can be incredibly simple.",
       },
+      {
+		Therapist: "You could reach your physical activity goals simply by walking!",
+      },
+      {
+		Client: "Yeah, I guess That's true.",
+      },
+      {
+		Client: "But wouldn'tthat get boring?",
+      },
+      {
+		Therapist: "Over time, most likely.",
+      },
+      {
+		Therapist: "What are some other activities that you feel confident in?",
+      },
+      {
+		Client: "Well, I used to swim in high school, so I can do that for cardio.",
+      },
+      {
+		Client: "But you mentioned that strength exercises are important, and I know nothing about them!",
+      },
+      {
+		Therapist: "Strength exercises don't  have to be fancy either.",
+      },
+      {
+		Therapist: "Simple exercises like pushups and bodyweight squats are fairly easy to master and are a great place to start.",
+      },
+      {
+		Client: "Yeah, I guess I could start with that.",
+      }
     ],
   },
   {
     name: "Dialog 45",
     data: [
       {
-        Therapist:
-          "Hi George! thank you for taking the time to talk to me today.",
+        Therapist: "Hello, how are you doing?",
       },
       {
-        Therapist: "How are you?",
+		Client: "I'm okay, it's been a long week.",
       },
       {
-        Client:
-          "I'm doing well, I just got over a cold but am feeling much better now.",
-        Therapist: "That's good to hear, I'm glad you are feeling better!",
+		Client: "I'm looking forward to the weekend.",
       },
       {
-        Client: "Me too.",
+		Therapist: "Absolutely.",
       },
       {
-        Therapist:
-          "I wanted to check in today to talk about how you have been doing since we last spoke.",
+		Therapist: "I know I'm ready for the nice weather we're supposed to be getting.",
       },
       {
-        Therapist: "Have you been able to reach some of your short-term goals?",
+		Client: "Definitely.",
       },
       {
-        Client: "It's been pretty difficult.",
+		Therapist: "So, I wanted to follow up on our last conversation, and the physical activity goals you set for yourself.",
       },
       {
-        Client:
-          " I think I'm struggling with remembering to do things and staying motivated.",
+		Therapist: "How have you been doing with your goals?",
       },
       {
-        Client:
-          " Sometimes a few days go by and I realize that I haven't exercised at all.",
+		Client: "Uh, not so great.",
       },
       {
-        Therapist: "Yeah, holding yourself accountable can be difficult.",
+		Client: "I meet them every once in a while, but not usually.",
       },
       {
-        Therapist:
-          "Luckily, there are strategies that you can use to keep yourself on track.",
+		Therapist: "Gotcha.",
       },
       {
-        Client: "Like what?",
-        Therapist:
-          "It might be helpful to create a visual reminder to reach your goal for the day. ",
+		Therapist: "Why do you think that might be?",
       },
       {
-        Therapist:
-          "For example, you could make a calendar with space to record your exercise goal, and physical activity, each day.",
-        Client: "Oh, yeah that's a good idea.",
+		Client: "I'm not sure.",
       },
       {
-        Therapist:
-          "Keep it somewhere you will see it every day, and that way you will remember no matter what!",
-        Client:
-          "Yeah, I can hang it in my bathroom so I see it first thing each morning. Or maybe on my fridge.",
+		Client: "I guess I just don't  see the point.",
       },
       {
-        Therapist: "Great!",
+		Client: "Every time I have tried something like this it has been for nothing, I never end up losing weight or getting more fit.",
       },
+      {
+		Client: "I always give up before I see any results.",
+      },
+      {
+		Therapist: "I can see why that might be frustrating.",
+      },
+      {
+		Therapist: "Keep in mind all of the work you'veput into identifying your barriers and creating strategies for overcoming them and staying motivated.",
+      },
+      {
+		Therapist: "Sometimes this is the hardest part, and it's something you never tried before.",
+      },
+      {
+		Therapist: "you'vealready made such progress!",
+      },
+      {
+		Client: "Yeah, I guess so.",
+      },
+      {
+		Client: "I just don't  want to get my hopes up.",
+      },
+      {
+		Therapist: "I understand.",
+      },
+      {
+		Therapist: "It might help to focus on following your plan for success just one day at a time.",
+      },
+      {
+		Therapist: "you'vealready come so far, and I believe you will reach your goals if you stick with it.",
+      },
+      {
+		Client: "Maybe, yeah.",
+      },
+      {
+		Client: "I'll try my best.",
+      }
     ],
   },
   {
     name: "Dialog 46",
     data: [
       {
-        Therapist: "Hello Stephen! how are you today? ",
-        Client: "I'm good, looking forward to the weekend.",
+        Therapist: "Hello, how are you doing today?",
       },
       {
-        Therapist: "Me too.",
+		Client: "I'm pretty good.",
       },
       {
-        Therapist:
-          " Today I want to talk to you about how to keep on track for your goals, even when you go a while without hearing from me.",
+		Therapist: "I want to talk to you a bit about the social support that you have in your life for physical activity.",
       },
       {
-        Client: "Okay, that sounds good. ",
+		Therapist: "We find that social support is crucial to staying motivated to reach your physical activity goals.",
       },
       {
-        Client:
-          "I think the biggest problem is that I often forget to wear my activity tracker when I get out of bed.",
+		Client: "That makes sense.",
       },
       {
-        Therapist:
-          "Absolutely. Can you think of a strategy to help you remember?",
-        Client:
-          "Well, I could set an alarm at 9am, so that I would not start my day without my activity tracker.",
+		Client: " I feel like that isn'tan issue for me.",
       },
       {
-        Therapist: "That's a great idea!",
+		Client: "I have plenty of close friends and my family is very close as well.",
       },
       {
-        Therapist: " Anything else you can think of?.",
+		Therapist: "That's great!",
       },
       {
-        Client:
-          "I make coffee every morning, and I'm supposed to wear my activity tracker as soon as I get up.",
+		Therapist: " In what ways do these people support your physical activity?",
       },
       {
-        Client: "Maybe I can tape a reminder to my coffee maker.",
+		Client: "Well, my husband and my kids are really supportive of me and know that I am trying to be more active.",
       },
       {
-        Therapist: "That sounds good, too.",
+		Therapist: "Even just talking to the people around you about your goals is a fantastic first step, but it can also help to get them directly involved.",
       },
       {
-        Therapist:
-          "I think if you do both of those things you should have an easier time remembering to wear your activity tracker.",
+		Therapist: "How do you think you could involve your family members in your goals?",
       },
       {
-        Client: "Okay, I can do that then.",
+		Client: "I don't  know, we are all just so busy.",
       },
+      {
+		Therapist: "With such a busy schedule, it can be hard to find family time.",
+      },
+      {
+		Therapist: "Try scheduling activities with your family that allow you to get physical activity while spending time together!",
+      },
+      {
+		Client: "Oh yeah, That's a good idea.",
+      },
+      {
+		Client: "We could go walk on the beach on the weekends, or go for bike rides near our house.",
+      },
+      {
+		Therapist: "Great ideas!",
+      }
     ],
   },
   {
     name: "Dialog 47",
     data: [
       {
-        Therapist: "Hi Justin, how are you?",
-        Client: "I'm doing okay, no complaints.",
+        Therapist: "Hi there, how are you doing?",
       },
       {
-        Therapist: "Good to hear.",
+		Client: "I'm great!",
       },
       {
-        Therapist:
-          "Well, now that we've discussed your physical activity goals, how are you feeling about them?",
+		Client: "I just got back from a weekend.",
       },
       {
-        Client: "Pretty good.",
+		Therapist: "Oh that sounds great, I'm glad you enjoyed it.",
       },
       {
-        Client:
-          "I mean I'm really excited about the idea of being more fit, it's just a matter of getting there.",
+		Client: "Yeah, it feels good to get back into a routine though.",
       },
       {
-        Therapist: "It can certainly feel like a pretty daunting journey.",
+		Therapist: "I'm glad to hear it.",
       },
       {
-        Therapist: " What are you most concerned about?",
+		Therapist: " The first thing I want to talk about today is social support.",
       },
       {
-        Client:
-          "Well its just that when I see other fit people they're always doing crazy workouts that I've never even heard of before, so I don't know where to start.",
-        Therapist: "I can see why that would be intimidating. ",
+		Therapist: " The people around you can be a really important part of motivating you to be physically active.",
       },
       {
-        Therapist:
-          "The good news is that physical activity can be incredibly simple.",
+		Client: "Of course, that makes sense.",
       },
       {
-        Therapist:
-          " You could reach your physical activity goals simply by walking!",
+		Therapist: " Where does your social support currently come from?",
       },
       {
-        Client: "Yeah, I guess that's true.",
+		Client: "Well, I have a lot of friends and family that I feel very close to, and I get along well with my co-workers.",
       },
       {
-        Client: "But wouldn't that get boring?",
+		Therapist: "What are some strategies you can think of to increase the social support that you have, especially with physical activity?",
       },
       {
-        Therapist: "Over time, most likely.",
+		Client: "Um I don't  really know. I'm not sure how I would involve my family.",
       },
       {
-        Therapist: "What are some other activities that you feel confident in?",
+		Therapist: "Asking people to join you in increasing physical activity can seem daunting, but many people might have similar goals and not know how to get motivated.",
       },
       {
-        Therapist:
-          "Well, I used to swim in high school, so I can do that for cardio. ",
-        Client:
-          "But you mentioned that strength exercises are important, and I know nothing about them!",
+		Therapist: "So they may receive it very well.",
       },
       {
-        Therapist: "Strength exercises don't have to be fancy either.",
+		Client: "Maybe, but I'm not sure how to bring it up.",
       },
       {
-        Therapist:
-          "Simple exercises like pushups and bodyweight squats are fairly easy to master and are a great place to start.",
+		Therapist: "There is a helpful acronym called ?PART?.",
       },
       {
-        Client: "Yeah, I guess I could start with that.",
-        Therapist:
-          "As your fitness increases, you can start experimenting with more complex activities, but don't be afraid to keep it simple to start!",
+		Therapist: "Be Polite, Ask with confidence, be Reasonable with your requests, and choose appropriate Timing.",
       },
       {
-        Client: "Okay yeah, that sounds good.",
+		Therapist: "Who do you think you can try this with?",
       },
+      {
+		Therapist: "Well, my wife and my daughter may be willing to try walking with me.",
+      },
+      {
+		Client: "That sounds like a great place to start.",
+      }
     ],
   },
   {
     name: "Dialog 48",
     data: [
       {
-        Therapist: "Hi Dennis, how are you today?",
-        Client: "Okay, but I feel a bit embarrassed.",
+        Therapist: "Hello, today we'll talk a bit about the social support that you have in your life, as well as how you can increase it.",
       },
       {
-        Therapist:
-          "Thank you for sharing that. Can you tell me why you're feeling embarrassed?",
-        Client: "I haven't been keeping up with my physical activity lately.",
+		Therapist: "Social support is very important for getting physically active.",
       },
       {
-        Therapist:
-          "It's normal to have periods when we're not as active as we'd like. The important thing is to refocus and get back on track. Is there any particular reason why you've been less motivated?",
-        Client:
-          "Not really. I know exercise is important, but I just haven't felt motivated.",
+		Client: "Okay, sure.",
       },
       {
-        Therapist:
-          "Have you talked about your struggles with your loved ones or friends?",
-        Client: "No, I haven't shared it with anyone yet.",
+		Client: "No problem.",
       },
       {
-        Therapist:
-          "Consider discussing it with your wife or someone close to you. Opening up can provide support and encouragement. Remember, you've made progress in the past, and I believe you can do it again. How do you feel about giving it another try?",
-        Client: "I'm willing to give it a shot.",
+		Therapist: "What are some sources of social support that you have right now?",
       },
+      {
+		Client: "Well, I don't  have all that many friends, but I live with my wife and two children.",
+      },
+      {
+		Therapist: "What are some strategies you can think of to increase the social support that you have, especially with physical activity?",
+      },
+      {
+		Client: "Um I don't  really know. I'm not sure how I would involve my family.",
+      },
+      {
+		Therapist: "Asking people to join you in increasing physical activity can seem daunting, but many people might have similar goals and not know how to get motivated.",
+      },
+      {
+		Therapist: "So they may receive it very well.",
+      },
+      {
+		Client: "Maybe, but I'm not sure how to bring it up.",
+      },
+      {
+		Therapist: "There is a helpful acronym called ?PART?.",
+      },
+      {
+		Therapist: "Be Polite, Ask with confidence, be Reasonable with your requests, and choose appropriate Timing.",
+      },
+      {
+		Therapist: "Who do you think you can try this with?",
+      },
+      {
+		Client: "Well, my wife and my daughter may be willing to try walking with me.",
+      },
+      {
+		Client: "That sounds like a great place to start.",
+      }
     ],
   },
   {
     name: "Dialog 49",
     data: [
       {
-        Therapist: "Hello Merry, how are you doing today?",
-        Client: "I'm good.",
+        Therapist: "Hello, how have you been?",
       },
       {
-        Client: "It's so nice out today!",
-        Therapist: "Yes, it's beautiful. ",
+		Client: "I'm doing well, thanks for asking.",
       },
       {
-        Therapist: "I'm glad you are getting to take advantage of it.",
-        Client: "Definitely.",
+		Therapist: "That's great to hear. I wanted to talk to you about your running goals.",
       },
       {
-        Client: "I'm going to go for a walk as soon as I leave here.",
-        Therapist: "Nice, have you been getting out for walks often?",
+		Therapist: "Last time, you mentioned that you were interested in improving your running performance.",
       },
       {
-        Client: "Yeah, actually",
+		Client: "Yes, that's right. I've been running for a while, but I want to take it to the next level.",
       },
       {
-        Client: "Although not when it rains.",
+		Therapist: "That's a fantastic goal to have. Have you set any specific targets for your running?",
       },
       {
-        Client:
-          " I don't like walking in the rain because I am worried about cars not being able to see me.",
-        Therapist: "That's a great point.  ",
+		Client: "I'm aiming to run a half-marathon in the next six months. It's a big challenge for me.",
       },
       {
-        Therapist:
-          "It's very important to keep safety in mind while being physically active.",
+		Therapist: "Running a half-marathon is a great goal. It's essential to have a plan and gradually increase your mileage to prepare for it.",
       },
       {
-        Therapist:
-          "What else do you think you can you do to stay safe while exercising?",
-        Client:
-          "Well if I walk at night I always walk with reflective clothes and a light.",
+		Client: "I've started following a training plan I found online, but I'm worried about injuries.",
       },
       {
-        Therapist: "That's great!",
+		Therapist: "Injury prevention is crucial. Make sure you incorporate proper warm-up and cool-down routines into your training and listen to your body.",
       },
       {
-        Therapist:
-          "Other things to keep in mind are that you want to stay hydrated, make sure you stretch and warm up, and wear good, sturdy footwear.",
+		Client: "Thanks for the advice. I'll be cautious and stay consistent with my training.",
       },
       {
-        Client: "Oh, that's a good point.",
-      },
-      {
-        Client: " I didn't really think about my shoes.",
-      },
-      {
-        Client:
-          "Sometimes my feet hurt after walking, so maybe it is time to get a good pair of sneakers.",
-        Therapist: "That's a great idea.",
-      },
+		Therapist: "That's a good approach. If you have any concerns or questions along the way, feel free to reach out.",
+      }
     ],
   },
   {
     name: "Dialog 50",
     data: [
       {
-        Therapist: "Hello Ian, How are you doing today? what bring you today?",
-        Client:
-          "I'm doing okay, thanks for asking. I've been thinking a lot about physical activity lately",
+        Therapist: "Hello, how are things going with your running?",
       },
       {
-        Therapist:
-          "That's great to hear! Physical activity can have a positive impact on our overall well-being. What's been on your mind regarding physical activity?",
-        Client:
-          " Well, I know I should be more active, but I've been struggling to find the motivation to get started.",
+		Client: "I've been working hard on it, but I'm facing some challenges.",
       },
       {
-        Therapist:
-          "it's completely normal to have moments when motivation is low. can you tell me what kind of physical activities you enjoy or used to enjoy in the past? ",
-        Client:
-          "I used to enjoy hiking and swimming, but lately, I've just been sitting at my desk all day due to work",
+		Therapist: "I'm here to help. What kind of challenges are you encountering?",
       },
       {
-        Therapist:
-          "It's good that you have activities you used to enjoy. Hiking and swimming can be great ways to stay active. Have you considered incorporating them back into your routine, even on a smaller scale?",
-        Client:
-          "I thought about it, but I'm worried I won't have the time with my busy schedule.",
+		Client: "Well, I've been struggling to stay motivated. Some days, I just don't feel like going for a run.",
       },
       {
-        Therapist:
-          "I understand your concerns about time. Sometimes, finding small pockets of time for physical activity can make a big difference. Even a short walk during your lunch break or some stretching exercises can help.",
-        Client:
-          "Yeah, maybe I could try taking short walks during my breaks. That sounds doable.",
+		Therapist: "It's common to have ups and downs in motivation. Have you tried setting smaller, achievable goals along the way to keep you motivated?",
       },
       {
-        Therapist:
-          " That's a great start! Remember, the key is to make physical activity a part of your daily life gradually. How do you feel about setting some realistic goals for yourself?",
-        Client:
-          "I think that could work. Maybe I can start with three short walks a week during my lunch breaks and then gradually increase it.",
+		Client: "I haven't thought about that. Maybe setting weekly goals would help.",
       },
       {
-        Therapist:
-          "That's a very reasonable plan. Setting achievable goals will help you stay motivated. And if you ever need more support or guidance, we can always discuss it in our future sessions. How does that sound to you?",
-        Client:
-          "Thank you, that sounds like a good plan. I appreciate your help and encouragement.",
+		Therapist: "That's a great idea. It can give you a sense of accomplishment and keep you focused on your progress.",
       },
       {
-        Therapist:
-          " You're welcome! I'm here to support you in making positive changes. Remember, it's okay to take it one step at a time, and I'm here to help you along the way.",
-        Client: "Thanks a million",
+		Client: "I'll give it a try. Also, I've been experiencing some muscle soreness after longer runs.",
       },
+      {
+		Therapist: "Muscle soreness is normal, especially when increasing your mileage. Make sure you're stretching and doing strength training exercises to support your muscles.",
+      },
+      {
+		Client: "Thanks for the advice. I'll incorporate those into my routine and keep pushing towards my running goals.",
+      },
+      {
+		Therapist: "You're welcome. Keep up the good work, and remember that progress takes time and consistency.",
+      }
     ],
   },
 ];
