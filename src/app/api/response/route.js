@@ -4,57 +4,57 @@ import Response from "../../../models/Response";
 import User from "../../../models/User";
 import Quiz from "../../../models/Quiz";
 
-// export async function POST(request) {
-//   const { name, answers } = await request.json();
+export async function POST(request) {
+  // const { name, answers } = await request.json();
 
-//   try {
-//     await connect();
-//     const generateDocuments = (n) => {
-//       // Initialize an empty array
-//       const documents = [];
+  try {
+    await connect();
+    const generateDocuments = (n) => {
+      // Initialize an empty array
+      const documents = [];
 
-//       // Loop from 1 to n
-//       for (let i = 1; i <= n; i++) {
-//         // Create a document object with a name and an answers array
-//         const document = {
-//           name: `Dialog ${i}`,
-//           answers: [
-//             { quiz: "64df605cd2901192ea59aa04" },
-//             { quiz: "64df6073d2901192ea59aa06" },
-//             { quiz: "64df6081d2901192ea59aa08" },
-//             { quiz: "64df6090d2901192ea59aa0a" },
-//             { quiz: "64df6098d2901192ea59aa0c" },
-//             { quiz: "64df60a5d2901192ea59aa0e" },
-//           ],
-//         };
+      // Loop from 1 to n
+      for (let i = 1; i <= n; i++) {
+        // Create a document object with a name and an answers array
+        const document = {
+          name: `Dialog ${i}`,
+          answers: [
+            { quiz: "64df605cd2901192ea59aa04" },
+            { quiz: "64df6073d2901192ea59aa06" },
+            { quiz: "64df6081d2901192ea59aa08" },
+            { quiz: "64df6090d2901192ea59aa0a" },
+            { quiz: "64df6098d2901192ea59aa0c" },
+            { quiz: "64df60a5d2901192ea59aa0e" },
+          ],
+        };
 
-//         // Push the document object to the array
-//         documents.push(document);
-//       }
+        // Push the document object to the array
+        documents.push(document);
+      }
 
-//       // Return the array
-//       return documents;
-//     };
+      // Return the array
+      return documents;
+    };
 
-//     // Call the function with the number of documents you want to insert
-//     const documents = generateDocuments(49);
+    // Call the function with the number of documents you want to insert
+    const documents = generateDocuments(49);
 
-//     // Insert the documents into the Response collection
-//     const newRes = Response.insertMany(documents)
-//       .then((result) => {
-//         // Do something with the result
-//         console.log(result);
-//       })
-//       .catch((err) => {
-//         // Handle the error
-//         console.error(err);
-//       });
+    // Insert the documents into the Response collection
+    const newRes = Response.insertMany(documents)
+      .then((result) => {
+        // Do something with the result
+        console.log(result);
+      })
+      .catch((err) => {
+        // Handle the error
+        console.error(err);
+      });
 
-//     return new NextResponse(newRes, { status: 200 });
-//   } catch (error) {
-//     return new NextResponse("Internal server error", { status: 500 });
-//   }
-// }
+    return new NextResponse(newRes, { status: 200 });
+  } catch (error) {
+    return new NextResponse("Internal server error", { status: 500 });
+  }
+}
 
 export async function GET() {
   try {
