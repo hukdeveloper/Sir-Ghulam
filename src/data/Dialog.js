@@ -4,44 +4,44 @@ export const dialoguesData = [
     name: "Dialog 1",
     data: [
       {
-        Therapist: "Therapist: Hello, how are you?",
-        Client: "Client: I'm good!",
+        Therapist: "Hello, how are you?",
+        Client: "I'm good!",
       },
       {
-        Therapist: "Therapist: That's fantastic!",
+        Therapist: "That's fantastic!",
         Client:
-          "Client: I have been getting outside and walking a lot, which has been nice.",
+          "I have been getting outside and walking a lot, which has been nice.",
       },
       {
-        Therapist: "Therapist: Great to hear.",
-        Client: "Client: It has been beautiful outside lately.",
+        Therapist: "Great to hear.",
+        Client: "It has been beautiful outside lately.",
       },
       {
         Therapist:
-          "Therapist: Well, I'm excited to hear that you've been getting active.",
+          "Well, I'm excited to hear that you've been getting active.",
         Client:
-          "Client: Today I want to talk about weight loss, and how it relates to this regular physical activity.",
+          "Today I want to talk about weight loss, and how it relates to this regular physical activity.",
       },
       {
-        Therapist: "Therapist: That is completely understandable.",
+        Therapist: "That is completely understandable.",
         Client:
-          "Client: I'm a little disappointed because I haven't lost any weight yet.",
-      },
-      {
-        Therapist:
-          "Therapist: It is important to keep in mind that while physical activity can support healthy weight management, it does not necessarily lead to weight loss.",
-        Client:
-          "Client: Oh, really? I thought that I would lose weight for sure.",
+          "I'm a little disappointed because I haven't lost any weight yet.",
       },
       {
         Therapist:
-          "Therapist: In order to lose weight, you have to increase intensity activity and cut back your daily caloric intake.",
-        Client: "Client: Oh, okay. I had no idea.",
+          "It is important to keep in mind that while physical activity can support healthy weight management, it does not necessarily lead to weight loss.",
+        Client:
+          "Oh, really? I thought that I would lose weight for sure.",
       },
       {
-        Therapist: "Therapist: But keep up the great work!",
+        Therapist:
+          "In order to lose weight, you have to increase intensity activity and cut back your daily caloric intake.",
+        Client: "Oh, okay. I had no idea.",
+      },
+      {
+        Therapist: "But keep up the great work!",
         Client:
-          "Client: Even if you aren't losing weight, physical activity has a lot of health benefits that aren't immediately visible or obvious.",
+          "Even if you aren't losing weight, physical activity has a lot of health benefits that aren't immediately visible or obvious.",
       },
     ],
   },
@@ -50,23 +50,23 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi, nice to see you again. How have you been doing with your running goals?",
+          "Hi, nice to see you again. How have you been doing with your running goals?",
         Client:
-          "Client: It's been a struggle lately. I haven't been able to find the time to run consistently.",
+          "It's been a struggle lately. I haven't been able to find the time to run consistently.",
       },
       {
         Therapist:
-          "Therapist: That's understandable, life can get busy. Have you thought about setting a specific schedule for your runs?",
-        Client: "Client: I have, but it's hard to stick to it.",
+          "That's understandable, life can get busy. Have you thought about setting a specific schedule for your runs?",
+        Client: "I have, but it's hard to stick to it.",
       },
       {
         Therapist:
-          "Therapist: Maybe we can break down your schedule and find a time that works best for you. What do you think?",
-        Client: "Client: Yeah, that could help.",
+          "Maybe we can break down your schedule and find a time that works best for you. What do you think?",
+        Client: "Yeah, that could help.",
       },
       {
         Therapist:
-          "Therapist: Great. Let's work together to create a schedule that fits your lifestyle and running goals.",
+          "Great. Let's work together to create a schedule that fits your lifestyle and running goals.",
       },
     ],
   },
@@ -74,24 +74,24 @@ export const dialoguesData = [
     name: "Dialog 3",
     data: [
       {
-        Therapist: "Therapist: Hi, how are you doing with your running goals?",
+        Therapist: "Hi, how are you doing with your running goals?",
         Client:
-          "Client: I'm doing well, I've been running three times a week like we talked about.",
+          "I'm doing well, I've been running three times a week like we talked about.",
       },
       {
         Therapist:
-          "Therapist: That's great to hear. Have you noticed any improvements in your running?",
+          "That's great to hear. Have you noticed any improvements in your running?",
         Client:
-          "Client: Yeah, I'm feeling more energized and I'm able to run for longer periods of time.",
+          "Yeah, I'm feeling more energized and I'm able to run for longer periods of time.",
       },
       {
         Therapist:
-          "Therapist: Excellent. It's important to track your progress to stay motivated. Have you been keeping track of your runs?",
-        Client: "Client: Not really.",
+          "Excellent. It's important to track your progress to stay motivated. Have you been keeping track of your runs?",
+        Client: "Not really.",
       },
       {
         Therapist:
-          "Therapist: Maybe we can start a running journal for you to log your runs and track your progress. It can be helpful to see how far you've come.",
+          "Maybe we can start a running journal for you to log your runs and track your progress. It can be helpful to see how far you've come.",
       },
     ],
   },
@@ -100,20 +100,20 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi, how have you been doing with your running goals?",
+          "Hi, how have you been doing with your running goals?",
         Client:
-          "Client: It's been difficult. I injured my ankle and I haven't been able to run for a few weeks.",
+          "It's been difficult. I injured my ankle and I haven't been able to run for a few weeks.",
       },
       {
         Therapist:
-          "Therapist: I'm sorry to hear that. Have you been seeing a doctor or physical Therapist?",
+          "I'm sorry to hear that. Have you been seeing a doctor or physical Therapist?",
         Client:
-          "Client: Yes, I have. They said it's just a sprain, but it's taking longer to heal than I thought it would.",
+          "Yes, I have. They said it's just a sprain, but it's taking longer to heal than I thought it would.",
       },
       {
         Therapist:
-          "Therapist: It's important to listen to your body and not push yourself too hard. Have you thought about alternative exercises that won't put as much stress on your ankle?",
-        Client: "Client: Not really.",
+          "It's important to listen to your body and not push yourself too hard. Have you thought about alternative exercises that won't put as much stress on your ankle?",
+        Client: "Not really.",
       },
       {
         Therapist:
@@ -126,23 +126,23 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi, how have you been doing with your running goals?",
+          "Hi, how have you been doing with your running goals?",
         Client:
-          "Client: It's been going well, I'm feeling more confident in my ability to run longer distances.",
+          "It's been going well, I'm feeling more confident in my ability to run longer distances.",
       },
       {
         Therapist:
-          "Therapist: That's great to hear. Have you thought about participating in a race or fun run?",
-        Client: "Client: I have, but I'm not sure if I'm ready for it yet.",
+          "That's great to hear. Have you thought about participating in a race or fun run?",
+        Client: "I have, but I'm not sure if I'm ready for it yet.",
       },
       {
         Therapist:
-          "Therapist: It can be a great way to challenge yourself and stay motivated. Maybe we can start with a smaller race and work up to a larger one.",
-        Client: "Client: That sounds like a good idea.",
+          "It can be a great way to challenge yourself and stay motivated. Maybe we can start with a smaller race and work up to a larger one.",
+        Client: "That sounds like a good idea.",
       },
       {
         Therapist:
-          "Therapist: Great. Let's look up some upcoming races in the area and set a goal for you to work towards.",
+          "Great. Let's look up some upcoming races in the area and set a goal for you to work towards.",
       },
     ],
   },
@@ -151,23 +151,23 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi, how have you been doing with your running goals?",
+          "Hi, how have you been doing with your running goals?",
         Client:
-          "Client: To be honest, I've been struggling with motivation lately.",
+          "To be honest, I've been struggling with motivation lately.",
       },
       {
         Therapist:
-          "Therapist: It's normal to have ups and downs in motivation. Have you thought about setting some short-term and long-term goals to help keep you focused?",
-        Client: "Client: I haven't really thought about it.",
+          "It's normal to have ups and downs in motivation. Have you thought about setting some short-term and long-term goals to help keep you focused?",
+        Client: "I haven't really thought about it.",
       },
       {
         Therapist:
-          "Therapist: Maybe we can come up with some specific goals for you to work towards. It can be helpful to have something to aim for.",
-        Client: "Client: Okay, that could help.",
+          "Maybe we can come up with some specific goals for you to work towards. It can be helpful to have something to aim for.",
+        Client: "Okay, that could help.",
       },
       {
         Therapist:
-          "Therapist: Great. Let's brainstorm some goals together and figure out a plan to achieve them.",
+          "Great. Let's brainstorm some goals together and figure out a plan to achieve them.",
       },
     ],
   },
@@ -176,27 +176,27 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi there. So, let's talk about your running goals. What are they?",
-        Client: "Client: Well, I want to run a marathon.",
+          "Hi there. So, let's talk about your running goals. What are they?",
+        Client: "Well, I want to run a marathon.",
       },
       {
-        Therapist: "Therapist: That's a great goal. Have you run one before?",
-        Client: "Client: No, I haven't.",
+        Therapist: "That's a great goal. Have you run one before?",
+        Client: "No, I haven't.",
       },
       {
         Therapist:
-          "Therapist: Okay, well, we need to start with some smaller goals first. Have you been running consistently?",
+          "Okay, well, we need to start with some smaller goals first. Have you been running consistently?",
         Client:
-          "Client: Not really. I've been running on and off for a few months now.",
+          "Not really. I've been running on and off for a few months now.",
       },
       {
         Therapist:
-          "Therapist: Okay, we need to start with a realistic goal. How about we start with running a 5k in 8 weeks?",
-        Client: "Client: I think I can do that.",
+          "Okay, we need to start with a realistic goal. How about we start with running a 5k in 8 weeks?",
+        Client: "I think I can do that.",
       },
       {
         Therapist:
-          "Therapist: Great! Let's set a schedule for you to run 3-4 times a week, gradually increasing your distance. We'll check in every week to see how you're doing.",
+          "Great! Let's set a schedule for you to run 3-4 times a week, gradually increasing your distance. We'll check in every week to see how you're doing.",
       },
     ],
   },
@@ -204,29 +204,29 @@ export const dialoguesData = [
     name: "Dialog 8",
     data: [
       {
-        Therapist: "Therapist: Hi, how are you doing today?",
+        Therapist: "Hi, how are you doing today?",
         Client:
-          "Client: Not so great. I'm feeling really frustrated with my running.",
+          "Not so great. I'm feeling really frustrated with my running.",
       },
       {
         Therapist:
-          "Therapist: I'm sorry to hear that. Can you tell me what's going on?",
+          "I'm sorry to hear that. Can you tell me what's going on?",
         Client:
-          "Client: Well, I've been trying to increase my speed, but I'm just not seeing any progress.",
+          "Well, I've been trying to increase my speed, but I'm just not seeing any progress.",
       },
       {
         Therapist:
-          "Therapist: It can be really discouraging when we're not seeing progress, but remember, running is a journey, not a destination. What strategies have you been using to increase your speed?",
-        Client: "Client: I've been doing interval training and hill repeats.",
+          "It can be really discouraging when we're not seeing progress, but remember, running is a journey, not a destination. What strategies have you been using to increase your speed?",
+        Client: "I've been doing interval training and hill repeats.",
       },
       {
         Therapist:
-          "Therapist: Those are great strategies, but they may not work for everyone. Have you tried switching up your routine, maybe incorporating some strength training?",
-        Client: "Client: No, I haven't.",
+          "Those are great strategies, but they may not work for everyone. Have you tried switching up your routine, maybe incorporating some strength training?",
+        Client: "No, I haven't.",
       },
       {
         Therapist:
-          "Therapist: Okay, let's talk about some strength training exercises that can help improve your running performance.",
+          "Okay, let's talk about some strength training exercises that can help improve your running performance.",
       },
     ],
   },
@@ -235,18 +235,18 @@ export const dialoguesData = [
     data: [
       {
         Therapist:
-          "Therapist: Hi, it's good to see you again. How have you been doing with your running?",
+          "Hi, it's good to see you again. How have you been doing with your running?",
         Client:
-          "Client: It's going okay, but I'm having trouble staying motivated.",
+          "It's going okay, but I'm having trouble staying motivated.",
       },
       {
         Therapist:
-          "Therapist: That's understandable. It can be hard to stay motivated when we're not seeing immediate results. Have you considered finding a running buddy?",
-        Client: "Client: No, I haven't.",
+          "That's understandable. It can be hard to stay motivated when we're not seeing immediate results. Have you considered finding a running buddy?",
+        Client: "No, I haven't.",
       },
       {
         Therapist:
-          "Therapist: Having a running buddy can help hold you accountable and provide support when you're feeling discouraged. Let's talk about some ways you can find a running buddy in your community.",
+          "Having a running buddy can help hold you accountable and provide support when you're feeling discouraged. Let's talk about some ways you can find a running buddy in your community.",
       },
     ],
   },
@@ -254,18 +254,18 @@ export const dialoguesData = [
     name: "Dialog 10",
     data: [
       {
-        Therapist: "Therapist: Hi there, how's your running going?",
+        Therapist: "Hi there, how's your running going?",
         Client:
-          "Client: Not so good. I injured my ankle and I'm having trouble getting back into it.",
+          "Not so good. I injured my ankle and I'm having trouble getting back into it.",
       },
       {
         Therapist:
-          "Therapist: I'm sorry to hear that. Have you seen a doctor or physical Therapist?",
-        Client: "Client: Yes, I've been seeing a physical Therapist.",
+          "I'm sorry to hear that. Have you seen a doctor or physical Therapist?",
+        Client: "Yes, I've been seeing a physical Therapist.",
       },
       {
         Therapist:
-          "Therapist: Okay, let's talk about a plan for getting back into running safely. We'll need to start with some gentle exercises and gradually increase your mileage. It's important to listen to your body and not push yourself too hard too soon.",
+          "Okay, let's talk about a plan for getting back into running safely. We'll need to start with some gentle exercises and gradually increase your mileage. It's important to listen to your body and not push yourself too hard too soon.",
       },
     ],
   },
@@ -873,7 +873,7 @@ export const dialoguesData = [
       {
         Therapist:
           "That's a great goal. We can work on develop endurance and overall fitness level.",
-        Client: "I want to improve my overall fitness level through running.",
+        Client: "Thanks a million for your support.",
       },
     ],
   },
